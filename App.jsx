@@ -120,8 +120,8 @@ export default function App() {
 
           <div style={{ background: "#2d7a4f", borderRadius: 8, padding: "16px 20px", marginBottom: 24, display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
             <div>
-              <div style={{ fontSize: 12, color: "#888", marginBottom: 4, fontFamily: "'DM Mono', monospace", textTransform: "uppercase", letterSpacing: "0.06em" }}>Need help finding adaptive sports?</div>
-              <div style={{ fontSize: 13, color: "#aaa", fontWeight: 300 }}>Not sure where to start? We'll help you find the right fit.</div>
+              <div style={{ fontSize: 12, color: "#fff", marginBottom: 4, fontFamily: "'DM Mono', monospace", textTransform: "uppercase", letterSpacing: "0.06em" }}>Need help finding adaptive sports?</div>
+              <div style={{ fontSize: 13, color: "#rgba(255,255,255,0.8)", fontWeight: 300 }}>Not sure where to start? We'll help you find the right fit.</div>
             </div>
             
                  <a href="mailto:bayareaadaptivesports@gmail.com?subject=I need help finding adaptive sports" style={{ display: "inline-block", background: "#fff", color: "#1a1a18", padding: "10px 20px", borderRadius: 6, fontSize: 13, fontWeight: 500, textDecoration: "none", fontFamily: "'DM Mono', monospace", whiteSpace: "nowrap" }}>
