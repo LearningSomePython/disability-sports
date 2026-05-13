@@ -11,6 +11,7 @@ const ORGS = [
   { id: 8, name: "Shared Adventures", location: "Santa Cruz / Bay Area", url: "https://sharedadventures.org", description: "Year-round recreational activities for people with disabilities including kayaking, surfing, sailing, and more.", sports: ["Kayaking", "Surfing", "Sailing", "Archery"] },
   { id: 9, name: "Environmental Travelling Companions", location: "San Francisco", url: "https://www.etctrips.org", description: "Outdoor adventures accessible to people with disabilities — kayaking, whitewater rafting, and skiing.", sports: ["Kayaking", "Rafting", "Skiing"] },
   { id: 10, name: "Move United", location: "National / Bay Area chapters", url: "https://moveunitedsport.org", description: "National governing body supporting adaptive sports programs. Connects athletes to local programs and competitive opportunities.", sports: ["All Sports"] },
+  { id: 11, name: "Achieve Tahoe", location: "Lake Tahoe, CA", url: "https://achievetahoe.org", description: "Adaptive skiing, snowboarding, and summer outdoor adventures for people with disabilities near the Bay Area.", sports: ["Skiing", "Snowboarding", "Hiking"] },
 ];
 
 const FALLBACK_EVENTS = [
@@ -55,17 +56,17 @@ export default function App() {
   const [search, setSearch] = useState("");
   const [events, setEvents] = useState(FALLBACK_EVENTS);
   const [lastUpdated, setLastUpdated] = useState("May 13, 2026");
-  const [zip, setZip] = useState("");
   const [zipInput, setZipInput] = useState("");
+  const [zip, setZip] = useState("");
   const [radius, setRadius] = useState(25);
   const [zipCoords, setZipCoords] = useState(null);
   const [zipLoading, setZipLoading] = useState(false);
   const [zipError, setZipError] = useState("");
 
   useEffect(() => {
-    fetch("/src/events.json")
+    fetch("/events.json")
       .then(r => r.json())
-      .then(data => { if (data.length > 0) setEvents(data); })
+      .then(data => { if (Array.isArray(data) && data.length > 0) setEvents(data); })
       .catch(() => {});
   }, []);
 
@@ -79,7 +80,7 @@ export default function App() {
     const coords = await zipToCoords(z);
     setZipLoading(false);
     if (coords) { setZipCoords(coords); setZip(z); }
-    else { setZipError("Zip code not found"); }
+    else setZipError("Zip code not found");
   }
 
   function clearZip() { setZip(""); setZipInput(""); setZipCoords(null); setZipError(""); }
@@ -87,10 +88,7 @@ export default function App() {
   const filteredEvents = events.filter(e => {
     if (sportFilter !== "All" && !(e.sports || []).includes(sportFilter)) return false;
     if (search && !e.title?.toLowerCase().includes(search.toLowerCase()) && !e.org?.toLowerCase().includes(search.toLowerCase()) && !e.city?.toLowerCase().includes(search.toLowerCase())) return false;
-    if (zipCoords && e.lat && e.lng) {
-      const d = distanceMiles(zipCoords.lat, zipCoords.lng, e.lat, e.lng);
-      if (d > radius) return false;
-    }
+    if (zipCoords && e.lat && e.lng && distanceMiles(zipCoords.lat, zipCoords.lng, e.lat, e.lng) > radius) return false;
     return true;
   });
 
@@ -147,7 +145,7 @@ export default function App() {
       <div style={{ borderBottom: "1px solid #e8e8e4", background: "#fff", padding: "0 32px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex" }}>
           {["events", "orgs"].map(t => (
-            <button key={t} onClick={() => setTab(t)} style={{ padding: "14px 20px", border: "none", borderBottom: tab === t ? "2px solid #1a1a18" : "2px solid transparent", background: "none", fontSize: 14, fontWeight: tab === t ? 500 : 400, color: tab === t ? "#1a1a18" : "#888", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", marginBottom: -1, textTransform: "capitalize" }}>{t === "events" ? "Events" : "Organizations"}</button>
+            <button key={t} onClick={() => setTab(t)} style={{ padding: "14px 20px", border: "none", borderBottom: tab === t ? "2px solid #1a1a18" : "2px solid transparent", background: "none", fontSize: 14, fontWeight: tab === t ? 500 : 400, color: tab === t ? "#1a1a18" : "#888", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", marginBottom: -1 }}>{t === "events" ? "Events" : "Organizations"}</button>
           ))}
         </div>
       </div>
@@ -197,9 +195,34 @@ export default function App() {
       <footer style={{ borderTop: "1px solid #e8e8e4", padding: "24px 32px", marginTop: 48 }}>
         <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
           <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#bbb" }}>Bay Area Adaptive Sports · Data sourced from BORP, CAF NorCal, Special Olympics NorCal, and partner organizations</span>
-          <a href="mailto:hello@bayareaadaptivesports.org" style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#bbb", textDecoration: "none" }}>Submit an event →</a>
+          <a href="mailto:bayareaadaptivesports@gmail.com" style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#bbb", textDecoration: "none" }}>Submit an event →</a>
         </div>
       </footer>
+
+      
+        href="mailto:bayareaadaptivesports@gmail.com?subject=I need help finding adaptive sports"
+        style={{
+          position: "fixed",
+          bottom: 24,
+          right: 24,
+          background: "#1a1a18",
+          color: "#fff",
+          padding: "12px 20px",
+          borderRadius: 100,
+          fontSize: 13,
+          fontFamily: "'DM Sans', sans-serif",
+          fontWeight: 500,
+          textDecoration: "none",
+          boxShadow: "0 4px 16px rgba(0,0,0,0.2)",
+          zIndex: 999,
+          display: "flex",
+          alignItems: "center",
+          gap: 8,
+        }}
+      >
+        💬 Need help? Email us
+      </a>
+
     </div>
   );
 }
