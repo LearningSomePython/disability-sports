@@ -113,46 +113,46 @@ export default function App() {
       </header>
 
       <div style={{ background: "#1a1a18", color: "#fff", padding: "48px 32px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "grid", gridTemplateColumns: "1fr 1fr", gap: 48, alignItems: "start" }}>
+        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
 
-          <div>
-            <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 42, fontWeight: 700, margin: "0 0 12px", lineHeight: 1.1 }}>Find your game.</h1>
-            <p style={{ fontSize: 16, color: "#aaa", margin: "0 0 28px", fontWeight: 300 }}>Events, teams, and resources for adaptive and disability sports across the Bay Area.</p>
-            <div style={{ borderTop: "1px solid #333", paddingTop: 24 }}>
-              <div style={{ fontSize: 13, color: "#888", marginBottom: 10, fontFamily: "'DM Mono', monospace", textTransform: "uppercase", letterSpacing: "0.06em" }}>Need help finding sports?</div>
-              <p style={{ fontSize: 14, color: "#aaa", margin: "0 0 16px", lineHeight: 1.6, fontWeight: 300 }}>Not sure where to start? Looking for programs near you? Email us — we'll help you find the right fit.</p>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 32, marginBottom: 32 }}>
+            <div style={{ flex: "1 1 300px" }}>
+              <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 42, fontWeight: 700, margin: "0 0 12px", lineHeight: 1.1 }}>Find your game.</h1>
+              <p style={{ fontSize: 16, color: "#aaa", margin: 0, fontWeight: 300 }}>Events, teams, and resources for adaptive and disability sports across the Bay Area.</p>
+            </div>
+            <div style={{ flex: "1 1 300px", background: "#2a2a28", borderRadius: 10, padding: "20px 24px" }}>
+              <div style={{ fontSize: 12, color: "#888", marginBottom: 8, fontFamily: "'DM Mono', monospace", textTransform: "uppercase", letterSpacing: "0.06em" }}>Need help finding sports?</div>
+              <p style={{ fontSize: 13, color: "#aaa", margin: "0 0 14px", lineHeight: 1.6, fontWeight: 300 }}>Not sure where to start? Looking for programs near you? Email us — we'll help you find the right fit.</p>
               
                 href="mailto:bayareaadaptivesports@gmail.com?subject=I need help finding adaptive sports"
-                style={{ display: "inline-block", background: "#fff", color: "#1a1a18", padding: "10px 20px", borderRadius: 6, fontSize: 13, fontWeight: 500, textDecoration: "none", fontFamily: "'DM Mono', monospace" }}
+                style={{ display: "inline-block", background: "#fff", color: "#1a1a18", padding: "9px 18px", borderRadius: 6, fontSize: 12, fontWeight: 500, textDecoration: "none", fontFamily: "'DM Mono', monospace" }}
               >
                 bayareaadaptivesports@gmail.com →
               </a>
             </div>
           </div>
 
-          <div>
-            <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 16 }}>
-              <input type="text" placeholder="Search events, orgs, sports…" value={search} onChange={e => setSearch(e.target.value)} style={{ flex: "1 1 200px", padding: "10px 16px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: "#fff", fontSize: 14, fontFamily: "'DM Sans', sans-serif", outline: "none" }} />
-              <select value={sportFilter} onChange={e => setSportFilter(e.target.value)} style={{ padding: "10px 16px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: sportFilter === "All" ? "#888" : "#fff", fontSize: 14, fontFamily: "'DM Sans', sans-serif" }}>
-                <option value="All">All sports</option>
-                {ALL_SPORTS.map(s => <option key={s} value={s}>{s}</option>)}
-              </select>
-            </div>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 12 }}>
+            <input type="text" placeholder="Search events, orgs, sports…" value={search} onChange={e => setSearch(e.target.value)} style={{ flex: "1 1 200px", padding: "10px 16px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: "#fff", fontSize: 14, fontFamily: "'DM Sans', sans-serif", outline: "none" }} />
+            <select value={sportFilter} onChange={e => setSportFilter(e.target.value)} style={{ padding: "10px 16px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: sportFilter === "All" ? "#888" : "#fff", fontSize: 14, fontFamily: "'DM Sans', sans-serif" }}>
+              <option value="All">All sports</option>
+              {ALL_SPORTS.map(s => <option key={s} value={s}>{s}</option>)}
+            </select>
+          </div>
 
-            <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
-              <input type="text" placeholder="Zip code" value={zipInput} onChange={e => setZipInput(e.target.value)} onKeyDown={e => e.key === "Enter" && applyZip()} style={{ width: 100, padding: "8px 12px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: "#fff", fontSize: 13, fontFamily: "'DM Mono', monospace", outline: "none" }} />
-              <select value={radius} onChange={e => setRadius(Number(e.target.value))} style={{ padding: "8px 12px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: "#aaa", fontSize: 13, fontFamily: "'DM Sans', sans-serif" }}>
-                <option value={5}>Within 5 mi</option>
-                <option value={10}>Within 10 mi</option>
-                <option value={25}>Within 25 mi</option>
-                <option value={50}>Within 50 mi</option>
-              </select>
-              <button onClick={applyZip} style={{ padding: "8px 16px", borderRadius: 6, border: "1px solid #555", background: "transparent", color: "#fff", fontSize: 13, cursor: "pointer", fontFamily: "'DM Sans', sans-serif" }}>
-                {zipLoading ? "…" : "Filter by location"}
-              </button>
-              {zip && <button onClick={clearZip} style={{ padding: "8px 12px", borderRadius: 6, border: "1px solid #555", background: "transparent", color: "#aaa", fontSize: 12, cursor: "pointer", fontFamily: "'DM Mono', monospace" }}>✕ {zip} ({radius}mi)</button>}
-              {zipError && <span style={{ color: "#E24B4A", fontSize: 12, fontFamily: "'DM Mono', monospace" }}>{zipError}</span>}
-            </div>
+          <div style={{ display: "flex", gap: 10, alignItems: "center", flexWrap: "wrap" }}>
+            <input type="text" placeholder="Zip code" value={zipInput} onChange={e => setZipInput(e.target.value)} onKeyDown={e => e.key === "Enter" && applyZip()} style={{ width: 100, padding: "8px 12px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: "#fff", fontSize: 13, fontFamily: "'DM Mono', monospace", outline: "none" }} />
+            <select value={radius} onChange={e => setRadius(Number(e.target.value))} style={{ padding: "8px 12px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: "#aaa", fontSize: 13, fontFamily: "'DM Sans', sans-serif" }}>
+              <option value={5}>Within 5 mi</option>
+              <option value={10}>Within 10 mi</option>
+              <option value={25}>Within 25 mi</option>
+              <option value={50}>Within 50 mi</option>
+            </select>
+            <button onClick={applyZip} style={{ padding: "8px 16px", borderRadius: 6, border: "1px solid #555", background: "transparent", color: "#fff", fontSize: 13, cursor: "pointer", fontFamily: "'DM Sans', sans-serif" }}>
+              {zipLoading ? "…" : "Filter by location"}
+            </button>
+            {zip && <button onClick={clearZip} style={{ padding: "8px 12px", borderRadius: 6, border: "1px solid #555", background: "transparent", color: "#aaa", fontSize: 12, cursor: "pointer", fontFamily: "'DM Mono', monospace" }}>✕ {zip} ({radius}mi)</button>}
+            {zipError && <span style={{ color: "#E24B4A", fontSize: 12, fontFamily: "'DM Mono', monospace" }}>{zipError}</span>}
           </div>
 
         </div>
