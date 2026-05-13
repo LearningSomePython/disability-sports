@@ -115,21 +115,20 @@ export default function App() {
       <div style={{ background: "#1a1a18", color: "#fff", padding: "48px 32px" }}>
         <div style={{ maxWidth: 1100, margin: "0 auto" }}>
 
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: 32, marginBottom: 32 }}>
-            <div style={{ flex: "1 1 300px" }}>
-              <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 42, fontWeight: 700, margin: "0 0 12px", lineHeight: 1.1 }}>Find your game.</h1>
-              <p style={{ fontSize: 16, color: "#aaa", margin: 0, fontWeight: 300 }}>Events, teams, and resources for adaptive and disability sports across the Bay Area.</p>
+          <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 42, fontWeight: 700, margin: "0 0 12px", lineHeight: 1.1 }}>Find your game.</h1>
+          <p style={{ fontSize: 16, color: "#aaa", margin: "0 0 24px", fontWeight: 300, maxWidth: 480 }}>Events, teams, and resources for adaptive and disability sports across the Bay Area.</p>
+
+          <div style={{ background: "#2a2a28", borderRadius: 8, padding: "16px 20px", marginBottom: 24, display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
+            <div>
+              <div style={{ fontSize: 12, color: "#888", marginBottom: 4, fontFamily: "'DM Mono', monospace", textTransform: "uppercase", letterSpacing: "0.06em" }}>Need help finding adaptive sports?</div>
+              <div style={{ fontSize: 13, color: "#aaa", fontWeight: 300 }}>Not sure where to start? We'll help you find the right fit.</div>
             </div>
-            <div style={{ flex: "1 1 300px", background: "#2a2a28", borderRadius: 10, padding: "20px 24px" }}>
-              <div style={{ fontSize: 12, color: "#888", marginBottom: 8, fontFamily: "'DM Mono', monospace", textTransform: "uppercase", letterSpacing: "0.06em" }}>Need help finding sports?</div>
-              <p style={{ fontSize: 13, color: "#aaa", margin: "0 0 14px", lineHeight: 1.6, fontWeight: 300 }}>Not sure where to start? Looking for programs near you? Email us — we'll help you find the right fit.</p>
-              
-                href="mailto:bayareaadaptivesports@gmail.com?subject=I need help finding adaptive sports"
-                style={{ display: "inline-block", background: "#fff", color: "#1a1a18", padding: "9px 18px", borderRadius: 6, fontSize: 12, fontWeight: 500, textDecoration: "none", fontFamily: "'DM Mono', monospace" }}
-              >
-                bayareaadaptivesports@gmail.com →
-              </a>
-            </div>
+            
+              href="mailto:bayareaadaptivesports@gmail.com?subject=I need help finding adaptive sports"
+              style={{ display: "inline-block", background: "#fff", color: "#1a1a18", padding: "10px 20px", borderRadius: 6, fontSize: 13, fontWeight: 500, textDecoration: "none", fontFamily: "'DM Mono', monospace", whiteSpace: "nowrap" }}
+            >
+              bayareaadaptivesports@gmail.com →
+            </a>
           </div>
 
           <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 12 }}>
