@@ -118,7 +118,7 @@ export default function App() {
           <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 42, fontWeight: 700, margin: "0 0 12px", lineHeight: 1.1 }}>Find your game.</h1>
           <p style={{ fontSize: 16, color: "#aaa", margin: "0 0 24px", fontWeight: 300, maxWidth: 480 }}>Events, teams, and resources for adaptive and disability sports across the Bay Area.</p>
 
-          <div style={{ background: "#2a2a28", borderRadius: 8, padding: "16px 20px", marginBottom: 24, display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
+          <div style={{ background: "#2d7a4f", borderRadius: 8, padding: "16px 20px", marginBottom: 24, display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
             <div>
               <div style={{ fontSize: 12, color: "#888", marginBottom: 4, fontFamily: "'DM Mono', monospace", textTransform: "uppercase", letterSpacing: "0.06em" }}>Need help finding adaptive sports?</div>
               <div style={{ fontSize: 13, color: "#aaa", fontWeight: 300 }}>Not sure where to start? We'll help you find the right fit.</div>
