@@ -124,9 +124,7 @@ export default function App() {
               <div style={{ fontSize: 13, color: "#aaa", fontWeight: 300 }}>Not sure where to start? We'll help you find the right fit.</div>
             </div>
             
-              href="mailto:bayareaadaptivesports@gmail.com?subject=I need help finding adaptive sports"
-              style={{ display: "inline-block", background: "#fff", color: "#1a1a18", padding: "10px 20px", borderRadius: 6, fontSize: 13, fontWeight: 500, textDecoration: "none", fontFamily: "'DM Mono', monospace", whiteSpace: "nowrap" }}
-            >
+                 <a href="mailto:bayareaadaptivesports@gmail.com?subject=I need help finding adaptive sports" style={{ display: "inline-block", background: "#fff", color: "#1a1a18", padding: "10px 20px", borderRadius: 6, fontSize: 13, fontWeight: 500, textDecoration: "none", fontFamily: "'DM Mono', monospace", whiteSpace: "nowrap" }}>
               bayareaadaptivesports@gmail.com →
             </a>
           </div>
