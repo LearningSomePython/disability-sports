@@ -29,9 +29,7 @@ async function geocodeCity(city) {
       headers: { "User-Agent": "bayarea-adaptive-sports-scraper" }
     });
     const data = await res.json();
-    if (data.length > 0) {
-      return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
-    }
+    if (data.length > 0) return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
   } catch (e) {}
   return null;
 }
@@ -62,26 +60,21 @@ async function main() {
         continue;
       }
 
-      // Geocode each event
       for (const event of events) {
         if (event.city) {
           const coords = await geocodeCity(event.city);
-          if (coords) {
-            event.lat = coords.lat;
-            event.lng = coords.lng;
-          }
+          if (coords) { event.lat = coords.lat; event.lng = coords.lng; }
         }
         allEvents.push({ ...event, id: id++ });
       }
 
       console.log(`  Found ${events.length} events`);
-      await new Promise(r => setTimeout(r, 1000)); // be polite
+      await new Promise(r => setTimeout(r, 1000));
     } catch (err) {
       console.warn(`  Failed: ${err.message}`);
     }
   }
 
-  // Deduplicate
   const seen = new Set();
   allEvents = allEvents.filter(e => {
     const key = `${e.title}-${e.date}`;
@@ -92,9 +85,11 @@ async function main() {
 
   allEvents.sort((a, b) => a.date.localeCompare(b.date));
 
-  const out = path.join(__dirname, "..", "src", "events.json");
+  const outDir = path.join(__dirname, "..", "public");
+  if (!fs.existsSync(outDir)) fs.mkdirSync(outDir);
+  const out = path.join(outDir, "events.json");
   fs.writeFileSync(out, JSON.stringify(allEvents, null, 2));
-  console.log(`Done. ${allEvents.length} events written.`);
+  console.log(`Done. ${allEvents.length} events written to public/events.json`);
 }
 
 main().catch(console.error);
