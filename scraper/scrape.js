@@ -35,7 +35,7 @@ async function fetchPage(url) {
 async function extractEvents(source, pageText) {
   const today = new Date().toISOString().split("T")[0];
   const msg = await client.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-5",
     max_tokens: 2000,
     messages: [{
       role: "user",
