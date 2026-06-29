@@ -16,11 +16,14 @@ const ORGS = [
 
 const FALLBACK_EVENTS = [
   { id: 1, title: "BORP Adaptive Sports Expo", org: "BORP", date: "2026-06-06", city: "Berkeley", lat: 37.8716, lng: -122.2727, sports: ["Wheelchair Rugby", "Goalball", "Power Soccer", "Wheelchair Basketball", "Adaptive Cycling", "Kayaking", "Adaptive Climbing"], description: "A full day of adaptive sports open to all across multiple Berkeley venues. Free accessible shuttle from North Berkeley BART.", url: "https://www.borp.org/expo/", free: true },
-  { id: 2, title: "CAF NorCal Cycling Club — Weekly Ride", org: "CAF NorCal", date: "2026-05-17", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Adaptive Cycling"], description: "Bi-weekly Saturday rides, ~45 miles, self-supported and social. All levels welcome.", url: "https://www.challengedathletes.org/region/norcal/", free: false, recurring: true },
-  { id: 3, title: "BORP Wheelchair Basketball Open Practice", org: "BORP", date: "2026-05-20", city: "Berkeley", lat: 37.8716, lng: -122.2727, sports: ["Wheelchair Basketball"], description: "Open practice for new and returning players. Equipment provided.", url: "https://www.borp.org", free: true, recurring: true },
-  { id: 4, title: "BAADS Sailing Outing", org: "BAADS", date: "2026-05-23", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Sailing"], description: "Weekend sailing on the Bay for people with any disability. Equipment and instruction provided.", url: "https://www.baads.org", free: false, recurring: true },
-  { id: 5, title: "Achilles SF Weekly Run", org: "Achilles SF Bay Area", date: "2026-05-20", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Running"], description: "Weekly group run for athletes with disabilities alongside volunteer guides. All paces welcome.", url: "https://www.achillesinternational.org/san-francisco-bay-area", free: true, recurring: true },
+  { id: 2, title: "CAF NorCal Cycling Club — Weekly Ride", org: "CAF NorCal", date: "2026-07-04", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Adaptive Cycling"], description: "Bi-weekly Saturday rides, ~45 miles, self-supported and social. All levels welcome.", url: "https://www.challengedathletes.org/region/norcal/", free: false, recurring: true },
+  { id: 3, title: "BORP Wheelchair Basketball Open Practice", org: "BORP", date: "2026-07-01", city: "Berkeley", lat: 37.8716, lng: -122.2727, sports: ["Wheelchair Basketball"], description: "Open practice for new and returning players. Equipment provided.", url: "https://www.borp.org", free: true, recurring: true },
+  { id: 4, title: "BAADS Sailing Outing", org: "BAADS", date: "2026-07-05", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Sailing"], description: "Weekend sailing on the Bay for people with any disability. Equipment and instruction provided.", url: "https://www.baads.org", free: false, recurring: true },
+  { id: 5, title: "Achilles SF Weekly Run", org: "Achilles SF Bay Area", date: "2026-07-01", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Running"], description: "Weekly group run for athletes with disabilities alongside volunteer guides. All paces welcome.", url: "https://www.achillesinternational.org/san-francisco-bay-area", free: true, recurring: true },
 ];
+
+const FIELD_GREEN = "#2d5a1b";
+const FIELD_GREEN_LIGHT = "#3a7023";
 
 function toRad(deg) { return deg * Math.PI / 180; }
 
@@ -55,7 +58,7 @@ export default function App() {
   const [sportFilter, setSportFilter] = useState("All");
   const [search, setSearch] = useState("");
   const [events, setEvents] = useState(FALLBACK_EVENTS);
-  const [lastUpdated, setLastUpdated] = useState("May 13, 2026");
+  const [lastUpdated, setLastUpdated] = useState("Jun 28, 2026");
   const [zipInput, setZipInput] = useState("");
   const [zip, setZip] = useState("");
   const [radius, setRadius] = useState(25);
@@ -103,7 +106,7 @@ export default function App() {
       <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
 
       <header style={{ borderBottom: "1px solid #e8e8e4", background: "#fff", padding: "0 32px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 64 }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", height: 64 }}>
           <div style={{ display: "flex", alignItems: "baseline", gap: 10 }}>
             <span style={{ fontFamily: "'Playfair Display', serif", fontSize: 22, fontWeight: 700 }}>Bay Area</span>
             <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 13, color: "#888", letterSpacing: "0.08em", textTransform: "uppercase" }}>Adaptive Sports</span>
@@ -113,11 +116,14 @@ export default function App() {
       </header>
 
       <div style={{ background: "#1a1a18", color: "#fff", padding: "48px 32px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <h1 style={{ fontFamily: "'Playfair Display', serif", fontSize: 42, fontWeight: 700, margin: "0 0 12px", lineHeight: 1.1 }}>Find your game.</h1>
-          <p style={{ fontSize: 16, color: "#aaa", margin: "0 0 24px", fontWeight: 300, maxWidth: 480 }}>Events, teams, and resources for adaptive and disability sports across the Bay Area.</p>
+          <p style={{ fontSize: 16, color: "#aaa", margin: "0 0 24px", fontWeight: 300, maxWidth: 480 }}>
+            Events, teams, and resources for adaptive and disability sports across the Bay Area.{" "}
+            <a href="mailto:bayareaadaptivesports@gmail.com?subject=I need help finding adaptive sports" style={{ color: "#fff", fontWeight: 500 }}>Need help? Email us →</a>
+          </p>
 
-          <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 16 }}>
+          <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginBottom: 12 }}>
             <input type="text" placeholder="Search events, orgs, sports…" value={search} onChange={e => setSearch(e.target.value)} style={{ flex: "1 1 200px", padding: "10px 16px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: "#fff", fontSize: 14, fontFamily: "'DM Sans', sans-serif", outline: "none" }} />
             <select value={sportFilter} onChange={e => setSportFilter(e.target.value)} style={{ padding: "10px 16px", borderRadius: 6, border: "1px solid #333", background: "#2a2a28", color: sportFilter === "All" ? "#888" : "#fff", fontSize: 14, fontFamily: "'DM Sans', sans-serif" }}>
               <option value="All">All sports</option>
@@ -143,61 +149,105 @@ export default function App() {
       </div>
 
       <div style={{ borderBottom: "1px solid #e8e8e4", background: "#fff", padding: "0 32px" }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex" }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex" }}>
           {["events", "orgs"].map(t => (
             <button key={t} onClick={() => setTab(t)} style={{ padding: "14px 20px", border: "none", borderBottom: tab === t ? "2px solid #1a1a18" : "2px solid transparent", background: "none", fontSize: 14, fontWeight: tab === t ? 500 : 400, color: tab === t ? "#1a1a18" : "#888", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", marginBottom: -1 }}>{t === "events" ? "Events" : "Organizations"}</button>
           ))}
         </div>
       </div>
 
-      <main style={{ maxWidth: 1100, margin: "0 auto", padding: "32px" }}>
-        {tab === "events" && (
-          filteredEvents.length === 0
-            ? <p style={{ color: "#888", fontSize: 14 }}>No events match your filters.{zipCoords ? " Try a larger radius." : ""}</p>
-            : <div style={{ display: "grid", gap: 1, border: "1px solid #e8e8e4", borderRadius: 10, overflow: "hidden", background: "#e8e8e4" }}>
-                {filteredEvents.map(event => (
-                  <div key={event.id} style={{ background: "#fff", padding: "20px 24px", display: "grid", gridTemplateColumns: "100px 1fr auto", gap: 20, alignItems: "start" }}>
-                    <div>
-                      <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#888", textTransform: "uppercase", letterSpacing: "0.06em" }}>{formatDate(event.date)}</div>
-                      {event.recurring && <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: "#bbb", marginTop: 2 }}>recurring</div>}
-                      {zipCoords && event.lat && event.lng && <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: "#aaa", marginTop: 4 }}>{Math.round(distanceMiles(zipCoords.lat, zipCoords.lng, event.lat, event.lng))} mi</div>}
-                    </div>
-                    <div>
-                      <div style={{ fontWeight: 500, fontSize: 15, marginBottom: 4 }}>{event.title}</div>
-                      <div style={{ fontSize: 13, color: "#666", marginBottom: 8 }}>{event.org}{event.city ? ` · ${event.city}` : ""}</div>
-                      <div style={{ fontSize: 13, color: "#555", lineHeight: 1.5, marginBottom: 10 }}>{event.description}</div>
-                      <div>{(event.sports || []).map(s => <SportBadge key={s} sport={s} />)}</div>
-                    </div>
-                    <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 8, minWidth: 80 }}>
-                      {event.free && <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#2d7a4f", background: "#eaf5ef", padding: "2px 8px", borderRadius: 100 }}>Free</span>}
-                      <a href={event.url} target="_blank" rel="noreferrer" style={{ fontSize: 12, color: "#1a1a18", textDecoration: "none", borderBottom: "1px solid #ccc", fontFamily: "'DM Mono', monospace" }}>Details →</a>
-                    </div>
-                  </div>
-                ))}
-              </div>
-        )}
+      <main style={{ maxWidth: 1200, margin: "0 auto", padding: "32px", display: "grid", gridTemplateColumns: "1fr 240px", gap: 32, alignItems: "start" }}>
 
-        {tab === "orgs" && (
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: 16 }}>
-            {filteredOrgs.map(org => (
-              <div key={org.id} style={{ background: "#fff", border: "1px solid #e8e8e4", borderRadius: 10, padding: "20px 24px" }}>
-                <div style={{ fontWeight: 500, fontSize: 15, marginBottom: 4 }}>{org.name}</div>
-                <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#888", marginBottom: 12 }}>{org.location}</div>
-                <p style={{ fontSize: 13, color: "#555", lineHeight: 1.6, marginBottom: 14 }}>{org.description}</p>
-                <div style={{ marginBottom: 14 }}>{org.sports.map(s => <SportBadge key={s} sport={s} />)}</div>
-                <a href={org.url} target="_blank" rel="noreferrer" style={{ fontSize: 12, color: "#1a1a18", textDecoration: "none", borderBottom: "1px solid #ccc", fontFamily: "'DM Mono', monospace" }}>Visit website →</a>
-              </div>
+        <div>
+          {tab === "events" && (
+            filteredEvents.length === 0
+              ? <p style={{ color: "#888", fontSize: 14 }}>No events match your filters.{zipCoords ? " Try a larger radius." : ""}</p>
+              : <div style={{ display: "grid", gap: 1, border: "1px solid #e8e8e4", borderRadius: 10, overflow: "hidden", background: "#e8e8e4" }}>
+                  {filteredEvents.map(event => (
+                    <div key={event.id} style={{ background: "#fff", padding: "20px 24px", display: "grid", gridTemplateColumns: "100px 1fr auto", gap: 20, alignItems: "start" }}>
+                      <div>
+                        <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#888", textTransform: "uppercase", letterSpacing: "0.06em" }}>{formatDate(event.date)}</div>
+                        {event.recurring && <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: "#bbb", marginTop: 2 }}>recurring</div>}
+                        {zipCoords && event.lat && event.lng && <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 10, color: "#aaa", marginTop: 4 }}>{Math.round(distanceMiles(zipCoords.lat, zipCoords.lng, event.lat, event.lng))} mi</div>}
+                      </div>
+                      <div>
+                        <div style={{ fontWeight: 500, fontSize: 15, marginBottom: 4 }}>{event.title}</div>
+                        <div style={{ fontSize: 13, color: "#666", marginBottom: 8 }}>{event.org}{event.city ? ` · ${event.city}` : ""}</div>
+                        <div style={{ fontSize: 13, color: "#555", lineHeight: 1.5, marginBottom: 10 }}>{event.description}</div>
+                        <div>{(event.sports || []).map(s => <SportBadge key={s} sport={s} />)}</div>
+                      </div>
+                      <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 8, minWidth: 80 }}>
+                        {event.free && <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#2d7a4f", background: "#eaf5ef", padding: "2px 8px", borderRadius: 100 }}>Free</span>}
+                        <a href={event.url} target="_blank" rel="noreferrer" style={{ fontSize: 12, color: "#1a1a18", textDecoration: "none", borderBottom: "1px solid #ccc", fontFamily: "'DM Mono', monospace" }}>Details →</a>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+          )}
+
+          {tab === "orgs" && (
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: 16 }}>
+              {filteredOrgs.map(org => (
+                <div key={org.id} style={{ background: "#fff", border: "1px solid #e8e8e4", borderRadius: 10, padding: "20px 24px" }}>
+                  <div style={{ fontWeight: 500, fontSize: 15, marginBottom: 4 }}>{org.name}</div>
+                  <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#888", marginBottom: 12 }}>{org.location}</div>
+                  <p style={{ fontSize: 13, color: "#555", lineHeight: 1.6, marginBottom: 14 }}>{org.description}</p>
+                  <div style={{ marginBottom: 14 }}>{org.sports.map(s => <SportBadge key={s} sport={s} />)}</div>
+                  <a href={org.url} target="_blank" rel="noreferrer" style={{ fontSize: 12, color: "#1a1a18", textDecoration: "none", borderBottom: "1px solid #ccc", fontFamily: "'DM Mono', monospace" }}>Visit website →</a>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+
+        {/* Field green org sidebar */}
+        <div style={{ background: FIELD_GREEN, borderRadius: 10, padding: "20px", position: "sticky", top: 24 }}>
+          <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 16 }}>Partner Organizations</div>
+          <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+            {ORGS.map(org => (
+              
+                key={org.id}
+                href={org.url}
+                target="_blank"
+                rel="noreferrer"
+                style={{
+                  display: "block",
+                  padding: "8px 10px",
+                  borderRadius: 6,
+                  color: "#fff",
+                  textDecoration: "none",
+                  fontSize: 13,
+                  fontFamily: "'DM Sans', sans-serif",
+                  lineHeight: 1.3,
+                  transition: "background 0.15s",
+                }}
+                onMouseEnter={e => e.currentTarget.style.background = FIELD_GREEN_LIGHT}
+                onMouseLeave={e => e.currentTarget.style.background = "transparent"}
+              >
+                {org.name}
+                <div style={{ fontSize: 11, color: "rgba(255,255,255,0.5)", marginTop: 2, fontFamily: "'DM Mono', monospace" }}>{org.location}</div>
+              </a>
             ))}
           </div>
-        )}
+          <div style={{ borderTop: "1px solid rgba(255,255,255,0.15)", marginTop: 16, paddingTop: 16 }}>
+            
+              href="mailto:bayareaadaptivesports@gmail.com?subject=Add our organization"
+              style={{ fontSize: 11, color: "rgba(255,255,255,0.6)", textDecoration: "none", fontFamily: "'DM Mono', monospace" }}
+            >
+              + Add your organization →
+            </a>
+          </div>
+        </div>
+
       </main>
 
       <footer style={{ borderTop: "1px solid #e8e8e4", padding: "24px 32px", marginTop: 48 }}>
-        <div style={{ maxWidth: 1100, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
+        <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
           <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#bbb" }}>Bay Area Adaptive Sports · Data sourced from BORP, CAF NorCal, Special Olympics NorCal, and partner organizations</span>
-          <a href="mailto:hello@bayareaadaptivesports.org" style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#bbb", textDecoration: "none" }}>Submit an event →</a>
+          <a href="mailto:bayareaadaptivesports@gmail.com" style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#bbb", textDecoration: "none" }}>Submit an event →</a>
         </div>
       </footer>
+
     </div>
   );
 }
