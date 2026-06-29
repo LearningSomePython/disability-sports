@@ -15,15 +15,13 @@ const ORGS = [
 ];
 
 const FALLBACK_EVENTS = [
-  { id: 1, title: "BORP Adaptive Sports Expo", org: "BORP", date: "2026-06-06", city: "Berkeley", lat: 37.8716, lng: -122.2727, sports: ["Wheelchair Rugby", "Goalball", "Power Soccer", "Wheelchair Basketball", "Adaptive Cycling", "Kayaking", "Adaptive Climbing"], description: "A full day of adaptive sports open to all across multiple Berkeley venues. Free accessible shuttle from North Berkeley BART.", url: "https://www.borp.org/expo/", free: true },
-  { id: 2, title: "CAF NorCal Cycling Club — Weekly Ride", org: "CAF NorCal", date: "2026-07-04", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Adaptive Cycling"], description: "Bi-weekly Saturday rides, ~45 miles, self-supported and social. All levels welcome.", url: "https://www.challengedathletes.org/region/norcal/", free: false, recurring: true },
-  { id: 3, title: "BORP Wheelchair Basketball Open Practice", org: "BORP", date: "2026-07-01", city: "Berkeley", lat: 37.8716, lng: -122.2727, sports: ["Wheelchair Basketball"], description: "Open practice for new and returning players. Equipment provided.", url: "https://www.borp.org", free: true, recurring: true },
-  { id: 4, title: "BAADS Sailing Outing", org: "BAADS", date: "2026-07-05", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Sailing"], description: "Weekend sailing on the Bay for people with any disability. Equipment and instruction provided.", url: "https://www.baads.org", free: false, recurring: true },
-  { id: 5, title: "Achilles SF Weekly Run", org: "Achilles SF Bay Area", date: "2026-07-01", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Running"], description: "Weekly group run for athletes with disabilities alongside volunteer guides. All paces welcome.", url: "https://www.achillesinternational.org/san-francisco-bay-area", free: true, recurring: true },
+  { id: 1, title: "BORP Adaptive Sports Expo", org: "BORP", date: "2026-07-01", city: "Berkeley", lat: 37.8716, lng: -122.2727, sports: ["Wheelchair Rugby", "Goalball", "Power Soccer", "Wheelchair Basketball", "Adaptive Cycling", "Kayaking", "Adaptive Climbing"], description: "A full day of adaptive sports open to all across multiple Berkeley venues.", url: "https://www.borp.org/expo/", free: true },
+  { id: 2, title: "NorCal Cycling Club Ride", org: "CAF NorCal", date: "2026-07-04", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Adaptive Cycling"], description: "Bi-weekly Saturday social ride of approximately 45 miles for all levels.", url: "https://www.challengedathletes.org/region/norcal/", free: false, recurring: true },
+  { id: 3, title: "Achilles SF Bay Area Workout", org: "Achilles SF Bay Area", date: "2026-07-04", city: "San Francisco", lat: 37.7749, lng: -122.4194, sports: ["Running"], description: "Rotating workout at Crissy Field, Ocean Beach, or Lake Merritt at 9:30 AM.", url: "https://www.achillesinternational.org/san-francisco-bay-area", free: true, recurring: true },
 ];
 
 const FIELD_GREEN = "#2d5a1b";
-const FIELD_GREEN_LIGHT = "#3a7023";
+const FIELD_GREEN_HOVER = "#3a7023";
 
 function toRad(deg) { return deg * Math.PI / 180; }
 
@@ -51,6 +49,46 @@ function formatDate(dateStr) {
 
 function SportBadge({ sport }) {
   return <span style={{ display: "inline-block", fontSize: 11, padding: "2px 10px", borderRadius: 100, background: "#f0f0ee", color: "#444", marginRight: 4, marginBottom: 4, fontFamily: "'DM Mono', monospace" }}>{sport}</span>;
+}
+
+function OrgSidebar() {
+  const [hovered, setHovered] = useState(null);
+  return (
+    <div style={{ width: 220, flexShrink: 0, background: FIELD_GREEN, borderRadius: 10, padding: "20px", alignSelf: "flex-start" }}>
+      <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 16 }}>Organizations</div>
+      <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
+        {ORGS.map(org => (
+          
+            key={org.id}
+            href={org.url}
+            target="_blank"
+            rel="noreferrer"
+            onMouseEnter={() => setHovered(org.id)}
+            onMouseLeave={() => setHovered(null)}
+            style={{
+              display: "block",
+              padding: "8px 10px",
+              borderRadius: 6,
+              color: "#fff",
+              textDecoration: "none",
+              fontSize: 12,
+              fontFamily: "'DM Sans', sans-serif",
+              lineHeight: 1.3,
+              background: hovered === org.id ? FIELD_GREEN_HOVER : "transparent",
+            }}
+          >
+            {org.name}
+            <div style={{ fontSize: 10, color: "rgba(255,255,255,0.5)", marginTop: 2, fontFamily: "'DM Mono', monospace" }}>{org.location}</div>
+          </a>
+        ))}
+      </div>
+      <div style={{ borderTop: "1px solid rgba(255,255,255,0.15)", marginTop: 16, paddingTop: 16 }}>
+        <a href="mailto:bayareaadaptivesports@gmail.com?subject=Add our organization" style={{ fontSize: 11, color: "rgba(255,255,255,0.6)", textDecoration: "none", fontFamily: "'DM Mono', monospace" }}>
+          + Add your org →
+        </a>
+      </div>
+    </div>
+  );
 }
 
 export default function App() {
@@ -156,9 +194,9 @@ export default function App() {
         </div>
       </div>
 
-      <main style={{ maxWidth: 1200, margin: "0 auto", padding: "32px", display: "grid", gridTemplateColumns: "1fr 240px", gap: 32, alignItems: "start" }}>
+      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "32px", display: "flex", gap: 32, alignItems: "flex-start" }}>
 
-        <div>
+        <div style={{ flex: 1, minWidth: 0 }}>
           {tab === "events" && (
             filteredEvents.length === 0
               ? <p style={{ color: "#888", fontSize: 14 }}>No events match your filters.{zipCoords ? " Try a larger radius." : ""}</p>
@@ -200,48 +238,11 @@ export default function App() {
           )}
         </div>
 
-        {/* Field green org sidebar */}
-        <div style={{ background: FIELD_GREEN, borderRadius: 10, padding: "20px", position: "sticky", top: 24 }}>
-          <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 16 }}>Partner Organizations</div>
-          <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
-            {ORGS.map(org => (
-              
-                key={org.id}
-                href={org.url}
-                target="_blank"
-                rel="noreferrer"
-                style={{
-                  display: "block",
-                  padding: "8px 10px",
-                  borderRadius: 6,
-                  color: "#fff",
-                  textDecoration: "none",
-                  fontSize: 13,
-                  fontFamily: "'DM Sans', sans-serif",
-                  lineHeight: 1.3,
-                  transition: "background 0.15s",
-                }}
-                onMouseEnter={e => e.currentTarget.style.background = FIELD_GREEN_LIGHT}
-                onMouseLeave={e => e.currentTarget.style.background = "transparent"}
-              >
-                {org.name}
-                <div style={{ fontSize: 11, color: "rgba(255,255,255,0.5)", marginTop: 2, fontFamily: "'DM Mono', monospace" }}>{org.location}</div>
-              </a>
-            ))}
-          </div>
-          <div style={{ borderTop: "1px solid rgba(255,255,255,0.15)", marginTop: 16, paddingTop: 16 }}>
-            
-              href="mailto:bayareaadaptivesports@gmail.com?subject=Add our organization"
-              style={{ fontSize: 11, color: "rgba(255,255,255,0.6)", textDecoration: "none", fontFamily: "'DM Mono', monospace" }}
-            >
-              + Add your organization →
-            </a>
-          </div>
-        </div>
+        <OrgSidebar />
 
-      </main>
+      </div>
 
-      <footer style={{ borderTop: "1px solid #e8e8e4", padding: "24px 32px", marginTop: 48 }}>
+      <footer style={{ borderTop: "1px solid #e8e8e4", padding: "24px 32px", marginTop: 16 }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
           <span style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#bbb" }}>Bay Area Adaptive Sports · Data sourced from BORP, CAF NorCal, Special Olympics NorCal, and partner organizations</span>
           <a href="mailto:bayareaadaptivesports@gmail.com" style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "#bbb", textDecoration: "none" }}>Submit an event →</a>
