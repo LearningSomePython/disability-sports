@@ -1,51 +1,19 @@
 [
   {
-    "title": "In-Person Fitness Classes",
-    "date": "2026-07-03",
-    "city": "Berkeley",
-    "sports": [
-      "Fitness"
-    ],
-    "description": "Live fitness classes taught by experienced instructors.",
-    "url": "https://www.borp.org/programs/",
-    "free": false,
-    "recurring": true,
-    "org": "BORP",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "id": 10
-  },
-  {
-    "title": "Virtual Fitness Classes",
-    "date": "2026-07-03",
-    "city": "Berkeley",
-    "sports": [
-      "Fitness"
-    ],
-    "description": "Virtual fitness classes taught by experienced instructors.",
-    "url": "https://www.borp.org/programs/",
-    "free": false,
-    "recurring": true,
-    "org": "BORP",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "id": 11
-  },
-  {
-    "title": "NorCal Cycling Club Ride",
+    "title": "Pickleball for All",
     "date": "2026-07-04",
-    "city": "Bay Area",
+    "city": "Berkeley",
     "sports": [
-      "cycling"
+      "Pickleball"
     ],
-    "description": "Bi-weekly Saturday social rides of approximately 45 miles for all levels in the Bay Area.",
-    "url": "https://www.challengedathletes.org/region/norcal/",
+    "description": "Adaptive pickleball program for all participants.",
+    "url": "https://www.borp.org/programs/",
     "free": false,
     "recurring": true,
-    "org": "CAF NorCal",
-    "lat": 37.7884969,
-    "lng": -122.3558473,
-    "id": 19
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 9
   },
   {
     "title": "Adaptive Cycling",
@@ -54,7 +22,7 @@
     "sports": [
       "Cycling"
     ],
-    "description": "Adaptive cycling program providing opportunities for everyone to experience the joy of riding a bike.",
+    "description": "Adaptive cycling program where everyone can experience the joy of riding a bike.",
     "url": "https://www.borp.org/programs/",
     "free": false,
     "recurring": true,
@@ -80,53 +48,36 @@
     "id": 6
   },
   {
-    "title": "Weekly Small Boat Sailing",
+    "title": "NorCal Cycling Club Bi-Weekly Ride",
     "date": "2026-07-05",
-    "city": "San Francisco",
+    "city": "San Francisco Bay Area",
     "sports": [
-      "sailing"
+      "cycling"
     ],
-    "description": "Weekly small boat sailing program at South Beach Harbor, next to Oracle Park.",
-    "url": "https://www.baads.org",
+    "description": "Bi-weekly Saturday social ride of approximately 45 miles for all levels with CAF NorCal Cycling Club.",
+    "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": true,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 27
+    "org": "CAF NorCal",
+    "lat": 37.7884969,
+    "lng": -122.3558473,
+    "id": 15
   },
   {
-    "title": "Weekly Keelboat Sailing",
+    "title": "Achilles SF Bay Area Workout",
     "date": "2026-07-05",
     "city": "San Francisco",
     "sports": [
-      "sailing"
+      "running"
     ],
-    "description": "Weekly keelboat sailing program at South Beach Harbor, next to Oracle Park.",
-    "url": "https://www.baads.org",
-    "free": false,
-    "recurring": true,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 28
-  },
-  {
-    "title": "Morning Workout at Crissy Field",
-    "date": "2026-07-05",
-    "city": "San Francisco",
-    "sports": [
-      "running",
-      "walking"
-    ],
-    "description": "Group workout for athletes with disabilities and guide runners at Crissy Field.",
+    "description": "Group workout rotating between Crissy Field, Ocean Beach, and Lake Merritt at 9:30 AM.",
     "url": "https://www.achillesinternational.org/san-francisco-bay-area",
     "free": true,
     "recurring": true,
     "org": "Achilles SF Bay Area",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 29
+    "id": 25
   },
   {
     "title": "Adult Wheelchair Basketball",
@@ -135,7 +86,7 @@
     "sports": [
       "Wheelchair Basketball"
     ],
-    "description": "Ongoing adaptive wheelchair basketball program for adults.",
+    "description": "Adaptive wheelchair basketball program for adults.",
     "url": "https://www.borp.org/programs/",
     "free": false,
     "recurring": true,
@@ -151,7 +102,7 @@
     "sports": [
       "Wheelchair Basketball"
     ],
-    "description": "Adaptive wheelchair basketball program for youth.",
+    "description": "Adaptive wheelchair basketball program for youth participants.",
     "url": "https://www.borp.org/programs/",
     "free": false,
     "recurring": true,
@@ -167,7 +118,7 @@
     "sports": [
       "Wheelchair Rugby"
     ],
-    "description": "Ongoing adaptive wheelchair rugby program.",
+    "description": "Adaptive wheelchair rugby program for participants.",
     "url": "https://www.borp.org/programs/",
     "free": false,
     "recurring": true,
@@ -177,13 +128,29 @@
     "id": 2
   },
   {
+    "title": "In-Person Fitness Classes",
+    "date": "2026-07-07",
+    "city": "Berkeley",
+    "sports": [
+      "Fitness"
+    ],
+    "description": "Live fitness classes taught by experienced instructors.",
+    "url": "https://www.borp.org/programs/",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 10
+  },
+  {
     "title": "Power Soccer",
     "date": "2026-07-08",
     "city": "Berkeley",
     "sports": [
       "Power Soccer"
     ],
-    "description": "Adaptive power soccer program for youth and adults.",
+    "description": "Adaptive power soccer program for participants.",
     "url": "https://www.borp.org/programs/",
     "free": false,
     "recurring": true,
@@ -199,7 +166,7 @@
     "sports": [
       "Goalball"
     ],
-    "description": "Adaptive goalball program for youth and adults.",
+    "description": "Adaptive goalball program for participants.",
     "url": "https://www.borp.org/programs/",
     "free": false,
     "recurring": true,
@@ -209,8 +176,24 @@
     "id": 4
   },
   {
+    "title": "Adaptive Climbing",
+    "date": "2026-07-10",
+    "city": "Berkeley",
+    "sports": [
+      "Climbing"
+    ],
+    "description": "Expanded adaptive climbing program for participants.",
+    "url": "https://www.borp.org/programs/",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 7
+  },
+  {
     "title": "Adaptive Kayaking",
-    "date": "2026-07-09",
+    "date": "2026-07-10",
     "city": "Berkeley",
     "sports": [
       "kayaking"
@@ -222,39 +205,7 @@
     "org": "BORP Adventures & Outings",
     "lat": 37.8708393,
     "lng": -122.272863,
-    "id": 12
-  },
-  {
-    "title": "Adaptive Climbing",
-    "date": "2026-07-10",
-    "city": "Berkeley",
-    "sports": [
-      "Climbing"
-    ],
-    "description": "Expanded adaptive climbing program for all skill levels.",
-    "url": "https://www.borp.org/programs/",
-    "free": false,
-    "recurring": true,
-    "org": "BORP",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "id": 7
-  },
-  {
-    "title": "Pickleball for All",
-    "date": "2026-07-11",
-    "city": "Berkeley",
-    "sports": [
-      "Pickleball"
-    ],
-    "description": "Adaptive pickleball program for all abilities.",
-    "url": "https://www.borp.org/programs/",
-    "free": false,
-    "recurring": true,
-    "org": "BORP",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "id": 9
+    "id": 11
   },
   {
     "title": "Birding for All",
@@ -263,14 +214,14 @@
     "sports": [
       "birding"
     ],
-    "description": "Accessible birding activities through the Birding for All program.",
+    "description": "Accessible birding program for people with disabilities through Birding for All.",
     "url": "https://www.borp.org/programs/adventures-outings/",
     "free": false,
     "recurring": true,
     "org": "BORP Adventures & Outings",
     "lat": 37.8708393,
     "lng": -122.272863,
-    "id": 13
+    "id": 12
   },
   {
     "title": "Board Meeting",
@@ -286,28 +237,110 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
+    "id": 24
+  },
+  {
+    "title": "Achilles SF Bay Area Workout",
+    "date": "2026-07-12",
+    "city": "Oakland",
+    "sports": [
+      "running"
+    ],
+    "description": "Group workout rotating between Crissy Field, Ocean Beach, and Lake Merritt at 9:30 AM.",
+    "url": "https://www.achillesinternational.org/san-francisco-bay-area",
+    "free": true,
+    "recurring": true,
+    "org": "Achilles SF Bay Area",
+    "lat": 37.8044557,
+    "lng": -122.271356,
     "id": 26
   },
   {
-    "title": "Morning Workout at Ocean Beach",
-    "date": "2026-07-12",
+    "title": "Angel Island Day Trip",
+    "date": "2026-07-18",
+    "city": "Angel Island",
+    "sports": [
+      "outdoor recreation"
+    ],
+    "description": "Group adventure day trip to Angel Island with wheelchair-accessible transportation.",
+    "url": "https://www.borp.org/programs/adventures-outings/",
+    "free": false,
+    "recurring": false,
+    "org": "BORP Adventures & Outings",
+    "lat": 37.8623264,
+    "lng": -122.4309655,
+    "id": 13
+  },
+  {
+    "title": "Summer Games",
+    "date": "2026-07-18",
+    "city": "Pleasant Hill",
+    "sports": [
+      "Swimming",
+      "Track & Field",
+      "Bocce",
+      "Tennis"
+    ],
+    "description": "Summer Games welcomes athletes from dozens of NorCal counties to compete in swimming, track and field, bocce, and tennis.",
+    "url": "https://sonc.org/events/",
+    "free": true,
+    "recurring": true,
+    "org": "Special Olympics NorCal",
+    "lat": 37.9479786,
+    "lng": -122.0607963,
+    "id": 21
+  },
+  {
+    "title": "Achilles SF Bay Area Workout",
+    "date": "2026-07-18",
     "city": "San Francisco",
     "sports": [
-      "running",
-      "walking"
+      "running"
     ],
-    "description": "Group workout for athletes with disabilities and guide runners at Ocean Beach (Judah & Great Highway).",
+    "description": "Group workout rotating between Crissy Field, Ocean Beach, and Lake Merritt at 9:30 AM.",
     "url": "https://www.achillesinternational.org/san-francisco-bay-area",
     "free": true,
     "recurring": true,
     "org": "Achilles SF Bay Area",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 30
+    "id": 27
+  },
+  {
+    "title": "Day on the Beach",
+    "date": "2026-07-18",
+    "city": "Santa Cruz",
+    "sports": [
+      "beach activities"
+    ],
+    "description": "Beach day program for participants with disabilities and volunteers.",
+    "url": "https://sharedadventures.org/events/",
+    "free": false,
+    "recurring": true,
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 28
+  },
+  {
+    "title": "Camp Adventures",
+    "date": "2026-07-20",
+    "city": "Santa Cruz",
+    "sports": [
+      "outdoor recreation"
+    ],
+    "description": "Camp program offering outdoor adventures for people with disabilities.",
+    "url": "https://sharedadventures.org/events/",
+    "free": false,
+    "recurring": true,
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 29
   },
   {
     "title": "Indoor Adaptive Climbing",
-    "date": "2026-07-15",
+    "date": "2026-07-25",
     "city": "Berkeley",
     "sports": [
       "climbing"
@@ -322,132 +355,35 @@
     "id": 14
   },
   {
-    "title": "Day on the Beach",
-    "date": "2026-07-15",
-    "city": "Santa Cruz",
-    "sports": [
-      "beach activities"
-    ],
-    "description": "A day of accessible beach activities and adventures for participants and volunteers.",
-    "url": "https://sharedadventures.org/events/",
-    "free": false,
-    "recurring": true,
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 32
-  },
-  {
-    "title": "Adaptive Archery",
-    "date": "2026-07-18",
-    "city": "Berkeley",
-    "sports": [
-      "archery"
-    ],
-    "description": "Archery activities provided with partner organizations for people with disabilities.",
-    "url": "https://www.borp.org/programs/adventures-outings/",
-    "free": false,
-    "recurring": true,
-    "org": "BORP Adventures & Outings",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "id": 15
-  },
-  {
-    "title": "Morning Workout at Lake Merritt",
-    "date": "2026-07-19",
-    "city": "Oakland",
-    "sports": [
-      "running",
-      "walking"
-    ],
-    "description": "Group workout for athletes with disabilities and guide runners at Lake Merritt.",
-    "url": "https://www.achillesinternational.org/san-francisco-bay-area",
-    "free": true,
-    "recurring": true,
-    "org": "Achilles SF Bay Area",
-    "lat": 37.8044557,
-    "lng": -122.271356,
-    "id": 31
-  },
-  {
-    "title": "Camp Adventures",
-    "date": "2026-07-20",
-    "city": "Santa Cruz",
-    "sports": [
-      "multi-sport"
-    ],
-    "description": "A camp program offering various outdoor adventures and activities.",
-    "url": "https://sharedadventures.org/events/",
-    "free": false,
-    "recurring": true,
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 33
-  },
-  {
-    "title": "CAF-NorCal Adaptive Golf Tee Time Series",
-    "date": "2026-07-25",
-    "city": "Bay Area",
-    "sports": [
-      "golf"
-    ],
-    "description": "Adaptive golf clinic and tee time series for athletes in Northern California.",
-    "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
-    "recurring": false,
-    "org": "CAF NorCal",
-    "lat": 37.7884969,
-    "lng": -122.3558473,
-    "id": 16
-  },
-  {
     "title": "2026 Herb Meyer Cup Regatta",
     "date": "2026-08-01",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "Two-day regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "Two-day sailing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 25
+    "id": 23
   },
   {
     "title": "Topgolf ProAm '26",
-    "date": "2026-08-20",
+    "date": "2026-08-15",
     "city": "San Jose",
     "sports": [
       "Golf"
     ],
-    "description": "Professional amateur golf tournament fundraiser at Topgolf venue.",
+    "description": "A fun golf tournament event supporting Special Olympics athletes.",
     "url": "https://sonc.org/events/",
     "free": false,
     "recurring": true,
     "org": "Special Olympics NorCal",
     "lat": 37.3361663,
     "lng": -121.890591,
-    "id": 21
-  },
-  {
-    "title": "2026 Paso Robles Cycling Event",
-    "date": "2026-09-02",
-    "city": "Paso Robles",
-    "sports": [
-      "cycling"
-    ],
-    "description": "Fundraising cycling event in Paso Robles for adaptive athletes.",
-    "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
-    "recurring": false,
-    "org": "CAF NorCal",
-    "lat": 35.6262618,
-    "lng": -120.6901319,
     "id": 17
   },
   {
@@ -464,11 +400,11 @@
     "org": "Special Olympics NorCal",
     "lat": 37.9479786,
     "lng": -122.0607963,
-    "id": 20
+    "id": 16
   },
   {
     "title": "Bike the Bridges '26",
-    "date": "2026-09-27",
+    "date": "2026-09-20",
     "city": "San Francisco",
     "sports": [
       "Cycling"
@@ -480,6 +416,22 @@
     "org": "Special Olympics NorCal",
     "lat": 37.7879363,
     "lng": -122.4075201,
+    "id": 18
+  },
+  {
+    "title": "Fall Games",
+    "date": "2026-10-10",
+    "city": "Pleasant Hill",
+    "sports": [
+      "Soccer"
+    ],
+    "description": "Fall Games features teams gathering from around Northern California to compete in soccer and more.",
+    "url": "https://sonc.org/events/",
+    "free": true,
+    "recurring": true,
+    "org": "Special Olympics NorCal",
+    "lat": 37.9479786,
+    "lng": -122.0607963,
     "id": 22
   },
   {
@@ -496,57 +448,27 @@
     "org": "Special Olympics NorCal",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 23
-  },
-  {
-    "title": "Bionic Mile powered by CAF",
-    "date": "2026-11-08",
-    "city": "Bay Area",
-    "sports": [
-      "running"
-    ],
-    "description": "Adaptive running and walking event for athletes of all abilities.",
-    "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
-    "recurring": false,
-    "org": "CAF NorCal",
-    "lat": 37.7884969,
-    "lng": -122.3558473,
-    "id": 18
+    "id": 20
   },
   {
     "title": "Honoring America's Wounded Warfighters Gala",
-    "date": "2026-11-15",
+    "date": "2026-11-10",
     "city": "TBD",
     "sports": [
-      "Multiple Sports"
+      "Multi-Sport"
     ],
-    "description": "Annual gala honoring wounded military veterans in adaptive sports.",
+    "description": "Annual gala honoring wounded warfighters and their participation in adaptive sports.",
     "url": "https://moveunitedsport.org/events/",
     "free": false,
     "recurring": true,
     "org": "Move United",
     "lat": 33.7186595,
     "lng": -118.279322,
-    "id": 37
-  },
-  {
-    "title": "Polar Plunge '26 - '27",
-    "date": "2027-02-06",
-    "city": "Various",
-    "sports": [
-      "Swimming"
-    ],
-    "description": "A global Special Olympics tradition where people jump into chilly waters to support athletes.",
-    "url": "https://sonc.org/events/",
-    "free": false,
-    "recurring": true,
-    "org": "Special Olympics NorCal",
-    "id": 24
+    "id": 33
   },
   {
     "title": "The Hartford Ski Spectacular",
-    "date": "2027-02-15",
+    "date": "2027-01-15",
     "city": "TBD",
     "sports": [
       "Adaptive Skiing"
@@ -558,38 +480,54 @@
     "org": "Move United",
     "lat": 33.7186595,
     "lng": -118.279322,
-    "id": 36
+    "id": 32
+  },
+  {
+    "title": "Polar Plunge '26",
+    "date": "2027-02-15",
+    "city": "Pleasant Hill",
+    "sports": [
+      "Swimming"
+    ],
+    "description": "A global Special Olympics tradition where people jump into chilly waters to support athletes.",
+    "url": "https://sonc.org/events/",
+    "free": false,
+    "recurring": true,
+    "org": "Special Olympics NorCal",
+    "lat": 37.9479786,
+    "lng": -122.0607963,
+    "id": 19
   },
   {
     "title": "2027 Move United Education Conference",
     "date": "2027-03-15",
     "city": "TBD",
     "sports": [
-      "Multiple Sports"
+      "Multi-Sport"
     ],
-    "description": "Annual education conference for adaptive sports professionals and advocates.",
+    "description": "Annual education conference for adaptive sports professionals and members.",
     "url": "https://moveunitedsport.org/events/",
     "free": false,
     "recurring": true,
     "org": "Move United",
     "lat": 33.7186595,
     "lng": -118.279322,
-    "id": 34
+    "id": 30
   },
   {
     "title": "The Hartford Nationals",
     "date": "2027-04-10",
     "city": "TBD",
     "sports": [
-      "Multiple Sports"
+      "Multi-Sport"
     ],
-    "description": "National championship event for adaptive sports athletes.",
+    "description": "National adaptive sports competition event.",
     "url": "https://moveunitedsport.org/events/",
     "free": false,
     "recurring": true,
     "org": "Move United",
     "lat": 33.7186595,
     "lng": -118.279322,
-    "id": 35
+    "id": 31
   }
 ]
