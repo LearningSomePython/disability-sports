@@ -48,9 +48,14 @@ async function extractEvents(source, pageText) {
       role: "user",
       content: `Today is ${today}. You are extracting sports events from a webpage for ${source.name}.
 
-Look through this text carefully for any events, programs, classes, leagues, or activities that have dates. Include recurring weekly/monthly programs too — use the next upcoming date for those.
+Look through this text for events, classes, or activities that have a SPECIFIC, EXPLICIT date written in the text (for example "July 11", "07/11/2026", or "Saturday, July 11, 2026").
 
-IMPORTANT: Skip any event whose title or description says it is CANCELLED, CLOSED, or otherwise not happening. Only include events that are actually taking place.
+CRITICAL RULES — read carefully:
+- Only include an event if a specific calendar date for it is actually written in the text.
+- Do NOT guess, infer, estimate, or invent dates. Ever. If you cannot find a clear specific date for an event, leave that event out completely.
+- Do NOT turn vague phrases like "every Saturday", "monthly", or "2-3 times per month" into specific dates. If there is no actual date written, skip that event.
+- Skip any event whose title or description says it is CANCELLED, CLOSED, or otherwise not happening.
+- It is much better to return fewer events, or even none, than to include a date you are not certain is written in the text.
 
 Return a JSON array. Each item:
 {
@@ -65,7 +70,7 @@ Return a JSON array. Each item:
   "org": "${source.name}"
 }
 
-If you find no events with specific dates, return events for known recurring programs at this org using reasonable upcoming dates.
+If you find no events with specific written dates, return an empty array: []
 Return ONLY the JSON array, no other text.
 
 Webpage text:
