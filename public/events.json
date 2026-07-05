@@ -1,53 +1,5 @@
 [
   {
-    "title": "BAADS Racing Clinics",
-    "date": "2026-06-13",
-    "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
-    "description": "Race clinic on small boat Saturday with chalk talk and on-water practice covering basic race techniques.",
-    "url": "https://www.baads.org",
-    "free": true,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 5
-  },
-  {
-    "title": "BAADS Member Meeting / Safety Day / Dock Clean-up",
-    "date": "2026-06-14",
-    "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
-    "description": "Member meeting, safety day overview, and dock clean-up with snacks and refreshments from 11am-4pm.",
-    "url": "https://www.baads.org",
-    "free": true,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 4
-  },
-  {
-    "title": "BAADS Racing Clinics",
-    "date": "2026-06-27",
-    "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
-    "description": "Race clinic on small boat Saturday with chalk talk and on-water practice covering basic race techniques.",
-    "url": "https://www.baads.org",
-    "free": true,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 6
-  },
-  {
     "title": "Board Meeting",
     "date": "2026-07-12",
     "city": "San Francisco",
