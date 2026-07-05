@@ -6,9 +6,16 @@ import { fileURLToPath } from "url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 
+// BORP's live calendar uses a zero-based month number in the URL:
+// month=0 is January, month=6 is July, etc. We build the current
+// month's URL fresh each run so it never gets stuck on one month.
+const now = new Date();
+const borpYear = now.getFullYear();
+const borpMonth = now.getMonth(); // already 0-based, which is what BORP wants
+const borpCalendarUrl = `https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=${borpYear}&month=${borpMonth}`;
+
 const SOURCES = [
-  { name: "BORP", url: "https://www.borp.org/programs/" },
-  { name: "BORP Adventures & Outings", url: "https://www.borp.org/programs/adventures-outings/" },
+  { name: "BORP", url: borpCalendarUrl },
   { name: "CAF NorCal", url: "https://www.challengedathletes.org/region/norcal/" },
   { name: "Special Olympics NorCal", url: "https://sonc.org/events/" },
   { name: "BAADS", url: "https://www.baads.org" },
@@ -42,6 +49,8 @@ async function extractEvents(source, pageText) {
       content: `Today is ${today}. You are extracting sports events from a webpage for ${source.name}.
 
 Look through this text carefully for any events, programs, classes, leagues, or activities that have dates. Include recurring weekly/monthly programs too — use the next upcoming date for those.
+
+IMPORTANT: Skip any event whose title or description says it is CANCELLED, CLOSED, or otherwise not happening. Only include events that are actually taking place.
 
 Return a JSON array. Each item:
 {
