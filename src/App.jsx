@@ -12,6 +12,14 @@ const ORGS = [
   { id: 9, name: "Environmental Travelling Companions", location: "San Francisco", url: "https://www.etctrips.org", description: "Outdoor adventures accessible to people with disabilities — kayaking, whitewater rafting, and skiing.", sports: ["Kayaking", "Rafting", "Skiing"] },
   { id: 10, name: "Move United", location: "National / Bay Area chapters", url: "https://moveunitedsport.org", description: "National governing body supporting adaptive sports programs. Connects athletes to local programs and competitive opportunities.", sports: ["All Sports"] },
   { id: 11, name: "Achieve Tahoe", location: "Lake Tahoe, CA", url: "https://achievetahoe.org", description: "Adaptive skiing, snowboarding, and summer outdoor adventures for people with disabilities near the Bay Area.", sports: ["Skiing", "Snowboarding", "Hiking"] },
+  { id: 12, name: "National Center for Equine Facilitated Therapy (NCEFT)", location: "Woodside, CA", url: "https://www.nceft.org", description: "Equine therapy, adaptive riding, and specially tailored horse-based programs for children, adults, veterans, and first responders.", sports: ["Adaptive Riding", "Equine Therapy"] },
+  { id: 13, name: "Oakland Lawn Bowling Club", location: "Oakland, CA", url: "https://www.oaklandlawnbowlingclub.com", description: "Welcomes wheelchair bowlers at its Lakeside Park greens on Lake Merritt. Membership is open to the public, all ages.", sports: ["Lawn Bowling"] },
+  { id: 14, name: "Riekes Center Adaptive Sports & Fitness", location: "Menlo Park, CA", url: "https://www.riekes.org", description: "Customizable adaptive workouts and programs including archery, rowing, swimming, wheelchair rugby, and strength and conditioning.", sports: ["Archery", "Rowing", "Swimming", "Wheelchair Rugby"] },
+  { id: 15, name: "Redwood City Accessible Recreation", location: "Redwood City, CA", url: "https://www.redwoodcity.org/departments/parks-recreation-and-community-services/activities-programs/accessible-recreation/resources", description: "Resources and weekday afternoon recreation programs for individuals with differing abilities ages eight and up.", sports: ["Recreation"] },
+  { id: 16, name: "United States Power Soccer Association (USPSA)", location: "National / NorCal teams", url: "https://www.powersoccerusa.net", description: "Governing body for power soccer, a competitive sport designed for power wheelchair users, with teams in Northern California.", sports: ["Power Soccer"] },
+  { id: 17, name: "The Infinite Fitness Project", location: "East Bay, CA", url: "https://infinitefitnessproject.com", description: "Specialized fitness and martial arts programs for neurodivergent individuals ages 4 and up. RCEB approved vendor.", sports: ["Fitness", "Martial Arts"] },
+  { id: 18, name: "Walnut Creek Specialized Recreation", location: "Walnut Creek, CA", url: "https://cityofwalnutcreek.perfectmind.com/Contacts/BookMe4BookingPages/BookingCoursesPage?calendarId=425542cb-2b55-439f-b82d-7b618194249f&widgetId=15f6af07-39c5-473e-b053-96653f77a406&embed=False", description: "City of Walnut Creek adaptive and specialized recreation classes for people with disabilities, booked through the city's registration portal.", sports: ["Recreation"] },
+  { id: 19, name: "Waves of Impact", location: "Capitola / Bay Area", url: "https://www.wavesofimpact.com", description: "Free adaptive surf camps giving youth with disabilities the chance to experience the ocean, including a Capitola youth camp.", sports: ["Surfing"] },
 ];
 
 const FALLBACK_EVENTS = [
@@ -58,7 +66,7 @@ function OrgSidebar() {
       <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 16 }}>Organizations</div>
       <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
         {ORGS.map(org => (
-          <a
+          
             key={org.id}
             href={org.url}
             target="_blank"
@@ -96,7 +104,7 @@ export default function App() {
   const [sportFilter, setSportFilter] = useState("All");
   const [search, setSearch] = useState("");
   const [events, setEvents] = useState(FALLBACK_EVENTS);
-  const [lastUpdated, setLastUpdated] = useState("Jun 28, 2026");
+  const [lastUpdated, setLastUpdated] = useState("Jul 5, 2026");
   const [zipInput, setZipInput] = useState("");
   const [zip, setZip] = useState("");
   const [radius, setRadius] = useState(25);
@@ -105,10 +113,17 @@ export default function App() {
   const [zipError, setZipError] = useState("");
 
   useEffect(() => {
-    fetch("/events.json")
-      .then(r => r.json())
-      .then(data => { if (Array.isArray(data) && data.length > 0) setEvents(data); })
-      .catch(() => {});
+    Promise.all([
+      fetch("/events.json").then(r => r.json()).catch(() => []),
+      fetch("/manual-events.json").then(r => r.json()).catch(() => [])
+    ]).then(([scraped, manual]) => {
+      const s = Array.isArray(scraped) ? scraped : [];
+      const m = Array.isArray(manual) ? manual : [];
+      const todayStr = new Date().toISOString().split("T")[0];
+      const combined = [...s, ...m].filter(e => e.date && e.date >= todayStr);
+      combined.sort((a, b) => (a.date || "").localeCompare(b.date || ""));
+      if (combined.length > 0) setEvents(combined);
+    }).catch(() => {});
   }, []);
 
   const ALL_SPORTS = [...new Set(events.flatMap(e => e.sports || []))].sort();
