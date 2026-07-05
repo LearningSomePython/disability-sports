@@ -1,97 +1,62 @@
 [
   {
-    "title": "NorCal Cycling Club Ride",
-    "date": "2026-07-11",
-    "city": "San Francisco Bay Area",
-    "sports": [
-      "cycling"
-    ],
-    "description": "Bi-weekly Saturday social ride of approximately 45 miles for all levels with organized meet-ups.",
-    "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
-    "recurring": true,
-    "org": "CAF NorCal",
-    "lat": 37.7884969,
-    "lng": -122.3558473,
-    "id": 1
-  },
-  {
-    "title": "Achilles SF Bay Area Workout - Crissy Field",
-    "date": "2026-07-11",
+    "title": "BAADS Racing Clinics",
+    "date": "2026-06-13",
     "city": "San Francisco",
     "sports": [
-      "running",
-      "walking"
+      "sailing"
     ],
-    "description": "Rotating workout session for athletes with disabilities and guide runners at Crissy Field.",
-    "url": "https://www.achillesinternational.org/san-francisco-bay-area",
+    "description": "Race clinic on small boat Saturday with chalk talk and on-water practice covering basic race techniques.",
+    "url": "https://www.baads.org",
     "free": true,
-    "recurring": true,
-    "org": "Achilles SF Bay Area",
+    "recurring": false,
+    "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 9
+    "id": 5
+  },
+  {
+    "title": "BAADS Member Meeting / Safety Day / Dock Clean-up",
+    "date": "2026-06-14",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "Member meeting, safety day overview, and dock clean-up with snacks and refreshments from 11am-4pm.",
+    "url": "https://www.baads.org",
+    "free": true,
+    "recurring": false,
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 4
+  },
+  {
+    "title": "BAADS Racing Clinics",
+    "date": "2026-06-27",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "Race clinic on small boat Saturday with chalk talk and on-water practice covering basic race techniques.",
+    "url": "https://www.baads.org",
+    "free": true,
+    "recurring": false,
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 6
   },
   {
     "title": "Board Meeting",
     "date": "2026-07-12",
     "city": "San Francisco",
     "sports": [
-      "Sailing"
+      "sailing"
     ],
     "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
-    "recurring": true,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 8
-  },
-  {
-    "title": "Achilles SF Bay Area Workout - Ocean Beach",
-    "date": "2026-07-19",
-    "city": "San Francisco",
-    "sports": [
-      "running",
-      "walking"
-    ],
-    "description": "Rotating workout session for athletes with disabilities and guide runners at Ocean Beach (Judah & Great Highway).",
-    "url": "https://www.achillesinternational.org/san-francisco-bay-area",
-    "free": true,
-    "recurring": true,
-    "org": "Achilles SF Bay Area",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 10
-  },
-  {
-    "title": "Achilles SF Bay Area Workout - Lake Merritt",
-    "date": "2026-07-25",
-    "city": "Oakland",
-    "sports": [
-      "running",
-      "walking"
-    ],
-    "description": "Rotating workout session for athletes with disabilities and guide runners at Lake Merritt.",
-    "url": "https://www.achillesinternational.org/san-francisco-bay-area",
-    "free": true,
-    "recurring": true,
-    "org": "Achilles SF Bay Area",
-    "lat": 37.8044557,
-    "lng": -122.271356,
-    "id": 11
-  },
-  {
-    "title": "2026 Herb Meyer Cup Regatta",
-    "date": "2026-08-01",
-    "city": "San Francisco",
-    "sports": [
-      "Sailing"
-    ],
-    "description": "Two-day sailing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
-    "url": "https://www.baads.org",
-    "free": false,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
@@ -99,147 +64,51 @@
     "id": 7
   },
   {
-    "title": "Topgolf ProAm '26",
-    "date": "2026-08-20",
-    "city": "San Jose",
-    "sports": [
-      "Golf"
-    ],
-    "description": "ProAm golf event at Topgolf supporting Special Olympics NorCal athletes.",
-    "url": "https://sonc.org/events/",
-    "free": false,
-    "recurring": false,
-    "org": "Special Olympics NorCal",
-    "lat": 37.3361663,
-    "lng": -121.890591,
-    "id": 3
-  },
-  {
-    "title": "Bike the Bridges '26",
-    "date": "2026-09-12",
+    "title": "2026 Herb Meyer Cup Regatta",
+    "date": "2026-08-01",
     "city": "San Francisco",
     "sports": [
-      "Cycling"
+      "sailing"
     ],
-    "description": "Ride scenic Bay Area routes and celebrate with music, food, and drinks to support Special Olympics NorCal.",
-    "url": "https://sonc.org/events/",
+    "description": "Racing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
-    "org": "Special Olympics NorCal",
+    "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 4
-  },
-  {
-    "title": "High Tech Challenge '26",
-    "date": "2026-09-15",
-    "city": "Pleasant Hill",
-    "sports": [
-      "Golf"
-    ],
-    "description": "Special Olympics Northern California's premier golf tournament and largest single-day fundraiser.",
-    "url": "https://sonc.org/events/",
-    "free": false,
-    "recurring": false,
-    "org": "Special Olympics NorCal",
-    "lat": 37.9479786,
-    "lng": -122.0607963,
     "id": 2
   },
   {
-    "title": "Bocce Bash 2026",
-    "date": "2026-10-15",
+    "title": "2026 Herb Meyer Cup Regatta",
+    "date": "2026-08-02",
     "city": "San Francisco",
     "sports": [
-      "Bocce"
+      "sailing"
     ],
-    "description": "Play in a fun bocce tournament alongside Special Olympics athletes with Bay Area sports stars and business leaders.",
-    "url": "https://sonc.org/events/",
+    "description": "Racing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
-    "org": "Special Olympics NorCal",
+    "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 6
+    "id": 3
   },
   {
-    "title": "Honoring America's Wounded Warfighters Gala",
-    "date": "2026-11-10",
-    "city": "TBD",
+    "title": "San Diego Triathlon Challenge Weekend",
+    "date": "2026-10-25",
+    "city": "San Diego",
     "sports": [
-      "Multiple Adaptive Sports"
+      "triathlon"
     ],
-    "description": "Gala event honoring wounded warfighters and their participation in adaptive sports.",
-    "url": "https://moveunitedsport.org/events/",
+    "description": "San Diego Triathlon Challenge (SDTC) fueled by Toyota.",
+    "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
-    "recurring": true,
-    "org": "Move United",
-    "lat": 33.7186595,
-    "lng": -118.279322,
-    "id": 15
-  },
-  {
-    "title": "The Hartford Ski Spectacular",
-    "date": "2027-01-15",
-    "city": "TBD",
-    "sports": [
-      "Adaptive Skiing"
-    ],
-    "description": "Annual adaptive skiing competition and event.",
-    "url": "https://moveunitedsport.org/events/",
-    "free": false,
-    "recurring": true,
-    "org": "Move United",
-    "lat": 33.7186595,
-    "lng": -118.279322,
-    "id": 14
-  },
-  {
-    "title": "Polar Plunge '26",
-    "date": "2027-02-13",
-    "city": "Pleasant Hill",
-    "sports": [
-      "Swimming"
-    ],
-    "description": "Jump into chilly waters to support Special Olympics athletes in this global tradition.",
-    "url": "https://sonc.org/events/",
-    "free": false,
-    "recurring": true,
-    "org": "Special Olympics NorCal",
-    "lat": 37.9479786,
-    "lng": -122.0607963,
-    "id": 5
-  },
-  {
-    "title": "2027 Move United Education Conference",
-    "date": "2027-03-15",
-    "city": "TBD",
-    "sports": [
-      "Multiple Adaptive Sports"
-    ],
-    "description": "Annual education conference for Move United members and adaptive sports professionals.",
-    "url": "https://moveunitedsport.org/events/",
-    "free": false,
-    "recurring": true,
-    "org": "Move United",
-    "lat": 33.7186595,
-    "lng": -118.279322,
-    "id": 12
-  },
-  {
-    "title": "The Hartford Nationals",
-    "date": "2027-04-10",
-    "city": "TBD",
-    "sports": [
-      "Multiple Adaptive Sports"
-    ],
-    "description": "National adaptive sports competition hosted by Move United and The Hartford.",
-    "url": "https://moveunitedsport.org/events/",
-    "free": false,
-    "recurring": true,
-    "org": "Move United",
-    "lat": 33.7186595,
-    "lng": -118.279322,
-    "id": 13
+    "recurring": false,
+    "org": "CAF NorCal",
+    "lat": 32.7174202,
+    "lng": -117.162772,
+    "id": 1
   }
 ]
