@@ -126,6 +126,13 @@ async function main() {
     await new Promise(r => setTimeout(r, 1500));
   }
 
+  // Drop any event whose date is in the past, so the site only shows
+  // upcoming events. Uses today's date as YYYY-MM-DD for comparison.
+  const todayStr = new Date().toISOString().split("T")[0];
+  const beforeCount = allEvents.length;
+  allEvents = allEvents.filter(e => e.date && e.date >= todayStr);
+  console.log(`Filtered out ${beforeCount - allEvents.length} past events.`);
+
   const seen = new Set();
   allEvents = allEvents.filter(e => {
     const key = `${e.title}-${e.date}`;
