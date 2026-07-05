@@ -66,7 +66,7 @@ function OrgSidebar() {
       <div style={{ fontFamily: "'DM Mono', monospace", fontSize: 11, color: "rgba(255,255,255,0.6)", textTransform: "uppercase", letterSpacing: "0.08em", marginBottom: 16 }}>Organizations</div>
       <div style={{ display: "flex", flexDirection: "column", gap: 2 }}>
         {ORGS.map(org => (
-          
+          <a
             key={org.id}
             href={org.url}
             target="_blank"
