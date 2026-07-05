@@ -1,0 +1,72 @@
+[
+  {
+    "id": "m1",
+    "title": "Day on the Beach",
+    "org": "Shared Adventures",
+    "date": "2026-07-11",
+    "city": "Santa Cruz",
+    "lat": 36.9628,
+    "lng": -122.0267,
+    "sports": ["Kayaking", "Surfing"],
+    "description": "Shared Adventures' annual free adaptive ocean sports day at Cowell Beach, with kayaking, surfing and more for over 300 participants.",
+    "url": "https://sharedadventures.org/our-adventures/events-activities/",
+    "free": true,
+    "recurring": false
+  },
+  {
+    "id": "m2",
+    "title": "Camp Adventures",
+    "org": "Shared Adventures",
+    "date": "2026-08-02",
+    "city": "Santa Cruz",
+    "lat": 36.9741,
+    "lng": -122.0308,
+    "sports": ["Climbing", "Archery", "Kayaking"],
+    "description": "A four-day accessible overnight family camp (Aug 2-5) for children with disabilities ages 5-25, with climbing, archery, kayaking and more.",
+    "url": "https://sharedadventures.org/",
+    "free": false,
+    "recurring": false
+  },
+  {
+    "id": "m3",
+    "title": "Tip-A-Cop",
+    "org": "Special Olympics NorCal",
+    "date": "2026-07-16",
+    "city": "Concord",
+    "lat": 37.9722,
+    "lng": -122.0016,
+    "sports": ["Fundraiser"],
+    "description": "A Special Olympics NorCal fundraiser at Lazy Dog in Concord, where law enforcement serve as celebrity waitstaff with their tips donated.",
+    "url": "https://sonc.org/calendar/",
+    "free": true,
+    "recurring": false
+  },
+  {
+    "id": "m4",
+    "title": "Bike the Bridges | Bands & Brews",
+    "org": "Special Olympics NorCal",
+    "date": "2026-10-03",
+    "city": "Martinez",
+    "lat": 38.0194,
+    "lng": -122.1341,
+    "sports": ["Cycling"],
+    "description": "Special Olympics NorCal's annual ride at Waterfront Park in Martinez, with four scenic route options over the Martinez and Carquinez bridges.",
+    "url": "https://sonc.org/calendar/",
+    "free": false,
+    "recurring": false
+  },
+  {
+    "id": "m5",
+    "title": "Capitola Surf Camp for Youth",
+    "org": "Waves of Impact",
+    "date": "2026-08-15",
+    "city": "Capitola",
+    "lat": 36.9752,
+    "lng": -121.9530,
+    "sports": ["Surfing"],
+    "description": "A free adaptive surf camp for youth with disabilities, hosted by Waves of Impact volunteers at Capitola.",
+    "url": "https://www.wavesofimpact.com/event-info/capitola-surf-camp-for-youth-august-15th",
+    "free": true,
+    "recurring": false
+  }
+]
