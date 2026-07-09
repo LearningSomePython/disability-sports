@@ -22,7 +22,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "The regatta will be held August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "Racing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -38,7 +38,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "The regatta will be held August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "Racing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -46,6 +46,22 @@
     "lat": 37.7879363,
     "lng": -122.4075201,
     "id": 3
+  },
+  {
+    "title": "Board Meeting",
+    "date": "2026-08-09",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "BAADS Board Meeting.",
+    "url": "https://www.baads.org",
+    "free": true,
+    "recurring": false,
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 8
   },
   {
     "title": "San Diego Triathlon Challenge Weekend",
