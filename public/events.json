@@ -1,5 +1,149 @@
 [
   {
+    "title": "Fitness for All",
+    "date": "2026-07-10",
+    "city": "Berkeley",
+    "sports": [
+      "Fitness"
+    ],
+    "description": "Adaptive fitness class for all abilities.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 1
+  },
+  {
+    "title": "Rock Climbing at Berkeley Ironworks",
+    "date": "2026-07-10",
+    "city": "Berkeley",
+    "sports": [
+      "Rock Climbing"
+    ],
+    "description": "Adaptive rock climbing session at Berkeley Ironworks.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 2
+  },
+  {
+    "title": "San Francisco Cycling",
+    "date": "2026-07-11",
+    "city": "San Francisco",
+    "sports": [
+      "Cycling"
+    ],
+    "description": "Adaptive cycling in San Francisco.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 3
+  },
+  {
+    "title": "Berkeley Cycling Center Saturday Open Hours",
+    "date": "2026-07-11",
+    "city": "Berkeley",
+    "sports": [
+      "Cycling"
+    ],
+    "description": "Open hours at Berkeley Cycling Center.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 4
+  },
+  {
+    "title": "Adaptive Pickleball Saturdays at Ocean View!",
+    "date": "2026-07-11",
+    "city": "Berkeley",
+    "sports": [
+      "Pickleball"
+    ],
+    "description": "Adaptive pickleball at Ocean View.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 5
+  },
+  {
+    "title": "San Francisco Wheelchair Basketball",
+    "date": "2026-07-11",
+    "city": "San Francisco",
+    "sports": [
+      "Wheelchair Basketball"
+    ],
+    "description": "Wheelchair basketball in San Francisco.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 6
+  },
+  {
+    "title": "Wheelchair Tennis Clinic (Youth, ages 10+, and Adults)",
+    "date": "2026-07-11",
+    "city": "Berkeley",
+    "sports": [
+      "Wheelchair Tennis"
+    ],
+    "description": "Wheelchair tennis clinic for youth ages 10+ and adults.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 7
+  },
+  {
+    "title": "Group Ride (San Jose) FREE",
+    "date": "2026-07-12",
+    "city": "San Jose",
+    "sports": [
+      "Cycling"
+    ],
+    "description": "Free group cycling ride in San Jose.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": true,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.3361663,
+    "lng": -121.890591,
+    "id": 8
+  },
+  {
+    "title": "Wheelchair Rugby Practice",
+    "date": "2026-07-12",
+    "city": "Berkeley",
+    "sports": [
+      "Wheelchair Rugby"
+    ],
+    "description": "Wheelchair rugby practice session.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 9
+  },
+  {
     "title": "Board Meeting",
     "date": "2026-07-12",
     "city": "San Francisco",
@@ -13,7 +157,55 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 7
+    "id": 19
+  },
+  {
+    "title": "July SCI Summer BBQ",
+    "date": "2026-07-15",
+    "city": "Berkeley",
+    "sports": [
+      "Social"
+    ],
+    "description": "Summer BBQ event for spinal cord injury community.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": false,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 10
+  },
+  {
+    "title": "Two Wheel Tandem Group Ride",
+    "date": "2026-07-18",
+    "city": "Berkeley",
+    "sports": [
+      "Cycling"
+    ],
+    "description": "Tandem bicycle group ride.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": true,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 11
+  },
+  {
+    "title": "Kayak OPEN HOUSE",
+    "date": "2026-07-25",
+    "city": "Berkeley",
+    "sports": [
+      "Kayaking"
+    ],
+    "description": "Open house for adaptive kayaking program.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": false,
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 12
   },
   {
     "title": "2026 Herb Meyer Cup Regatta",
@@ -29,7 +221,7 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 2
+    "id": 14
   },
   {
     "title": "2026 Herb Meyer Cup Regatta",
@@ -45,7 +237,7 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 3
+    "id": 15
   },
   {
     "title": "Board Meeting",
@@ -61,7 +253,7 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 8
+    "id": 20
   },
   {
     "title": "San Diego Triathlon Challenge Weekend",
@@ -77,6 +269,6 @@
     "org": "CAF NorCal",
     "lat": 32.7174202,
     "lng": -117.162772,
-    "id": 1
+    "id": 13
   }
 ]
