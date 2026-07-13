@@ -1,28 +1,12 @@
 [
   {
-    "title": "Board Meeting",
-    "date": "2026-07-12",
-    "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
-    "description": "BAADS Board Meeting.",
-    "url": "https://www.baads.org",
-    "free": true,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 7
-  },
-  {
     "title": "2026 Herb Meyer Cup Regatta",
     "date": "2026-08-01",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "The regatta will be August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "The regatta will be held August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -38,7 +22,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "The regatta will be August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "The regatta will be held August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -61,7 +45,7 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 8
+    "id": 7
   },
   {
     "title": "San Diego Triathlon Challenge Weekend",
