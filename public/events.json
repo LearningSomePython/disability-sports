@@ -6,7 +6,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Racing regatta with boat set-up on Friday and racing on Saturday and Sunday at South Beach Harbor.",
+    "description": "Racing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -22,7 +22,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Racing regatta with boat set-up on Friday and racing on Saturday and Sunday at South Beach Harbor.",
+    "description": "Racing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -38,7 +38,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS board meeting.",
+    "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
