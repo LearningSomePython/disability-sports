@@ -1,28 +1,28 @@
 [
   {
+    "title": "Kayak OPEN HOUSE",
+    "date": "2026-07-25",
+    "city": "Unknown",
+    "sports": [
+      "kayaking"
+    ],
+    "description": "Kayak open house event.",
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
+    "free": false,
+    "recurring": false,
+    "org": "BORP",
+    "lat": 34.852961,
+    "lng": -118.1795547,
+    "id": 1
+  },
+  {
     "title": "2026 Herb Meyer Cup Regatta",
     "date": "2026-08-01",
     "city": "San Francisco",
     "sports": [
-      "Sailing"
+      "sailing"
     ],
-    "description": "Racing regatta held at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
-    "url": "https://www.baads.org",
-    "free": false,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 2
-  },
-  {
-    "title": "2026 Herb Meyer Cup Regatta",
-    "date": "2026-08-02",
-    "city": "San Francisco",
-    "sports": [
-      "Sailing"
-    ],
-    "description": "Racing regatta held at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "The regatta will be held August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -32,20 +32,36 @@
     "id": 3
   },
   {
+    "title": "2026 Herb Meyer Cup Regatta",
+    "date": "2026-08-02",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "The regatta will be held August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "url": "https://www.baads.org",
+    "free": false,
+    "recurring": false,
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 4
+  },
+  {
     "title": "Board Meeting",
     "date": "2026-08-09",
     "city": "San Francisco",
     "sports": [
-      "Sailing"
+      "sailing"
     ],
-    "description": "BAADS board meeting.",
+    "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 7
+    "id": 8
   },
   {
     "title": "San Diego Triathlon Challenge Weekend",
@@ -61,6 +77,6 @@
     "org": "CAF NorCal",
     "lat": 32.7174202,
     "lng": -117.162772,
-    "id": 1
+    "id": 2
   }
 ]
