@@ -1,35 +1,19 @@
 [
   {
-    "title": "Kayak OPEN HOUSE",
-    "date": "2026-07-25",
-    "city": "Unknown",
-    "sports": [
-      "kayaking"
-    ],
-    "description": "Kayak open house event.",
-    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=6",
-    "free": false,
-    "recurring": false,
-    "org": "BORP",
-    "lat": 34.852961,
-    "lng": -118.1795547,
-    "id": 1
-  },
-  {
     "title": "2026 Herb Meyer Cup Regatta",
     "date": "2026-08-01",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "The regatta will be held August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "Racing regatta held at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 3
+    "id": 2
   },
   {
     "title": "2026 Herb Meyer Cup Regatta",
@@ -38,14 +22,14 @@
     "sports": [
       "sailing"
     ],
-    "description": "The regatta will be held August 1-2 at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "Racing regatta held at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 4
+    "id": 3
   },
   {
     "title": "Board Meeting",
@@ -61,7 +45,7 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 8
+    "id": 7
   },
   {
     "title": "San Diego Triathlon Challenge Weekend",
@@ -70,13 +54,13 @@
     "sports": [
       "triathlon"
     ],
-    "description": "San Diego Triathlon Challenge (SDTC) fueled by Toyota.",
+    "description": "San Diego Triathlon Challenge (SDTC) fueled by Toyota adaptive sports event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
     "lat": 32.7174202,
     "lng": -117.162772,
-    "id": 2
+    "id": 1
   }
 ]
