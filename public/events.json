@@ -1,12 +1,12 @@
 [
   {
-    "title": "2026 Herb Meyer Cup Regatta",
+    "title": "Herb Meyer Cup Regatta",
     "date": "2026-08-01",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "Racing regatta held at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "Racing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -16,13 +16,13 @@
     "id": 2
   },
   {
-    "title": "2026 Herb Meyer Cup Regatta",
+    "title": "Herb Meyer Cup Regatta",
     "date": "2026-08-02",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "Racing regatta held at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
+    "description": "Racing regatta at South Beach Harbor with boat set-up on Friday and racing on Saturday and Sunday.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -54,7 +54,7 @@
     "sports": [
       "triathlon"
     ],
-    "description": "San Diego Triathlon Challenge (SDTC) fueled by Toyota adaptive sports event.",
+    "description": "The San Diego Triathlon Challenge (SDTC) fueled by Toyota is an inclusive adaptive sports event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
