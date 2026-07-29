@@ -1,12 +1,12 @@
 [
   {
-    "title": "Racing Clinic",
+    "title": "Herb Meyer Cup Racing Clinic",
     "date": "2026-07-31",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "Racing clinic the day before the regatta, Friday, July 31, open to all competitors.",
+    "description": "Racing clinic open to all competitors the day before the regatta.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -22,7 +22,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "The regatta will be held August 1-2 at South Beach Harbor.",
+    "description": "A sailing regatta held at South Beach Harbor over two days.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -38,7 +38,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "The regatta will be held August 1-2 at South Beach Harbor.",
+    "description": "A sailing regatta held at South Beach Harbor over two days.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -54,7 +54,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board Meeting.",
+    "description": "BAADS board meeting.",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
