@@ -1,19 +1,19 @@
 [
   {
-    "title": "Herb Meyer Cup Racing Clinic",
+    "title": "Herb Meyer Regatta Racing Clinic",
     "date": "2026-07-31",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "Racing clinic open to all competitors the day before the regatta.",
+    "description": "Racing clinic held the day before the regatta, open to all competitors.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 4
+    "id": 5
   },
   {
     "title": "2026 Herb Meyer Cup Regatta",
@@ -22,23 +22,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "A sailing regatta held at South Beach Harbor over two days.",
-    "url": "https://www.baads.org",
-    "free": false,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 2
-  },
-  {
-    "title": "2026 Herb Meyer Cup Regatta",
-    "date": "2026-08-02",
-    "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
-    "description": "A sailing regatta held at South Beach Harbor over two days.",
+    "description": "Annual regatta held at South Beach Harbor over August 1-2.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -48,35 +32,67 @@
     "id": 3
   },
   {
+    "title": "2026 Herb Meyer Cup Regatta",
+    "date": "2026-08-02",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "Annual regatta held at South Beach Harbor over August 1-2.",
+    "url": "https://www.baads.org",
+    "free": false,
+    "recurring": false,
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 4
+  },
+  {
     "title": "Board Meeting",
     "date": "2026-08-09",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "BAADS board meeting.",
+    "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 8
+    "id": 9
   },
   {
-    "title": "San Diego Triathlon Challenge Weekend",
-    "date": "2026-10-25",
-    "city": "San Diego",
+    "title": "2026 Paso Robles Cycling Event",
+    "date": "2026-09-02",
+    "city": "Paso Robles",
     "sports": [
-      "triathlon"
+      "cycling"
     ],
-    "description": "San Diego Triathlon Challenge (SDTC) fueled by Toyota.",
+    "description": "Adaptive sports cycling event in Paso Robles.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 32.7174202,
-    "lng": -117.162772,
+    "lat": 35.6262618,
+    "lng": -120.6901319,
     "id": 1
+  },
+  {
+    "title": "Bionic Mile powered by CAF",
+    "date": "2026-11-08",
+    "city": "Northern California",
+    "sports": [
+      "running"
+    ],
+    "description": "Adaptive sports running event in Northern California.",
+    "url": "https://www.challengedathletes.org/region/norcal/",
+    "free": false,
+    "recurring": false,
+    "org": "CAF NorCal",
+    "lat": 37.8003441,
+    "lng": -122.439336,
+    "id": 2
   }
 ]
