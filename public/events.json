@@ -6,7 +6,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Racing clinic held the day before the regatta, open to all competitors.",
+    "description": "Racing clinic held the day before the regatta, Friday, July 31, open to all competitors.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -22,7 +22,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Annual regatta held at South Beach Harbor over August 1-2.",
+    "description": "The regatta will be held August 1-2 at South Beach Harbor.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -38,7 +38,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Annual regatta held at South Beach Harbor over August 1-2.",
+    "description": "The regatta will be held August 1-2 at South Beach Harbor.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -86,13 +86,13 @@
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports running event in Northern California.",
+    "description": "Adaptive sports mile event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.8003441,
-    "lng": -122.439336,
+    "lat": 37.7885259,
+    "lng": -122.4226219,
     "id": 2
   }
 ]
