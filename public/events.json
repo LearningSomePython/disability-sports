@@ -1,22 +1,6 @@
 [
   {
     "title": "2026 Herb Meyer Cup Regatta",
-    "date": "2026-08-01",
-    "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
-    "description": "The regatta will be held August 1-2 at South Beach Harbor.",
-    "url": "https://www.baads.org",
-    "free": false,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 3
-  },
-  {
-    "title": "2026 Herb Meyer Cup Regatta",
     "date": "2026-08-02",
     "city": "San Francisco",
     "sports": [
@@ -66,7 +50,7 @@
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
-    "city": "Northern California",
+    "city": "NorCal",
     "sports": [
       "running"
     ],
@@ -75,8 +59,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309337,
+    "lat": 37.7766279,
+    "lng": -122.4113477,
     "id": 2
   }
 ]
