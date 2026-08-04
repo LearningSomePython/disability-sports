@@ -6,7 +6,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board Meeting.",
+    "description": "BAADS board meeting.",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
@@ -44,7 +44,7 @@
     "recurring": false,
     "org": "CAF NorCal",
     "lat": 37.7867337,
-    "lng": -122.4309337,
+    "lng": -122.4309327,
     "id": 2
   }
 ]
