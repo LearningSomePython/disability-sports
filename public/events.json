@@ -6,10 +6,10 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS board meeting.",
+    "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
-    "recurring": false,
+    "recurring": true,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
