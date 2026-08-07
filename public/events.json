@@ -9,7 +9,7 @@
     "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
-    "recurring": true,
+    "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
@@ -38,7 +38,7 @@
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports running event in Northern California.",
+    "description": "Adaptive sports running event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
