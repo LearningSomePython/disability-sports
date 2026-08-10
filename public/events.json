@@ -1,19 +1,19 @@
 [
   {
-    "title": "Board Meeting",
-    "date": "2026-08-09",
+    "title": "Angel Island BBQ",
+    "date": "2026-08-22",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board Meeting.",
+    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove from 12-4pm with main course provided by BAADS.",
     "url": "https://www.baads.org",
-    "free": true,
+    "free": false,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 8
+    "id": 3
   },
   {
     "title": "2026 Paso Robles Cycling Event",
