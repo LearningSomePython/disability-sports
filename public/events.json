@@ -6,7 +6,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove on Angel Island from 12-4pm.",
+    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove with sailing and ferry options.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -34,7 +34,7 @@
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
-    "city": "NorCal",
+    "city": "Northern California",
     "sports": [
       "running"
     ],
@@ -43,8 +43,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7766279,
-    "lng": -122.4113477,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 2
   }
 ]
