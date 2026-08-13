@@ -6,7 +6,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove with sailing and ferry options.",
+    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove from 12-4pm with BAADS providing main course.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -32,19 +32,35 @@
     "id": 1
   },
   {
+    "title": "Board Meeting",
+    "date": "2026-09-13",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "BAADS Board Meeting.",
+    "url": "https://www.baads.org",
+    "free": true,
+    "recurring": false,
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 4
+  },
+  {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
     "city": "Northern California",
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports running event in Northern California.",
+    "description": "Adaptive sports event featuring the Bionic Mile.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7863765,
-    "lng": -122.4291882,
+    "lat": 37.7641353,
+    "lng": -122.4691519,
     "id": 2
   }
 ]
