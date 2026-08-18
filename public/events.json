@@ -6,7 +6,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove from 12-4pm with main course provided by BAADS.",
+    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove on Angel Island from 12-4pm.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -59,8 +59,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7950559,
-    "lng": -122.4353385,
+    "lat": 37.7867337,
+    "lng": -122.4309327,
     "id": 2
   }
 ]
