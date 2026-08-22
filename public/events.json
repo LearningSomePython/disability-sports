@@ -6,7 +6,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove on Angel Island from 12-4pm.",
+    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove from 12-4pm with main course provided by BAADS.",
     "url": "https://www.baads.org",
     "free": false,
     "recurring": false,
@@ -35,9 +35,7 @@
     "title": "Board Meeting",
     "date": "2026-09-13",
     "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
+    "sports": [],
     "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
@@ -54,13 +52,13 @@
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports running event in Northern California.",
+    "description": "Adaptive sports mile event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7950559,
-    "lng": -122.4353385,
+    "lat": 37.7641353,
+    "lng": -122.4691519,
     "id": 2
   }
 ]
