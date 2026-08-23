@@ -1,21 +1,5 @@
 [
   {
-    "title": "Angel Island BBQ",
-    "date": "2026-08-22",
-    "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
-    "description": "Annual Angel Island Barbecue & Potluck at Ayala Cove from 12-4pm with main course provided by BAADS.",
-    "url": "https://www.baads.org",
-    "free": false,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 3
-  },
-  {
     "title": "2026 Paso Robles Cycling Event",
     "date": "2026-09-02",
     "city": "Paso Robles",
@@ -35,7 +19,9 @@
     "title": "Board Meeting",
     "date": "2026-09-13",
     "city": "San Francisco",
-    "sports": [],
+    "sports": [
+      "sailing"
+    ],
     "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
@@ -48,17 +34,17 @@
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
-    "city": "Northern California",
+    "city": "NorCal",
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports mile event powered by CAF.",
+    "description": "Adaptive sports running event in Northern California.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7641353,
-    "lng": -122.4691519,
+    "lat": 37.7766279,
+    "lng": -122.4113477,
     "id": 2
   }
 ]
