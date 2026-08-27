@@ -6,7 +6,7 @@
     "sports": [
       "cycling"
     ],
-    "description": "An adaptive sports cycling event in Paso Robles.",
+    "description": "Adaptive sports cycling event in Paso Robles.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
@@ -38,13 +38,13 @@
     "sports": [
       "running"
     ],
-    "description": "An adaptive sports running event.",
+    "description": "Adaptive sports running event in Northern California.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7950559,
-    "lng": -122.4353385,
+    "lat": 37.7641353,
+    "lng": -122.4691519,
     "id": 2
   }
 ]
