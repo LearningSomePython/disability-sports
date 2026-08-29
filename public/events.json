@@ -38,13 +38,13 @@
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports mile event powered by CAF.",
+    "description": "Adaptive sports running event in Northern California.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7641353,
-    "lng": -122.4691519,
+    "lat": 37.7867337,
+    "lng": -122.4309327,
     "id": 2
   }
 ]
