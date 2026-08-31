@@ -34,7 +34,7 @@
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
-    "city": "NorCal",
+    "city": "Northern California",
     "sports": [
       "running"
     ],
@@ -43,8 +43,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7766279,
-    "lng": -122.4113477,
+    "lat": 37.7867337,
+    "lng": -122.4309327,
     "id": 2
   }
 ]
