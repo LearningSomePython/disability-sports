@@ -1,35 +1,19 @@
 [
   {
-    "title": "2026 Paso Robles Cycling Event",
-    "date": "2026-09-02",
-    "city": "Paso Robles",
-    "sports": [
-      "cycling"
-    ],
-    "description": "Adaptive sports cycling event in Paso Robles.",
-    "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
-    "recurring": false,
-    "org": "CAF NorCal",
-    "lat": 35.6262618,
-    "lng": -120.6901319,
-    "id": 1
-  },
-  {
     "title": "Board Meeting",
     "date": "2026-09-13",
     "city": "San Francisco",
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board Meeting.",
+    "description": "BAADS Board Meeting",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 4
+    "id": 3
   },
   {
     "title": "Bionic Mile powered by CAF",
@@ -38,7 +22,7 @@
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports running event in Northern California.",
+    "description": "Adaptive sports mile event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
