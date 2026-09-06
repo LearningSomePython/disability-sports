@@ -3,9 +3,7 @@
     "title": "Board Meeting",
     "date": "2026-09-13",
     "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
+    "sports": [],
     "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
@@ -22,13 +20,13 @@
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports event hosted by CAF NorCal.",
+    "description": "Adaptive sports event in the NorCal region.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7885259,
+    "lng": -122.4226219,
     "id": 1
   }
 ]
