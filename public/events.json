@@ -3,15 +3,17 @@
     "title": "Board Meeting",
     "date": "2026-09-13",
     "city": "San Francisco",
-    "sports": [],
-    "description": "BAADS Board Meeting.",
+    "sports": [
+      "sailing"
+    ],
+    "description": "BAADS board meeting.",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 3
+    "id": 2
   },
   {
     "title": "Bionic Mile powered by CAF",
@@ -25,8 +27,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7885259,
-    "lng": -122.4226219,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 1
   }
 ]
