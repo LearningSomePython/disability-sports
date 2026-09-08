@@ -6,23 +6,23 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS board meeting.",
+    "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 2
+    "id": 3
   },
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
     "city": "Northern California",
     "sports": [
-      "running"
+      "Running"
     ],
-    "description": "Adaptive sports event in the NorCal region.",
+    "description": "Adaptive sports event hosted by CAF NorCal.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
