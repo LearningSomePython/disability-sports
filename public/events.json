@@ -9,7 +9,7 @@
     "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
-    "recurring": true,
+    "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
@@ -25,7 +25,7 @@
     "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
-    "recurring": true,
+    "recurring": false,
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
@@ -38,13 +38,13 @@
     "sports": [
       "adaptive sports"
     ],
-    "description": "Adaptive sports expo event hosted by BORP.",
+    "description": "Adaptive sports expo event featuring various adaptive sports activities.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7641353,
-    "lng": -122.4691519,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 1
   },
   {
@@ -52,15 +52,15 @@
     "date": "2026-11-08",
     "city": "Northern California",
     "sports": [
-      "adaptive sports"
+      "running"
     ],
-    "description": "Adaptive sports event for athletes in Northern California.",
+    "description": "Adaptive sports event featuring a one-mile race for athletes of all abilities.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7641353,
-    "lng": -122.4691519,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 2
   }
 ]
