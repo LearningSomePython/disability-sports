@@ -22,13 +22,13 @@
     "sports": [
       "adaptive sports"
     ],
-    "description": "An adaptive sports expo event hosted by BORP.",
+    "description": "Adaptive sports expo event hosted by BORP.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7887644,
-    "lng": -122.4030376,
+    "lat": 37.7885259,
+    "lng": -122.4226219,
     "id": 1
   },
   {
@@ -38,13 +38,13 @@
     "sports": [
       "running"
     ],
-    "description": "An adaptive sports event called the Bionic Mile.",
+    "description": "Bionic Mile adaptive sports event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7887644,
-    "lng": -122.4030376,
+    "lat": 37.7885259,
+    "lng": -122.4226219,
     "id": 2
   }
 ]
