@@ -22,13 +22,13 @@
     "sports": [
       "adaptive sports"
     ],
-    "description": "An adaptive sports expo event hosted by BORP.",
+    "description": "Adaptive sports expo camp and clinic event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7863765,
-    "lng": -122.4291882,
+    "lat": 37.7885259,
+    "lng": -122.4226219,
     "id": 1
   },
   {
@@ -36,15 +36,15 @@
     "date": "2026-11-08",
     "city": "Northern California",
     "sports": [
-      "running"
+      "adaptive sports"
     ],
-    "description": "A one-mile adaptive running event powered by CAF.",
+    "description": "Adaptive sports event in Northern California.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7863765,
-    "lng": -122.4291882,
+    "lat": 37.7885259,
+    "lng": -122.4226219,
     "id": 2
   }
 ]
