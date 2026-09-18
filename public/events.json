@@ -18,7 +18,7 @@
   {
     "title": "BORP Adaptive Sports Expo",
     "date": "2026-10-17",
-    "city": "Northern California",
+    "city": "San Francisco Bay Area",
     "sports": [
       "adaptive sports"
     ],
@@ -27,24 +27,24 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7885259,
-    "lng": -122.4226219,
+    "lat": 37.7884969,
+    "lng": -122.3558473,
     "id": 1
   },
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
-    "city": "Northern California",
+    "city": "San Francisco Bay Area",
     "sports": [
-      "adaptive sports"
+      "running"
     ],
     "description": "Adaptive sports event in Northern California.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7885259,
-    "lng": -122.4226219,
+    "lat": 37.7884969,
+    "lng": -122.3558473,
     "id": 2
   }
 ]
