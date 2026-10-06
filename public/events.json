@@ -1,34 +1,18 @@
 [
   {
-    "title": "Board Meeting",
-    "date": "2026-10-11",
-    "city": "San Francisco",
-    "sports": [
-      "sailing"
-    ],
-    "description": "BAADS Board Meeting.",
-    "url": "https://www.baads.org",
-    "free": true,
-    "recurring": false,
-    "org": "BAADS",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
-    "id": 5
-  },
-  {
     "title": "BORP Adaptive Sports Expo",
     "date": "2026-10-17",
     "city": "Northern California",
     "sports": [
       "adaptive sports"
     ],
-    "description": "An adaptive sports expo hosted by BORP.",
+    "description": "An adaptive sports expo event hosted by BORP.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 1
   },
   {
@@ -38,13 +22,13 @@
     "sports": [
       "volleyball"
     ],
-    "description": "A sitting volleyball tournament in partnership with IVL Volleyball.",
+    "description": "A sitting volleyball tournament hosted with IVL Volleyball.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 2
   },
   {
@@ -54,13 +38,13 @@
     "sports": [
       "running"
     ],
-    "description": "A mile race event powered by CAF for adaptive athletes.",
+    "description": "The Bionic Mile adaptive sports event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 3
   }
 ]
