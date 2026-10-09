@@ -1,50 +1,82 @@
 [
   {
+    "title": "Board Meeting",
+    "date": "2026-10-11",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "BAADS Board Meeting.",
+    "url": "https://www.baads.org",
+    "free": true,
+    "recurring": false,
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 5
+  },
+  {
     "title": "BORP Adaptive Sports Expo",
     "date": "2026-10-17",
-    "city": "Northern California",
+    "city": "San Francisco Bay Area",
     "sports": [
       "adaptive sports"
     ],
     "description": "Adaptive sports expo event hosted by BORP.",
     "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
+    "free": null,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7884969,
+    "lng": -122.3558473,
     "id": 1
   },
   {
     "title": "Sitting Volleyball Tournament with IVL Volleyball",
     "date": "2026-10-24",
-    "city": "Northern California",
+    "city": "San Francisco Bay Area",
     "sports": [
       "volleyball"
     ],
-    "description": "Sitting volleyball tournament in collaboration with IVL Volleyball.",
+    "description": "Sitting volleyball tournament event with IVL Volleyball.",
     "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
+    "free": null,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7884969,
+    "lng": -122.3558473,
     "id": 2
   },
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
-    "city": "Northern California",
+    "city": "San Francisco Bay Area",
     "sports": [
       "running"
     ],
-    "description": "Bionic Mile adaptive sports event powered by CAF.",
+    "description": "Adaptive sports mile event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
+    "free": null,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7884969,
+    "lng": -122.3558473,
     "id": 3
+  },
+  {
+    "title": "Board Meeting",
+    "date": "2026-11-08",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "BAADS Board Meeting.",
+    "url": "https://www.baads.org",
+    "free": true,
+    "recurring": false,
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 6
   }
 ]
