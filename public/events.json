@@ -18,49 +18,49 @@
   {
     "title": "BORP Adaptive Sports Expo",
     "date": "2026-10-17",
-    "city": "San Francisco Bay Area",
+    "city": "Northern California",
     "sports": [
       "adaptive sports"
     ],
-    "description": "Adaptive sports expo event hosted by BORP.",
+    "description": "An adaptive sports expo camp and clinic event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": null,
+    "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7884969,
-    "lng": -122.3558473,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 1
   },
   {
     "title": "Sitting Volleyball Tournament with IVL Volleyball",
     "date": "2026-10-24",
-    "city": "San Francisco Bay Area",
+    "city": "Northern California",
     "sports": [
       "volleyball"
     ],
-    "description": "Sitting volleyball tournament event with IVL Volleyball.",
+    "description": "A sitting volleyball tournament camp and clinic event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": null,
+    "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7884969,
-    "lng": -122.3558473,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 2
   },
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
-    "city": "San Francisco Bay Area",
+    "city": "Northern California",
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports mile event powered by CAF.",
+    "description": "An adaptive sports event for athletes.",
     "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": null,
+    "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7884969,
-    "lng": -122.3558473,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 3
   },
   {
