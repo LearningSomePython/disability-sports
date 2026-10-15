@@ -11,8 +11,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.8003441,
-    "lng": -122.439336,
+    "lat": 37.7950559,
+    "lng": -122.4353385,
     "id": 1
   },
   {
@@ -27,8 +27,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.8003441,
-    "lng": -122.439336,
+    "lat": 37.7950559,
+    "lng": -122.4353385,
     "id": 2
   },
   {
@@ -43,8 +43,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.8003441,
-    "lng": -122.439336,
+    "lat": 37.7950559,
+    "lng": -122.4353385,
     "id": 3
   },
   {
@@ -54,7 +54,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board Meeting at South Beach Harbor.",
+    "description": "BAADS Board Meeting",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
