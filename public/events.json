@@ -6,13 +6,13 @@
     "sports": [
       "adaptive sports"
     ],
-    "description": "An adaptive sports expo event hosted by BORP.",
+    "description": "Adaptive sports expo and clinic event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7950559,
-    "lng": -122.4353385,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 1
   },
   {
@@ -22,13 +22,13 @@
     "sports": [
       "volleyball"
     ],
-    "description": "A sitting volleyball tournament in partnership with IVL Volleyball.",
+    "description": "Sitting volleyball tournament camp and clinic event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7950559,
-    "lng": -122.4353385,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 2
   },
   {
@@ -38,13 +38,13 @@
     "sports": [
       "running"
     ],
-    "description": "The Bionic Mile adaptive sports event powered by CAF.",
+    "description": "Adaptive sports mile event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7950559,
-    "lng": -122.4353385,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 3
   },
   {
@@ -54,7 +54,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board Meeting",
+    "description": "BAADS Board Meeting.",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
