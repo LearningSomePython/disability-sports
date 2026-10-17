@@ -6,13 +6,13 @@
     "sports": [
       "adaptive sports"
     ],
-    "description": "Adaptive sports expo and clinic event.",
+    "description": "Adaptive sports expo event hosted by BORP.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7887644,
-    "lng": -122.4030376,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 1
   },
   {
@@ -22,13 +22,13 @@
     "sports": [
       "volleyball"
     ],
-    "description": "Sitting volleyball tournament camp and clinic event.",
+    "description": "Sitting volleyball tournament event in partnership with IVL Volleyball.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7887644,
-    "lng": -122.4030376,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 2
   },
   {
@@ -38,13 +38,13 @@
     "sports": [
       "running"
     ],
-    "description": "Adaptive sports mile event powered by CAF.",
+    "description": "Bionic Mile adaptive sports event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7887644,
-    "lng": -122.4030376,
+    "lat": 37.7863765,
+    "lng": -122.4291882,
     "id": 3
   },
   {
