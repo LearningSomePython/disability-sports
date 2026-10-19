@@ -1,19 +1,19 @@
 [
   {
-    "title": "Sitting Volleyball Tournament with IVL Volleyball",
+    "title": "Sitting Volleyball Tournament with IVL",
     "date": "2026-10-24",
     "city": "Northern California",
     "sports": [
       "Volleyball"
     ],
-    "description": "Sitting volleyball tournament camp and clinic event.",
+    "description": "Adaptive sports sitting volleyball tournament event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
     "lat": 37.7863765,
     "lng": -122.4291882,
-    "id": 2
+    "id": 1
   },
   {
     "title": "Bionic Mile powered by CAF",
@@ -29,7 +29,7 @@
     "org": "CAF NorCal",
     "lat": 37.7863765,
     "lng": -122.4291882,
-    "id": 3
+    "id": 2
   },
   {
     "title": "Board Meeting",
@@ -45,6 +45,6 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 4
+    "id": 3
   }
 ]
