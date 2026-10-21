@@ -6,13 +6,13 @@
     "sports": [
       "Volleyball"
     ],
-    "description": "Adaptive sports sitting volleyball tournament event.",
+    "description": "Sitting volleyball tournament hosted with IVL.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7863765,
-    "lng": -122.4291882,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 1
   },
   {
@@ -22,13 +22,13 @@
     "sports": [
       "Running"
     ],
-    "description": "Adaptive sports running event.",
+    "description": "Bionic Mile adaptive sports event.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7863765,
-    "lng": -122.4291882,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 2
   },
   {
