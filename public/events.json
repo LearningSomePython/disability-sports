@@ -11,8 +11,8 @@
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 1
   },
   {
@@ -22,13 +22,13 @@
     "sports": [
       "Running"
     ],
-    "description": "Adaptive sports running event.",
+    "description": "Adaptive sports event featuring the Bionic Mile.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
     "org": "CAF NorCal",
-    "lat": 37.7867337,
-    "lng": -122.4309327,
+    "lat": 37.7887644,
+    "lng": -122.4030376,
     "id": 2
   },
   {
