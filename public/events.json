@@ -1,28 +1,12 @@
 [
   {
-    "title": "Sitting Volleyball Tournament with IVL",
-    "date": "2026-10-24",
-    "city": "Northern California",
-    "sports": [
-      "Volleyball"
-    ],
-    "description": "Adaptive sports sitting volleyball tournament event.",
-    "url": "https://www.challengedathletes.org/region/norcal/",
-    "free": false,
-    "recurring": false,
-    "org": "CAF NorCal",
-    "lat": 37.7887644,
-    "lng": -122.4030376,
-    "id": 1
-  },
-  {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
     "city": "Northern California",
     "sports": [
       "Running"
     ],
-    "description": "Adaptive sports event featuring the Bionic Mile.",
+    "description": "Adaptive sports running event powered by CAF.",
     "url": "https://www.challengedathletes.org/region/norcal/",
     "free": false,
     "recurring": false,
@@ -38,7 +22,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board Meeting.",
+    "description": "BAADS Board Meeting",
     "url": "https://www.baads.org",
     "free": true,
     "recurring": false,
