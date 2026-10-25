@@ -1,14 +1,14 @@
 {
   "updated": "2026-10-25",
-  "total": 56,
+  "total": 108,
   "sources": {
     "BORP": {
       "count": 6,
-      "method": "browser+ai",
-      "stale": false,
+      "method": "kept-previous",
+      "stale": true,
       "error": "",
       "checked": "2026-10-25",
-      "lastFresh": "2026-10-25"
+      "lastFresh": "unknown"
     },
     "CAF NorCal": {
       "count": 1,
@@ -43,8 +43,8 @@
       "lastFresh": "2026-10-25"
     },
     "Shared Adventures": {
-      "count": 0,
-      "method": "none",
+      "count": 52,
+      "method": "feed",
       "stale": false,
       "error": "",
       "checked": "2026-10-25",
