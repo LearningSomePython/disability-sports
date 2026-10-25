@@ -115,12 +115,20 @@ export default function App() {
   useEffect(() => {
     Promise.all([
       fetch("/events.json").then(r => r.json()).catch(() => []),
-      fetch("/manual-events.json").then(r => r.json()).catch(() => [])
-    ]).then(([scraped, manual]) => {
+      fetch("/manual-events.json").then(r => r.json()).catch(() => []),
+      fetch("/status.json").then(r => r.json()).catch(() => null)
+    ]).then(([scraped, manual, status]) => {
+      if (status && status.updated) {
+        const d = new Date(status.updated + "T12:00:00");
+        setLastUpdated(d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }));
+      }
+      const decode = (t) => { if (typeof t !== "string") return t; const el = document.createElement("textarea"); el.innerHTML = t; return el.value; };
       const s = Array.isArray(scraped) ? scraped : [];
       const m = Array.isArray(manual) ? manual : [];
       const todayStr = new Date().toISOString().split("T")[0];
-      const combined = [...s, ...m].filter(e => e.date && e.date >= todayStr);
+      const combined = [...s, ...m]
+        .map(e => ({ ...e, title: decode(e.title), description: decode(e.description) }))
+        .filter(e => e.date && e.date >= todayStr);
       combined.sort((a, b) => (a.date || "").localeCompare(b.date || ""));
       if (combined.length > 0) setEvents(combined);
     }).catch(() => {});
