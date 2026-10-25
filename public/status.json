@@ -1,0 +1,62 @@
+{
+  "updated": "2026-10-25",
+  "total": 56,
+  "sources": {
+    "BORP": {
+      "count": 6,
+      "method": "browser+ai",
+      "stale": false,
+      "error": "",
+      "checked": "2026-10-25",
+      "lastFresh": "2026-10-25"
+    },
+    "CAF NorCal": {
+      "count": 1,
+      "method": "browser+ai",
+      "stale": false,
+      "error": "",
+      "checked": "2026-10-25",
+      "lastFresh": "2026-10-25"
+    },
+    "Special Olympics NorCal": {
+      "count": 49,
+      "method": "feed",
+      "stale": false,
+      "error": "",
+      "checked": "2026-10-25",
+      "lastFresh": "2026-10-25"
+    },
+    "BAADS": {
+      "count": 1,
+      "method": "browser+ai",
+      "stale": false,
+      "error": "",
+      "checked": "2026-10-25",
+      "lastFresh": "2026-10-25"
+    },
+    "Achilles SF Bay Area": {
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "error": "",
+      "checked": "2026-10-25",
+      "lastFresh": "2026-10-25"
+    },
+    "Shared Adventures": {
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "error": "",
+      "checked": "2026-10-25",
+      "lastFresh": "2026-10-25"
+    },
+    "Move United": {
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "error": "",
+      "checked": "2026-10-25",
+      "lastFresh": "2026-10-25"
+    }
+  }
+}
