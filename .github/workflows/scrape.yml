@@ -20,25 +20,46 @@ jobs:
         with:
           node-version: '20'
 
-      - run: npm install @anthropic-ai/sdk node-fetch
+      - run: npm install
+      - run: npm install --no-save @anthropic-ai/sdk playwright
+      - run: npx playwright install --with-deps chromium
 
-      - run: node scraper/scrape.js
+      - name: Scrape events
+        id: scrape
+        continue-on-error: true
+        run: node scraper/scrape.js
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
-      - name: Commit events.json
+      - name: Commit data
+        id: commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          mkdir -p public
-          git add public/events.json
-          git diff --staged --quiet || git commit -m "Update events.json"
-          git push
+          git add public/events.json public/status.json
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Update events"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
 
-      - run: npm run build
+      # Deploy only when the data changed (saves Netlify credits)
+      - name: Build
+        if: steps.commit.outputs.changed == 'true'
+        run: npm run build
 
       - name: Deploy to Netlify
+        if: steps.commit.outputs.changed == 'true'
         run: npx netlify-cli deploy --prod --dir=dist
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      # Makes the run show as FAILED (and GitHub emails you) if too few events were found
+      - name: Alert if scrape was unhealthy
+        if: steps.scrape.outcome == 'failure'
+        run: |
+          echo "Scraper found too few events - check the 'Scrape events' step logs."
+          exit 1
