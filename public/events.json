@@ -1,17 +1,5 @@
 [
   {
-    "title": "October Art Class Begins",
-    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
-    "description": "<a href=\"https://www.google.com/url?q=https://www.eventbrite.com/e/art-class-and-creative-time-october-2026-tickets-1998379389549?aff%3Doddtdtcreator&amp\\;sa=D&amp\\;source=calendar&amp\\;usd=2&amp\\;usg",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-10-25",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 1
-  },
-  {
     "title": "Sit-Fit - online with Nathan",
     "location": "online",
     "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
@@ -21,7 +9,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 2
+    "id": 1
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -33,7 +21,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 3
+    "id": 2
   },
   {
     "title": "Garden Club",
@@ -45,7 +33,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 4
+    "id": 3
   },
   {
     "title": "Low Stem Swim Time",
@@ -57,7 +45,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 5
+    "id": 4
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -69,7 +57,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 6
+    "id": 5
   },
   {
     "title": "Monthly Community Goalball Practice at Cal",
@@ -80,12 +68,12 @@
     ],
     "description": "Monthly community goalball practice session.",
     "free": null,
-    "recurring": true,
+    "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
     "lat": 37.8708393,
     "lng": -122.272863,
-    "id": 7
+    "id": 6
   },
   {
     "title": "Try Boccia Clinic",
@@ -99,7 +87,7 @@
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 8
+    "id": 7
   },
   {
     "title": "Nov/Dec Art Class Begins",
@@ -111,7 +99,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 9
+    "id": 8
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -123,7 +111,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 10
+    "id": 9
   },
   {
     "title": "Unified Soccer w/ San Jose State University & Santa Clara County Post-Secondary programs",
@@ -133,7 +121,7 @@
     "url": "https://sonc.org/events-calendar/unified-soccer-w-san-jose-state-university-santa-clara-county-post-secondary-programs/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 11
+    "id": 10
   },
   {
     "title": "2026 Applebee&#8217;s Grill + Bar Tip-A-Cop Sonora",
@@ -143,7 +131,7 @@
     "url": "https://sonc.org/events-calendar/applebees-sonora-tip-a-cop/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 12
+    "id": 11
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -155,6 +143,16 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
+    "id": 12
+  },
+  {
+    "title": "Zephyr Grill & Bar Tip-a-Cop Brentwood",
+    "date": "2026-11-05",
+    "location": "Brentwood",
+    "description": "Brentwood Law Enforcement personnel will serve as celebrity wait staff, with their tips donated to Special Olympics. The funds raised will support the year round sports, educational, health and athlet",
+    "url": "https://sonc.org/events-calendar/tip-a-cop-zephyr-grill-bar-brentwood/",
+    "city": "",
+    "org": "Special Olympics NorCal",
     "id": 13
   },
   {
@@ -230,12 +228,12 @@
   {
     "title": "Bionic Mile powered by CAF",
     "date": "2026-11-08",
-    "city": null,
+    "city": "",
     "sports": [
-      "running"
+      "adaptive sports"
     ],
-    "description": "An adaptive sports event organized by CAF NorCal.",
-    "free": null,
+    "description": "Adaptive sports event hosted by CAF NorCal.",
+    "free": false,
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
     "org": "CAF NorCal",
@@ -380,18 +378,6 @@
     "id": 32
   },
   {
-    "title": "Adaptive Fitness -SCruz",
-    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
-    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-13",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 33
-  },
-  {
     "title": "MB Aquarium",
     "location": "Monterey Bay Aquarium, 886 Cannery Row, Monterey, CA 93940, USA",
     "description": "A Self guided time at the aquarium<br>Go in as a group, but explore at your own pace.<br><br><a href=\"https://www.eventbrite.com/e/monterey-bay-aquarium-nov-13-2026-registration-2001411562861?aff=oddt",
@@ -401,6 +387,18 @@
     "org": "Shared Adventures",
     "lat": 36.2231079,
     "lng": -121.387742,
+    "id": 33
+  },
+  {
+    "title": "Adaptive Fitness -SCruz",
+    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
+    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-13",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
     "id": 34
   },
   {
@@ -408,7 +406,7 @@
     "date": "2026-11-14",
     "city": null,
     "sports": [],
-    "description": "Celebration of life for John Madigan.",
+    "description": "Celebration of life event for John Madigan.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -420,7 +418,7 @@
     "date": "2026-11-14",
     "city": null,
     "sports": [],
-    "description": "Memorial tournament for John Madigan.",
+    "description": "Memorial tournament in honor of John Madigan.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -454,7 +452,7 @@
     "date": "2026-11-15",
     "city": null,
     "sports": [],
-    "description": "Memorial tournament for John Madigan.",
+    "description": "Memorial tournament in honor of John Madigan.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -556,9 +554,9 @@
     "id": 47
   },
   {
-    "title": "Adaptive Fitness -SCruz",
-    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
-    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
+    "title": "CYT - A Christmas Carol",
+    "location": "Santa Cruz Civic Auditorium, 307 Church St, Santa Cruz, CA 95060, USA",
+    "description": "<em>A Christmas Carol</em> is a spectacular adaptation of Charles Dickens' most well-known story. Proving its staying power with a decade-long run at the Theatre at Madison Square Garden, <em>A Christ",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-20",
     "city": "Santa Cruz",
@@ -568,9 +566,9 @@
     "id": 48
   },
   {
-    "title": "CYT - A Christmas Carol",
-    "location": "Santa Cruz Civic Auditorium, 307 Church St, Santa Cruz, CA 95060, USA",
-    "description": "<em>A Christmas Carol</em> is a spectacular adaptation of Charles Dickens' most well-known story. Proving its staying power with a decade-long run at the Theatre at Madison Square Garden, <em>A Christ",
+    "title": "Adaptive Fitness -SCruz",
+    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
+    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-20",
     "city": "Santa Cruz",
@@ -602,9 +600,9 @@
     "id": 51
   },
   {
-    "title": "Nov/Dec Art Class",
-    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
-    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
+    "title": "Indoor Rock Climbing at P.E.",
+    "location": "Pacific Edge Climbing Gym, 104 Bronson St #12, Santa Cruz, CA 95062, USA",
+    "description": "Come try out climbing.<br>We'll have a certified belayer for you.<br>Beginners and Advanced routes available.<br>We have a harness chair for those with mobility challenges.<br><a href=\"https://www.eve",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-22",
     "city": "Santa Cruz",
@@ -614,9 +612,9 @@
     "id": 52
   },
   {
-    "title": "Indoor Rock Climbing at P.E.",
-    "location": "Pacific Edge Climbing Gym, 104 Bronson St #12, Santa Cruz, CA 95062, USA",
-    "description": "Come try out climbing.<br>We'll have a certified belayer for you.<br>Beginners and Advanced routes available.<br>We have a harness chair for those with mobility challenges.<br><a href=\"https://www.eve",
+    "title": "Nov/Dec Art Class",
+    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
+    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-22",
     "city": "Santa Cruz",
@@ -716,21 +714,21 @@
     "id": 61
   },
   {
-    "title": "WCCUSD Secondary Soccer Tournament",
-    "date": "2026-12-11",
-    "location": "",
-    "description": "",
-    "url": "https://sonc.org/events-calendar/wccusd-secondary-soccer-tournament-2/",
-    "city": "",
-    "org": "Special Olympics NorCal",
-    "id": 62
-  },
-  {
     "title": "West Contra Costa Secondary Soccer Tournament",
     "date": "2026-12-11",
     "location": "",
     "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
     "url": "https://sonc.org/events-calendar/wccusd-secondary-soccer-tournament-3/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 62
+  },
+  {
+    "title": "WCCUSD Secondary Soccer Tournament",
+    "date": "2026-12-11",
+    "location": "",
+    "description": "",
+    "url": "https://sonc.org/events-calendar/wccusd-secondary-soccer-tournament-2/",
     "city": "",
     "org": "Special Olympics NorCal",
     "id": 63
@@ -760,18 +758,6 @@
     "id": 65
   },
   {
-    "title": "Archery at DeLaVeaga",
-    "location": "DeLaveaga County Park Archery Range, 141 Brookwood Dr, Santa Cruz, CA 95065, USA",
-    "description": "<u></u>The 3rd Saturday of the Month -Santa Cruz Archers will host us at De LaVeaga.<br>They will teach, instruct, and help you.  All abilities welcome<br><br><a href=\"https://www.eventbrite.com/e/arc",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-19",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 66
-  },
-  {
     "title": "Flynn Creek Circus",
     "location": "Capitola Mall, 1855 41st Ave, Capitola, CA 95010, USA",
     "description": "Come enjoy an all human circus with incredible acrobatic acts. <br><br><a href=\"https://www.eventbrite.com/e/2000506530886?aff=oddtdtcreator\">Click Here for more info and sign ups</a>",
@@ -781,6 +767,18 @@
     "org": "Shared Adventures",
     "lat": 36.9754902,
     "lng": -121.9536171,
+    "id": 66
+  },
+  {
+    "title": "Archery at DeLaVeaga",
+    "location": "DeLaveaga County Park Archery Range, 141 Brookwood Dr, Santa Cruz, CA 95065, USA",
+    "description": "<u></u>The 3rd Saturday of the Month -Santa Cruz Archers will host us at De LaVeaga.<br>They will teach, instruct, and help you.  All abilities welcome<br><br><a href=\"https://www.eventbrite.com/e/arc",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-19",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
     "id": 67
   },
   {
@@ -970,7 +968,7 @@
   {
     "title": "2027 Ukiah Polar Plunge",
     "date": "2027-02-28",
-    "location": "Ukiah",
+    "location": "",
     "description": "The Ukiah Polar Plunge is back! Join us for a chilly dip into chilly waters as we make a splash for cash for Special Olympics NorCal!",
     "url": "https://sonc.org/events-calendar/ukiah-polar-plunge/",
     "city": "",
