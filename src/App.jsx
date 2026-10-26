@@ -99,6 +99,34 @@ function OrgSidebar() {
   );
 }
 
+// ---- Edit the About page text here. Each section has a title and a list of paragraphs. ----
+const ABOUT_SECTIONS = [
+  {
+    title: "Our story",
+    paragraphs: [
+      "We started Bay Area Adaptive Sports because finding adaptive sports was hard! Information was scattered across dozens of websites, calendars and social media pages, and it was tough to tell what was happening, where, and who could participate.",
+    ],
+  },
+  {
+    title: "Why it matters",
+    paragraphs: [
+      "We believe in the value of adaptive sports for everyone: the joy of competition, the health benefits of staying active, and the shared experience of being part of a team and a community. Sport is one of the best ways people come together, and everyone deserves a way in.",
+    ],
+  },
+  {
+    title: "Everyone's welcome",
+    paragraphs: [
+      "You don’t need to be disabled to play adaptive sports. Adaptive sports like goalball, boccia, power soccer and sailing are fun in their own right, and many programs welcome able-bodied athletes, friends, family and volunteers alongside participants with disabilities. Playing side by side builds understanding, friendships and a community that works better for everyone. Try a clinic, come cheer, or bring a friend. Check each organization for how to take part.",
+    ],
+  },
+  {
+    title: "How it works",
+    paragraphs: [
+      "Events are gathered automatically every day from the organizations' own calendars and websites. Details can change, so please check with the organizer before you go. This site isn't affiliated with the organizations listed, and every event links back to the organizer's page.",
+    ],
+  },
+];
+
 export default function App() {
   const [tab, setTab] = useState("events");
   const [sportFilter, setSportFilter] = useState("All");
@@ -211,8 +239,8 @@ export default function App() {
 
       <div style={{ borderBottom: "1px solid #e8e8e4", background: "#fff", padding: "0 32px" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto", display: "flex" }}>
-          {["events", "orgs"].map(t => (
-            <button key={t} onClick={() => setTab(t)} style={{ padding: "14px 20px", border: "none", borderBottom: tab === t ? "2px solid #1a1a18" : "2px solid transparent", background: "none", fontSize: 14, fontWeight: tab === t ? 500 : 400, color: tab === t ? "#1a1a18" : "#888", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", marginBottom: -1 }}>{t === "events" ? "Events" : "Organizations"}</button>
+          {["events", "orgs", "about"].map(t => (
+            <button key={t} onClick={() => setTab(t)} style={{ padding: "14px 20px", border: "none", borderBottom: tab === t ? "2px solid #1a1a18" : "2px solid transparent", background: "none", fontSize: 14, fontWeight: tab === t ? 500 : 400, color: tab === t ? "#1a1a18" : "#888", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", marginBottom: -1 }}>{t === "events" ? "Events" : t === "orgs" ? "Organizations" : "About us"}</button>
           ))}
         </div>
       </div>
@@ -244,6 +272,25 @@ export default function App() {
                     </div>
                   ))}
                 </div>
+          )}
+
+          {tab === "about" && (
+            <div style={{ background: "#fff", border: "1px solid #e8e8e4", borderRadius: 10, padding: "32px 36px", maxWidth: 720 }}>
+              <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 700, margin: "0 0 8px" }}>About us</h2>
+              {ABOUT_SECTIONS.map((sec) => (
+                <div key={sec.title}>
+                  <h3 style={{ fontSize: 16, fontWeight: 500, margin: "24px 0 8px", color: "#2f5d1a" }}>{sec.title}</h3>
+                  {sec.paragraphs.map((para, i) => (
+                    <p key={i} style={{ fontSize: 15, color: "#444", lineHeight: 1.7, margin: "0 0 12px" }}>{para}</p>
+                  ))}
+                </div>
+              ))}
+              <h3 style={{ fontSize: 16, fontWeight: 500, margin: "28px 0 8px" }}>Get in touch</h3>
+              <p style={{ fontSize: 15, color: "#444", lineHeight: 1.7, margin: 0 }}>
+                Know of an event or organization we're missing, or see something that's out of date? Email{" "}
+                <a href="mailto:bayareaadaptivesports@gmail.com" style={{ color: "#2f5d1a", fontWeight: 500 }}>bayareaadaptivesports@gmail.com</a>.
+              </p>
+            </div>
           )}
 
           {tab === "orgs" && (
