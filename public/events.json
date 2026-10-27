@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sit-Fit - online with Nathan",
-    "location": "online",
-    "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-10-26",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 1
-  },
-  {
     "title": "Adaptive Fitness - Felton!!!",
     "location": "CrossFit SCM, 6500 CA-9, Felton, CA 95018, USA",
     "description": "<u></u><b>Adaptive Fitness Class!!!</b><br>A full body workout adapted to your needs/desires. <br>It can include: cardio, weights, balance and stretching.  <b><br></b><br><b>Who:</b> You<br><b>What:</",
@@ -21,7 +9,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 2
+    "id": 1
   },
   {
     "title": "Garden Club",
@@ -33,7 +21,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 3
+    "id": 2
   },
   {
     "title": "Low Stem Swim Time",
@@ -45,7 +33,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 4
+    "id": 3
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -57,7 +45,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 5
+    "id": 4
   },
   {
     "title": "Monthly Community Goalball Practice at Cal",
@@ -66,14 +54,14 @@
     "sports": [
       "goalball"
     ],
-    "description": "Monthly community goalball practice session.",
+    "description": "Monthly community goalball practice session at Cal.",
     "free": null,
-    "recurring": false,
+    "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
     "lat": 37.8708393,
     "lng": -122.272863,
-    "id": 6
+    "id": 5
   },
   {
     "title": "Try Boccia Clinic",
@@ -82,12 +70,12 @@
     "sports": [
       "boccia"
     ],
-    "description": "Clinic to try boccia.",
+    "description": "Clinic for trying boccia.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 7
+    "id": 6
   },
   {
     "title": "Nov/Dec Art Class Begins",
@@ -99,7 +87,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 8
+    "id": 7
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -111,7 +99,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 9
+    "id": 8
   },
   {
     "title": "Unified Soccer w/ San Jose State University & Santa Clara County Post-Secondary programs",
@@ -121,7 +109,7 @@
     "url": "https://sonc.org/events-calendar/unified-soccer-w-san-jose-state-university-santa-clara-county-post-secondary-programs/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 10
+    "id": 9
   },
   {
     "title": "2026 Applebee&#8217;s Grill + Bar Tip-A-Cop Sonora",
@@ -131,7 +119,7 @@
     "url": "https://sonc.org/events-calendar/applebees-sonora-tip-a-cop/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 11
+    "id": 10
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -143,7 +131,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 12
+    "id": 11
   },
   {
     "title": "Zephyr Grill & Bar Tip-a-Cop Brentwood",
@@ -153,7 +141,7 @@
     "url": "https://sonc.org/events-calendar/tip-a-cop-zephyr-grill-bar-brentwood/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 13
+    "id": 12
   },
   {
     "title": "Garden Club",
@@ -165,7 +153,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 14
+    "id": 13
   },
   {
     "title": "Low Stem Swim Time",
@@ -177,7 +165,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 15
+    "id": 14
   },
   {
     "title": "Tri-Valley Elementary Soccer Tournament",
@@ -187,7 +175,7 @@
     "url": "https://sonc.org/events-calendar/tri-valley-elementary-soccer-tournament/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 16
+    "id": 15
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -199,7 +187,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 17
+    "id": 16
   },
   {
     "title": "2026 Red Robin Tip-A-Cop Redding",
@@ -209,7 +197,7 @@
     "url": "https://sonc.org/events-calendar/red-robin-tip-a-cop/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 18
+    "id": 17
   },
   {
     "title": "Power Soccer Explore More Clinic",
@@ -223,7 +211,7 @@
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 19
+    "id": 18
   },
   {
     "title": "Bionic Mile powered by CAF",
@@ -232,12 +220,12 @@
     "sports": [
       "adaptive sports"
     ],
-    "description": "Adaptive sports event hosted by CAF NorCal.",
+    "description": "An adaptive sports event hosted by CAF NorCal.",
     "free": false,
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
     "org": "CAF NorCal",
-    "id": 20
+    "id": 19
   },
   {
     "title": "Board Meeting",
@@ -253,7 +241,7 @@
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 21
+    "id": 20
   },
   {
     "title": "Nov/Dec Art Class",
@@ -265,7 +253,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 22
+    "id": 21
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -277,7 +265,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 23
+    "id": 22
   },
   {
     "title": "2027 Basketball Contra Costa East Bay Buffaloes",
@@ -287,7 +275,7 @@
     "url": "https://sonc.org/events-calendar/2027-basketball-contra-costa-east-bay-buffaloes/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 24
+    "id": 23
   },
   {
     "title": "Winter (Basketball) Sport Registration Period",
@@ -297,7 +285,7 @@
     "url": "https://sonc.org/our-programs/sports/athlete-sport-registration/#registration-periods",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 25
+    "id": 24
   },
   {
     "title": "Life on Wheels",
@@ -309,7 +297,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 26
+    "id": 25
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -321,7 +309,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 27
+    "id": 26
   },
   {
     "title": "Garden Club",
@@ -333,7 +321,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 28
+    "id": 27
   },
   {
     "title": "Low Stem Swim Time",
@@ -345,7 +333,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 29
+    "id": 28
   },
   {
     "title": "Tri-Valley Secondary Soccer Tournament",
@@ -355,7 +343,7 @@
     "url": "https://sonc.org/events-calendar/tri-valley-secondary-soccer-tournament/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 30
+    "id": 29
   },
   {
     "title": "Jefferson Union HS District Unified Soccer",
@@ -365,7 +353,7 @@
     "url": "https://sonc.org/events-calendar/jefferson-union-hs-district-unified-soccer/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 31
+    "id": 30
   },
   {
     "title": "CCCOE Soccer Tournament & Skills",
@@ -375,7 +363,7 @@
     "url": "https://sonc.org/events-calendar/cccoe-soccer-tournament-skills-2/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 32
+    "id": 31
   },
   {
     "title": "MB Aquarium",
@@ -387,7 +375,7 @@
     "org": "Shared Adventures",
     "lat": 36.2231079,
     "lng": -121.387742,
-    "id": 33
+    "id": 32
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -399,7 +387,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 34
+    "id": 33
   },
   {
     "title": "John Madigan Celebration of Life",
@@ -411,19 +399,19 @@
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 35
+    "id": 34
   },
   {
     "title": "John Madigan Memorial Tournament",
     "date": "2026-11-14",
     "city": null,
     "sports": [],
-    "description": "Memorial tournament in honor of John Madigan.",
+    "description": "Memorial tournament honoring John Madigan.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 36
+    "id": 35
   },
   {
     "title": "2026 Fall Games at UC Davis",
@@ -433,7 +421,7 @@
     "url": "https://sonc.org/events-calendar/2026-fall-games-at-uc-davis/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 37
+    "id": 36
   },
   {
     "title": "stRoll with Jocelyn",
@@ -445,18 +433,30 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 38
+    "id": 37
   },
   {
     "title": "John Madigan Memorial Tournament",
     "date": "2026-11-15",
     "city": null,
     "sports": [],
-    "description": "Memorial tournament in honor of John Madigan.",
+    "description": "Memorial tournament honoring John Madigan.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
+    "id": 38
+  },
+  {
+    "title": "Nov/Dec Art Class",
+    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
+    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-15",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
     "id": 39
   },
   {
@@ -472,18 +472,6 @@
     "id": 40
   },
   {
-    "title": "Nov/Dec Art Class",
-    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
-    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-15",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 41
-  },
-  {
     "title": "Sit-Fit - online with Nathan",
     "location": "online",
     "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
@@ -493,7 +481,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 42
+    "id": 41
   },
   {
     "title": "Bingo - in Person!",
@@ -505,7 +493,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 43
+    "id": 42
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -517,7 +505,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 44
+    "id": 43
   },
   {
     "title": "Garden Club",
@@ -529,7 +517,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 45
+    "id": 44
   },
   {
     "title": "Low Stem Swim Time",
@@ -541,7 +529,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 46
+    "id": 45
   },
   {
     "title": "Franklin-McKinley Unified Jog-a-Thon",
@@ -551,6 +539,18 @@
     "url": "https://sonc.org/events-calendar/franklin-mckinley-unified-jog-a-thon-2/",
     "city": "",
     "org": "Special Olympics NorCal",
+    "id": 46
+  },
+  {
+    "title": "Adaptive Fitness -SCruz",
+    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
+    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-20",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
     "id": 47
   },
   {
@@ -566,18 +566,6 @@
     "id": 48
   },
   {
-    "title": "Adaptive Fitness -SCruz",
-    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
-    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-20",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 49
-  },
-  {
     "title": "2026 Miller&#8217;s Ace Hardware Badges with Buckets Sacramento",
     "date": "2026-11-21",
     "location": "Citrus Heights",
@@ -585,7 +573,7 @@
     "url": "https://sonc.org/events-calendar/badges-with-buckets-millers-ace-hardware/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 50
+    "id": 49
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -593,6 +581,18 @@
     "description": "<u></u>The 3rd Saturday of the Month -Santa Cruz Archers will host us at De LaVeaga.<br>They will teach, instruct, and help you.  All abilities welcome<br><br><a href=\"https://www.eventbrite.com/e/arc",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-21",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 50
+  },
+  {
+    "title": "Nov/Dec Art Class",
+    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
+    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-22",
     "city": "Santa Cruz",
     "org": "Shared Adventures",
     "lat": 37.050096,
@@ -612,11 +612,11 @@
     "id": 52
   },
   {
-    "title": "Nov/Dec Art Class",
-    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
-    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
+    "title": "Sit-Fit - online with Nathan",
+    "location": "online",
+    "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
     "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "city": "Santa Cruz",
     "org": "Shared Adventures",
     "lat": 37.050096,
@@ -714,21 +714,21 @@
     "id": 61
   },
   {
-    "title": "West Contra Costa Secondary Soccer Tournament",
-    "date": "2026-12-11",
-    "location": "",
-    "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
-    "url": "https://sonc.org/events-calendar/wccusd-secondary-soccer-tournament-3/",
-    "city": "",
-    "org": "Special Olympics NorCal",
-    "id": 62
-  },
-  {
     "title": "WCCUSD Secondary Soccer Tournament",
     "date": "2026-12-11",
     "location": "",
     "description": "",
     "url": "https://sonc.org/events-calendar/wccusd-secondary-soccer-tournament-2/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 62
+  },
+  {
+    "title": "West Contra Costa Secondary Soccer Tournament",
+    "date": "2026-12-11",
+    "location": "",
+    "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+    "url": "https://sonc.org/events-calendar/wccusd-secondary-soccer-tournament-3/",
     "city": "",
     "org": "Special Olympics NorCal",
     "id": 63
@@ -758,18 +758,6 @@
     "id": 65
   },
   {
-    "title": "Flynn Creek Circus",
-    "location": "Capitola Mall, 1855 41st Ave, Capitola, CA 95010, USA",
-    "description": "Come enjoy an all human circus with incredible acrobatic acts. <br><br><a href=\"https://www.eventbrite.com/e/2000506530886?aff=oddtdtcreator\">Click Here for more info and sign ups</a>",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-19",
-    "city": "Capitola",
-    "org": "Shared Adventures",
-    "lat": 36.9754902,
-    "lng": -121.9536171,
-    "id": 66
-  },
-  {
     "title": "Archery at DeLaVeaga",
     "location": "DeLaveaga County Park Archery Range, 141 Brookwood Dr, Santa Cruz, CA 95065, USA",
     "description": "<u></u>The 3rd Saturday of the Month -Santa Cruz Archers will host us at De LaVeaga.<br>They will teach, instruct, and help you.  All abilities welcome<br><br><a href=\"https://www.eventbrite.com/e/arc",
@@ -779,6 +767,18 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
+    "id": 66
+  },
+  {
+    "title": "Flynn Creek Circus",
+    "location": "Capitola Mall, 1855 41st Ave, Capitola, CA 95010, USA",
+    "description": "Come enjoy an all human circus with incredible acrobatic acts. <br><br><a href=\"https://www.eventbrite.com/e/2000506530886?aff=oddtdtcreator\">Click Here for more info and sign ups</a>",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-19",
+    "city": "Capitola",
+    "org": "Shared Adventures",
+    "lat": 36.9754902,
+    "lng": -121.9536171,
     "id": 67
   },
   {
@@ -1019,7 +1019,7 @@
     "title": "2027 Siskiyou County Polar Plunge",
     "date": "2027-03-06",
     "location": "Weed",
-    "description": "Make a difference at the Siskiyou Polar Plunge! Raise funds for Special Olympics Northern California and take the plunge to support local athletes in a fun day at at Lake Shastina Community Center.",
+    "description": "Make a difference at the Siskiyou Polar Plunge! Raise funds for Special Olympics Northern California and take the plunge to support local athletes in a fun day at Lake Shastina Community Center.",
     "url": "https://sonc.org/events-calendar/siskiyou-county-polar-plunge/",
     "city": "",
     "org": "Special Olympics NorCal",
