@@ -6,7 +6,7 @@
     "sports": [
       "goalball"
     ],
-    "description": "Monthly community goalball practice session at Cal.",
+    "description": "Monthly community goalball practice session.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -22,7 +22,7 @@
     "sports": [
       "boccia"
     ],
-    "description": "Clinic for trying boccia sport.",
+    "description": "Clinic to try boccia.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -156,7 +156,7 @@
     "date": "2026-11-07",
     "city": null,
     "sports": [],
-    "description": "Second annual Ronald Craven Memorial Tournament.",
+    "description": "Second annual Ronald Craven memorial tournament.",
     "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -194,7 +194,7 @@
     "sports": [
       "adaptive sports"
     ],
-    "description": "Adaptive sports event hosted by CAF NorCal.",
+    "description": "An adaptive sports event hosted by CAF NorCal.",
     "free": false,
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
@@ -382,20 +382,10 @@
     "sports": [],
     "description": "Memorial tournament honoring John Madigan.",
     "free": null,
-    "recurring": false,
+    "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
     "id": 33
-  },
-  {
-    "title": "2026 Fall Games",
-    "date": "2026-11-14",
-    "location": "Davis",
-    "description": "The 2026 Fall Games is a championship-level event for Special Olympics NorCal and will feature more than 250 athletes will be competing in our yearly soccer championship with their teams or participat",
-    "url": "https://sonc.org/events-calendar/fall-games/",
-    "city": "",
-    "org": "Special Olympics NorCal",
-    "id": 34
   },
   {
     "title": "2026 Fall Games at UC Davis",
@@ -405,7 +395,7 @@
     "url": "https://sonc.org/events-calendar/2026-fall-games-at-uc-davis/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 35
+    "id": 34
   },
   {
     "title": "stRoll with Jocelyn",
@@ -417,19 +407,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 36
-  },
-  {
-    "title": "John Madigan Memorial Tournament",
-    "date": "2026-11-15",
-    "city": null,
-    "sports": [],
-    "description": "Memorial tournament honoring John Madigan continues.",
-    "free": null,
-    "recurring": false,
-    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
-    "org": "BORP",
-    "id": 37
+    "id": 35
   },
   {
     "title": "Whale Watch Boat Ride",
@@ -441,7 +419,7 @@
     "org": "Shared Adventures",
     "lat": 36.8035938,
     "lng": -121.7862749,
-    "id": 38
+    "id": 36
   },
   {
     "title": "Nov/Dec Art Class",
@@ -453,7 +431,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 39
+    "id": 37
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -465,7 +443,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 40
+    "id": 38
   },
   {
     "title": "Bingo - in Person!",
@@ -477,7 +455,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 41
+    "id": 39
   },
   {
     "title": "Spinal Cord Injury Meetup",
@@ -489,7 +467,7 @@
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 42
+    "id": 40
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -501,7 +479,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 43
+    "id": 41
   },
   {
     "title": "Garden Club",
@@ -513,7 +491,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 44
+    "id": 42
   },
   {
     "title": "Low Stem Swim Time",
@@ -525,7 +503,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 45
+    "id": 43
   },
   {
     "title": "Franklin-McKinley Unified Jog-a-Thon",
@@ -535,7 +513,19 @@
     "url": "https://sonc.org/events-calendar/franklin-mckinley-unified-jog-a-thon-2/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 46
+    "id": 44
+  },
+  {
+    "title": "Adaptive Fitness -SCruz",
+    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
+    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-20",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 45
   },
   {
     "title": "CYT - A Christmas Carol",
@@ -547,19 +537,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 47
-  },
-  {
-    "title": "Adaptive Fitness -SCruz",
-    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
-    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-20",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 48
+    "id": 46
   },
   {
     "title": "2026 Miller&#8217;s Ace Hardware Badges with Buckets Sacramento",
@@ -569,7 +547,7 @@
     "url": "https://sonc.org/events-calendar/badges-with-buckets-millers-ace-hardware/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 49
+    "id": 47
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -581,7 +559,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 50
+    "id": 48
   },
   {
     "title": "Nov/Dec Art Class",
@@ -593,7 +571,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 51
+    "id": 49
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -605,7 +583,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 52
+    "id": 50
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -617,7 +595,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 53
+    "id": 51
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -629,7 +607,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 54
+    "id": 52
   },
   {
     "title": "Be Grateful Reminder Day",
@@ -641,7 +619,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 55
+    "id": 53
   },
   {
     "title": "Nov/Dec Art Class",
@@ -653,7 +631,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 56
+    "id": 54
   },
   {
     "title": "Low Stem Swim Time",
@@ -665,7 +643,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 57
+    "id": 55
   },
   {
     "title": "CYT - Charlie Brown's Christmas",
@@ -677,7 +655,7 @@
     "org": "Shared Adventures",
     "lat": 37.0510595,
     "lng": -122.014684,
-    "id": 58
+    "id": 56
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -689,6 +667,38 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
+    "id": 57
+  },
+  {
+    "title": "29th Annual BORP Goalball Invitational Tournament",
+    "date": "2026-12-05",
+    "city": "Berkeley",
+    "sports": [
+      "goalball"
+    ],
+    "description": "Annual goalball invitational tournament hosted by BORP.",
+    "free": false,
+    "recurring": false,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 58
+  },
+  {
+    "title": "29th Annual BORP Goalball Invitational Tournament",
+    "date": "2026-12-06",
+    "city": "Berkeley",
+    "sports": [
+      "goalball"
+    ],
+    "description": "Annual goalball invitational tournament hosted by BORP.",
+    "free": false,
+    "recurring": false,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
     "id": 59
   },
   {
@@ -967,7 +977,7 @@
     "title": "2027 Tuolumne County Polar Plunge",
     "date": "2027-02-27",
     "location": "Jamestown",
-    "description": "Splash in for Special Olympics NorCal athletes at the 2027 Tuolumne County Polar Plunge at Don Pedro Lake.",
+    "description": "Make a splash for inclusion at the Tuolumne County Polar Plunge! Fundraise for Special Olympics Northern California and take the plunge to support athletes in your community.",
     "url": "https://p2p.onecause.com/tuolumneplunge",
     "city": "",
     "org": "Special Olympics NorCal",
@@ -1198,5 +1208,15 @@
     "city": "",
     "org": "Special Olympics NorCal",
     "id": 107
+  },
+  {
+    "title": "Contra Costa Field Day at California High School",
+    "date": "2027-05-21",
+    "location": "",
+    "description": "Date: @ All ages Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+    "url": "https://sonc.org/events-calendar/cccoe-field-day-at-california-high-school-2/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 108
   }
 ]
