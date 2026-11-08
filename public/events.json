@@ -1,30 +1,30 @@
 [
   {
-    "title": "2nd Annual Ronald Craven Memorial Tournament",
-    "date": "2026-11-07",
-    "city": "San Francisco",
+    "title": "Power Soccer Explore More Clinic",
+    "date": "2026-11-08",
+    "city": null,
     "sports": [
-      "wheelchair basketball"
+      "power soccer"
     ],
-    "description": "Annual memorial tournament for wheelchair basketball.",
-    "free": false,
+    "description": "Clinic to explore power soccer.",
+    "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "lat": 37.7879363,
-    "lng": -122.4075201,
     "id": 1
   },
   {
-    "title": "2026 Red Robin Tip-A-Cop Redding",
-    "location": "Red Robin, 1035 Dana Dr, Redding, California, 96003",
-    "description": "Join us at 2026 Red Robin Tip-A-Cop! Local Law Enforcement personnel will trade in their badges for aprons when they serve as celebrity waitstaff with their tips donated to Special Olympics.      Enjo",
-    "url": "https://sonc.org/events-calendar/red-robin-tip-a-cop/",
-    "date": "2026-11-07",
-    "city": "Redding",
-    "org": "Special Olympics NorCal",
-    "lat": 40.5863563,
-    "lng": -122.391675,
+    "title": "Wheelchair Rugby Practice",
+    "date": "2026-11-08",
+    "city": null,
+    "sports": [
+      "wheelchair rugby"
+    ],
+    "description": "Wheelchair rugby practice session.",
+    "free": null,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
     "id": 2
   },
   {
@@ -34,7 +34,7 @@
     "sports": [
       "adaptive sports"
     ],
-    "description": "An adaptive sports event hosted by CAF NorCal.",
+    "description": "Adaptive sports event hosted by CAF NorCal.",
     "free": false,
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
@@ -48,7 +48,7 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board of Directors meeting.",
+    "description": "BAADS board meeting held at South Beach Harbor.",
     "free": true,
     "recurring": false,
     "url": "https://www.baads.org",
@@ -128,9 +128,9 @@
     "id": 10
   },
   {
-    "title": "Low Stem Swim Time",
-    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
-    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
+    "title": "Garden Club",
+    "location": "Common Roots Farm, 301 Golf Club Dr, Santa Cruz, CA 95060, USA",
+    "description": "Come out and enjoy helping start the raised garden beds back up.  All kinds of tasks to do - wheel chair accessible and shade is available.",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-12",
     "city": "Santa Cruz",
@@ -140,9 +140,9 @@
     "id": 11
   },
   {
-    "title": "Garden Club",
-    "location": "Common Roots Farm, 301 Golf Club Dr, Santa Cruz, CA 95060, USA",
-    "description": "Come out and enjoy helping start the raised garden beds back up.  All kinds of tasks to do - wheel chair accessible and shade is available.",
+    "title": "Low Stem Swim Time",
+    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
+    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-12",
     "city": "Santa Cruz",
@@ -215,11 +215,9 @@
     "title": "John Madigan Memorial Tournament",
     "date": "2026-11-14",
     "city": null,
-    "sports": [
-      "wheelchair basketball"
-    ],
-    "description": "Memorial tournament honoring John Madigan.",
-    "free": false,
+    "sports": [],
+    "description": "John Madigan memorial tournament.",
+    "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
@@ -253,27 +251,13 @@
     "title": "John Madigan Memorial Tournament",
     "date": "2026-11-15",
     "city": null,
-    "sports": [
-      "wheelchair basketball"
-    ],
-    "description": "Memorial tournament honoring John Madigan.",
-    "free": false,
+    "sports": [],
+    "description": "John Madigan memorial tournament continuation.",
+    "free": null,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
     "id": 21
-  },
-  {
-    "title": "Whale Watch Boat Ride",
-    "location": "Sanctuary Cruises, A Dock, 7881 Sandholdt Rd, Moss Landing, CA 95039, USA",
-    "description": "A time to hang out on a boat and go look for the amazing marine life in Monterey Bay.<br><br><a href=\"https://www.eventbrite.com/e/2000654499464?aff=oddtdtcreator\">Click for more information and Sign ",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-15",
-    "city": "Moss Landing",
-    "org": "Shared Adventures",
-    "lat": 36.8035938,
-    "lng": -121.7862749,
-    "id": 22
   },
   {
     "title": "Nov/Dec Art Class",
@@ -285,6 +269,18 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
+    "id": 22
+  },
+  {
+    "title": "Whale Watch Boat Ride",
+    "location": "Sanctuary Cruises, A Dock, 7881 Sandholdt Rd, Moss Landing, CA 95039, USA",
+    "description": "A time to hang out on a boat and go look for the amazing marine life in Monterey Bay.<br><br><a href=\"https://www.eventbrite.com/e/2000654499464?aff=oddtdtcreator\">Click for more information and Sign ",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-15",
+    "city": "Moss Landing",
+    "org": "Shared Adventures",
+    "lat": 36.8035938,
+    "lng": -121.7862749,
     "id": 23
   },
   {
@@ -324,9 +320,9 @@
     "id": 26
   },
   {
-    "title": "Low Stem Swim Time",
-    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
-    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
+    "title": "Garden Club",
+    "location": "Common Roots Farm, 301 Golf Club Dr, Santa Cruz, CA 95060, USA",
+    "description": "Come out and enjoy helping start the raised garden beds back up.  All kinds of tasks to do - wheel chair accessible and shade is available.",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-19",
     "city": "Santa Cruz",
@@ -336,9 +332,9 @@
     "id": 27
   },
   {
-    "title": "Garden Club",
-    "location": "Common Roots Farm, 301 Golf Club Dr, Santa Cruz, CA 95060, USA",
-    "description": "Come out and enjoy helping start the raised garden beds back up.  All kinds of tasks to do - wheel chair accessible and shade is available.",
+    "title": "Low Stem Swim Time",
+    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
+    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-11-19",
     "city": "Santa Cruz",
@@ -406,6 +402,20 @@
     "id": 33
   },
   {
+    "title": "Wheelchair Rugby Practice",
+    "date": "2026-11-22",
+    "city": null,
+    "sports": [
+      "wheelchair rugby"
+    ],
+    "description": "Wheelchair rugby practice session.",
+    "free": null,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 34
+  },
+  {
     "title": "2026 Santa Clara Bowling Regional",
     "location": "San Jose State University – Student Union, 211 South 9th Street, San Jose, CA, 95192, United States",
     "description": "Support Our Amazing Athletes at the 2026 Santa Clara Bowling Regional    Athletes from Santa Clara County will be competing in bowling for a chance to win gold!    Your time and energy will help creat",
@@ -415,18 +425,6 @@
     "org": "Special Olympics NorCal",
     "lat": 37.3361663,
     "lng": -121.890591,
-    "id": 34
-  },
-  {
-    "title": "Indoor Rock Climbing at P.E.",
-    "location": "Pacific Edge Climbing Gym, 104 Bronson St #12, Santa Cruz, CA 95062, USA",
-    "description": "Come try out climbing.<br>We'll have a certified belayer for you.<br>Beginners and Advanced routes available.<br>We have a harness chair for those with mobility challenges.<br><a href=\"https://www.eve",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-22",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
     "id": 35
   },
   {
@@ -442,6 +440,18 @@
     "id": 36
   },
   {
+    "title": "Indoor Rock Climbing at P.E.",
+    "location": "Pacific Edge Climbing Gym, 104 Bronson St #12, Santa Cruz, CA 95062, USA",
+    "description": "Come try out climbing.<br>We'll have a certified belayer for you.<br>Beginners and Advanced routes available.<br>We have a harness chair for those with mobility challenges.<br><a href=\"https://www.eve",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-22",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 37
+  },
+  {
     "title": "Sit-Fit - online with Nathan",
     "location": "online",
     "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
@@ -451,7 +461,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 37
+    "id": 38
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -463,7 +473,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 38
+    "id": 39
   },
   {
     "title": "Be Grateful Reminder Day",
@@ -475,7 +485,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 39
+    "id": 40
   },
   {
     "title": "Nov/Dec Art Class",
@@ -487,7 +497,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 40
+    "id": 41
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -499,7 +509,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 41
+    "id": 42
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -511,7 +521,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 42
+    "id": 43
   },
   {
     "title": "Low Stem Swim Time",
@@ -519,18 +529,6 @@
     "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-12-03",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 43
-  },
-  {
-    "title": "Adaptive Fitness -SCruz",
-    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
-    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-04",
     "city": "Santa Cruz",
     "org": "Shared Adventures",
     "lat": 37.050096,
@@ -550,36 +548,16 @@
     "id": 45
   },
   {
-    "title": "29th Annual BORP Goalball Invitational Tournament",
-    "date": "2026-12-05",
-    "city": "Berkeley",
-    "sports": [
-      "goalball"
-    ],
-    "description": "Annual goalball invitational tournament hosted by BORP.",
-    "free": false,
-    "recurring": false,
-    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
-    "org": "BORP",
-    "lat": 37.8708393,
-    "lng": -122.272863,
+    "title": "Adaptive Fitness -SCruz",
+    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
+    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-04",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
     "id": 46
-  },
-  {
-    "title": "29th Annual BORP Goalball Invitational Tournament",
-    "date": "2026-12-06",
-    "city": "Berkeley",
-    "sports": [
-      "goalball"
-    ],
-    "description": "Annual goalball invitational tournament hosted by BORP.",
-    "free": false,
-    "recurring": false,
-    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
-    "org": "BORP",
-    "lat": 37.8708393,
-    "lng": -122.272863,
-    "id": 47
   },
   {
     "title": "Holiday Party",
@@ -591,7 +569,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 48
+    "id": 47
   },
   {
     "title": "Life on Wheels",
@@ -603,7 +581,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 49
+    "id": 48
   },
   {
     "title": "Low Stem Swim Time",
@@ -615,7 +593,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 50
+    "id": 49
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -627,7 +605,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 51
+    "id": 50
   },
   {
     "title": "Bingo - in Person!",
@@ -635,6 +613,18 @@
     "description": "<b>What: </b>Picture Bingo Time<br>Come enjoy a social time and play Bingo - it&#39\\;s pictures so adaptable for all. <br>Small Prizes too!!! <br><b>Where:</b> Community Room at the Down Town (Santa C",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-12-15",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 51
+  },
+  {
+    "title": "Archery at DeLaVeaga",
+    "location": "DeLaveaga County Park Archery Range, 141 Brookwood Dr, Santa Cruz, CA 95065, USA",
+    "description": "<u></u>The 3rd Saturday of the Month -Santa Cruz Archers will host us at De LaVeaga.<br>They will teach, instruct, and help you.  All abilities welcome<br><br><a href=\"https://www.eventbrite.com/e/arc",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-19",
     "city": "Santa Cruz",
     "org": "Shared Adventures",
     "lat": 37.050096,
@@ -654,18 +644,6 @@
     "id": 53
   },
   {
-    "title": "Archery at DeLaVeaga",
-    "location": "DeLaveaga County Park Archery Range, 141 Brookwood Dr, Santa Cruz, CA 95065, USA",
-    "description": "<u></u>The 3rd Saturday of the Month -Santa Cruz Archers will host us at De LaVeaga.<br>They will teach, instruct, and help you.  All abilities welcome<br><br><a href=\"https://www.eventbrite.com/e/arc",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-19",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 54
-  },
-  {
     "title": "Indoor Rock Climbing at P.E.",
     "location": "Pacific Edge Climbing Gym, 104 Bronson St #12, Santa Cruz, CA 95062, USA",
     "description": "Come try out climbing.<br>We&#39\\;ll have a certified belayer for you.<br>Beginners and Advanced routes available.<br>We have a harness chair for those with mobility challenges.<br><a href=\"https://ww",
@@ -675,7 +653,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 55
+    "id": 54
   },
   {
     "title": "CAF-NorCal Adaptive Swim Clinic",
@@ -684,12 +662,12 @@
     "sports": [
       "swimming"
     ],
-    "description": "An adaptive swim clinic and camp hosted by CAF NorCal.",
+    "description": "Adaptive swim clinic and camp hosted by CAF NorCal.",
     "free": false,
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
     "org": "CAF NorCal",
-    "id": 56
+    "id": 55
   },
   {
     "title": "Life on Wheels",
@@ -701,7 +679,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 57
+    "id": 56
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -713,7 +691,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 58
+    "id": 57
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -725,7 +703,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 59
+    "id": 58
   },
   {
     "title": "Santa Cruz Warriors Game",
@@ -737,7 +715,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 60
+    "id": 59
   },
   {
     "title": "Bowling at the Boardwalk",
@@ -749,7 +727,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 61
+    "id": 60
   },
   {
     "title": "SCruz Mission Field Trip",
@@ -761,7 +739,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 62
+    "id": 61
   },
   {
     "title": "Wonderball Dance",
@@ -773,7 +751,7 @@
     "org": "Shared Adventures",
     "lat": 36.9941295,
     "lng": -121.8903368,
-    "id": 63
+    "id": 62
   },
   {
     "title": "Park Day",
@@ -785,6 +763,6 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 64
+    "id": 63
   }
 ]
