@@ -1,17 +1,5 @@
 [
   {
-    "title": "Sit-Fit - online with Nathan",
-    "location": "online",
-    "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-09",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 1
-  },
-  {
     "title": "Winter (Basketball) Sport Registration Period",
     "location": "",
     "description": "",
@@ -19,7 +7,321 @@
     "date": "2026-11-10",
     "city": "",
     "org": "Special Olympics NorCal",
+    "id": 1
+  },
+  {
+    "title": "2027 Basketball Contra Costa San Ramon Superstars",
+    "location": "Club Sport San Ramon, 350 Bollinger Canyon Lane, San Ramon, CA, 94582, United States",
+    "description": "Coach Name: John E Reiss  Practice Start Date: TBD Practice End Date: TBD  Practice Time: –   Practice Days: TBD  Location Type: Main Gym  Sign Up as an Athlete  Sign Up as a Volunteer",
+    "url": "https://sonc.org/events-calendar/2027-basketball-contra-costa-san-ramon-superstars/",
+    "date": "2026-11-10",
+    "city": "San Ramon",
+    "org": "Special Olympics NorCal",
+    "lat": 37.7648021,
+    "lng": -121.9544387,
     "id": 2
+  },
+  {
+    "title": "2027 Basketball San Joaquin SANWA Basketball",
+    "location": "",
+    "description": "Coach Name: Chris Valuckas  Practice Start Date: January 09 2027 Practice End Date: January 30 2027  Practice Time: 10:00 AM – 12:00 PM  Practice Days: Saturdays  Location Type:    Sign Up as an Athle",
+    "url": "https://sonc.org/events-calendar/2027-basketball-san-joaquin-sanwa-basketball/",
+    "date": "2026-11-10",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 3
+  },
+  {
+    "title": "2027 Bowling Amador",
+    "location": "Gold Country Bowling, 81 Ridge Road, Sutter Creek, CA, 95685, United States",
+    "description": "Coach Name: Jerrell Blake, Jr.  Practice Start Date: January 17 2027 Practice End Date: March 07 2027  Practice Time: TBD – TBD  Practice Days: Sundays  Location Type: Bowling Center  Sign Up as an At",
+    "url": "https://sonc.org/events-calendar/2027-bowling-amador/",
+    "date": "2026-11-10",
+    "city": "Sutter Creek",
+    "org": "Special Olympics NorCal",
+    "lat": 38.3929675,
+    "lng": -120.802435,
+    "id": 4
+  },
+  {
+    "title": "2027 Basketball Contra Costa East County Stars",
+    "location": "Cornerstone Church, 1745 East 18th Street, Antioch, CA, 94509, United States",
+    "description": "Coach Name: Lynda Green  Practice Start Date: January 10 2027 Practice End Date: February 28 2027  Practice Time: 1:00 PM – 3:00 PM  Practice Days: Sundays  Location Type: Main Gym  Sign Up as an Athl",
+    "url": "https://sonc.org/events-calendar/2027-basketball-contra-costa-east-county-stars/",
+    "date": "2026-11-10",
+    "city": "Antioch",
+    "org": "Special Olympics NorCal",
+    "lat": 38.0093296,
+    "lng": -121.8106925,
+    "id": 5
+  },
+  {
+    "title": "2027 Basketball Alameda Fremont Eagles",
+    "location": "Prince of Peace Lutheran Church, 38451 Fremont Boulevard, Fremont, CA, 94536, United States",
+    "description": "Coach Name: Thomas Novello  Practice Start Date: January 16 2027 Practice End Date: February 27 2027  Practice Time: 1:00 PM – 2:30 PM  Practice Days: Saturdays  Location Type: Main Gym  Sign Up as an",
+    "url": "https://sonc.org/events-calendar/2027-basketball-alameda-fremont-eagles-2/",
+    "date": "2026-11-10",
+    "city": "Fremont",
+    "org": "Special Olympics NorCal",
+    "lat": 37.5482697,
+    "lng": -121.988571,
+    "id": 6
+  },
+  {
+    "title": "2027 Basketball Santa Clara San Jose Heat",
+    "location": "Herbert Hoover Middle School, 1635 Park Avenue, San Jose, CA, 95126, United States",
+    "description": "Coach Name: Jose Ramirez  Practice Start Date: January 10 2027 Practice End Date: March 07 2027  Practice Time: 8:30 AM – 10:30 AM  Practice Days: Sundays  Location Type: Large Gym  Sign Up as an Athl",
+    "url": "https://sonc.org/events-calendar/2027-basketball-santa-clara-san-jose-heat/",
+    "date": "2026-11-10",
+    "city": "San Jose",
+    "org": "Special Olympics NorCal",
+    "lat": 37.3361663,
+    "lng": -121.890591,
+    "id": 7
+  },
+  {
+    "title": "2027 Basketball Fresno Dragons",
+    "location": "Gateway High School, 1550 Herndon Avenue, Clovis, CA, 93611, United States",
+    "description": "Coach Name: Edward Costa  Practice Start Date: January 17 2027 Practice End Date: February 28 2027  Practice Time: 8:30 AM – 12:30 PM  Practice Days: Sundays  Location Type: Main Gym  Sign Up as an At",
+    "url": "https://sonc.org/events-calendar/2027-basketball-fresno-dragons/",
+    "date": "2026-11-10",
+    "city": "Clovis",
+    "org": "Special Olympics NorCal",
+    "lat": 36.8252277,
+    "lng": -119.7029194,
+    "id": 8
+  },
+  {
+    "title": "2027 Basketball El Dorado",
+    "location": "El Dorado County Office of Education, 6767 Green Valley Road, Placerville, CA, 95667, United States",
+    "description": "Coach Name: Brian Estes  Practice Start Date: January 12 2027 Practice End Date: March 16 2027  Practice Time: 5:30 PM – 7:30 PM  Practice Days: Tuesdays  Location Type: Main Gym  Sign Up as an Athlet",
+    "url": "https://sonc.org/events-calendar/2027-basketball-el-dorado/",
+    "date": "2026-11-10",
+    "city": "Placerville",
+    "org": "Special Olympics NorCal",
+    "lat": 38.7296252,
+    "lng": -120.798546,
+    "id": 9
+  },
+  {
+    "title": "2027 Basketball San Mateo",
+    "location": "Hillsdale High School, CA, United States",
+    "description": "Coach Name: Bonaventure Silverman  Practice Start Date: January 10 2027 Practice End Date: March 07 2027  Practice Time: 10:00 AM – 12:00 PM  Practice Days: Sundays  Location Type: Large Gym  Sign Up ",
+    "url": "https://sonc.org/events-calendar/2027-basketball-san-mateo/",
+    "date": "2026-11-10",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 10
+  },
+  {
+    "title": "2027 Basketball Solano Panthers",
+    "location": "Benicia High School, 1101 Military West, Benicia, CA, 94510, United States",
+    "description": "Coach Name: Jessica Reynolds  Practice Start Date: January 16 2027 Practice End Date: March 06 2027  Practice Time: 10:00 AM – 12:00 PM  Practice Days: Saturdays  Location Type: Main Gym  Sign Up as a",
+    "url": "https://sonc.org/events-calendar/2027-basketball-solano-panthers/",
+    "date": "2026-11-10",
+    "city": "Benicia",
+    "org": "Special Olympics NorCal",
+    "lat": 38.049365,
+    "lng": -122.1585777,
+    "id": 11
+  },
+  {
+    "title": "2027 Basketball Sacramento Galt Chiefs",
+    "location": "Valley Oaks Elementary School, 21 C Street, Galt, CA, 95632, United States",
+    "description": "Coach Name: David May  Practice Start Date: January 05 2027 Practice End Date: March 11 2027  Practice Time: 6:15 PM – 8:15 PM  Practice Days: Tuesdays, Thursdays  Location Type: Small Gym  Sign Up as",
+    "url": "https://sonc.org/events-calendar/2027-basketball-sacramento-galt-chiefs/",
+    "date": "2026-11-10",
+    "city": "Galt",
+    "org": "Special Olympics NorCal",
+    "lat": 38.2546373,
+    "lng": -121.2999485,
+    "id": 12
+  },
+  {
+    "title": "2027 Basketball Alameda Union City Hoopahs",
+    "location": "Conley Caraballo High School, 541 Blanche Street, Hayward, CA, 94544, United States",
+    "description": "Coach Name: Don Frazier  Practice Start Date: January 09 2027 Practice End Date: February 27 2027  Practice Time: 9:00 AM – 12:00 PM  Practice Days: Saturdays  Location Type: Main Gym  Sign Up as an A",
+    "url": "https://sonc.org/events-calendar/2027-basketball-alameda-union-city-hoopahs-2/",
+    "date": "2026-11-10",
+    "city": "Hayward",
+    "org": "Special Olympics NorCal",
+    "lat": 37.6688205,
+    "lng": -122.080796,
+    "id": 13
+  },
+  {
+    "title": "2027 Basketball Alameda T-RADD",
+    "location": "Fallon Middle School, CA, United States",
+    "description": "Coach Name: Nick Spence  Practice Start Date: January 12 2027 Practice End Date: March 02 2027  Practice Time: 5:30 PM – 7:00 PM  Practice Days: Tuesdays  Location Type: Large Gym  Sign Up as an Athle",
+    "url": "https://sonc.org/events-calendar/2027-basketball-alameda-t-radd/",
+    "date": "2026-11-10",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 14
+  },
+  {
+    "title": "2027 Basketball San Joaquin Tracy Tigers",
+    "location": "Grace Church, 1330 North Tracy Boulevard, Tracy, CA, 95376, United States",
+    "description": "Coach Name: Samuel Oceguera  Practice Start Date: January 25 2027 Practice End Date: March 04 2027  Practice Time: 6:00 PM – 7:00 PM  Practice Days: Mondays, Thursdays  Location Type: Small Gym  Sign ",
+    "url": "https://sonc.org/events-calendar/2027-basketball-san-joaquin-tracy-tigers/",
+    "date": "2026-11-10",
+    "city": "Tracy",
+    "org": "Special Olympics NorCal",
+    "lat": 37.7385507,
+    "lng": -121.420139,
+    "id": 15
+  },
+  {
+    "title": "2027 Basketball Kings Heat",
+    "location": "Longfield Center, 560 South Douty Street, Hanford, CA, 93230, United States",
+    "description": "Coach Name: Dee Fricks  Practice Start Date: January 13 2027 Practice End Date: March 03 2027  Practice Time: 4:00 PM – 5:30 PM  Practice Days: Wednesdays  Location Type: Main Gym  Sign Up as an Athle",
+    "url": "https://sonc.org/events-calendar/2027-basketball-kings-heat/",
+    "date": "2026-11-10",
+    "city": "Hanford",
+    "org": "Special Olympics NorCal",
+    "lat": 36.3277959,
+    "lng": -119.6461565,
+    "id": 16
+  },
+  {
+    "title": "2027 Basketball Humboldt",
+    "location": "College of the Redwoods, 7351 Tompkins Hill Road, Eureka, CA, 95501, United States",
+    "description": "Coach Name: Charity Salas  Practice Start Date: January 16 2027 Practice End Date: March 13 2027  Practice Time: 9:00 AM – 1:00 PM  Practice Days: Saturdays  Location Type: Main Gym  Sign Up as an Ath",
+    "url": "https://sonc.org/events-calendar/2027-basketball-humboldt/",
+    "date": "2026-11-10",
+    "city": "Eureka",
+    "org": "Special Olympics NorCal",
+    "lat": 40.8018746,
+    "lng": -124.1707558,
+    "id": 17
+  },
+  {
+    "title": "2027 Basketball San Francisco",
+    "location": "TBD, CA, United States",
+    "description": "Coach Name: Kevin Adler  Practice Start Date: January 18 2027 Practice End Date: March 14 2027  Practice Time: TBD – TBD  Practice Days:   Location Type: Main Gym  Sign Up as an Athlete  Sign Up as a ",
+    "url": "https://sonc.org/events-calendar/2027-basketball-san-francisco-2/",
+    "date": "2026-11-10",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 18
+  },
+  {
+    "title": "2027 Basketball Solano Bulldogs",
+    "location": "TBD, CA, United States",
+    "description": "Coach Name: Jessica Reynolds  Practice Start Date: January 17 2027 Practice End Date: March 07 2027  Practice Time: 9:00 AM – 11:00 AM  Practice Days: Sundays  Location Type: Main Gym  Sign Up as an A",
+    "url": "https://sonc.org/events-calendar/2027-basketball-solano-bulldogs/",
+    "date": "2026-11-10",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 19
+  },
+  {
+    "title": "2027 Basketball Sacramento Discovery All Stars",
+    "location": "Encina High School, 1400 Bell Street, Sacramento, CA, 95825, United States",
+    "description": "Coach Name: Carl Gayle  Practice Start Date: January 16 2027 Practice End Date: March 06 2027  Practice Time: 9:00 AM – 12:30 PM  Practice Days: Saturdays  Location Type: Large Gym  Sign Up as an Athl",
+    "url": "https://sonc.org/events-calendar/2027-basketball-sacramento-discovery-all-stars/",
+    "date": "2026-11-10",
+    "city": "Sacramento",
+    "org": "Special Olympics NorCal",
+    "lat": 38.5810606,
+    "lng": -121.493895,
+    "id": 20
+  },
+  {
+    "title": "2027 Basketball Contra Costa Mt. Diablo Warriors (Thursdays)",
+    "location": "Community Presbyterian Church, 222 West El Pintado, Danville, CA, 94526, United States",
+    "description": "Coach Name: John Campagna  Practice Start Date: January 14 2027 Practice End Date: February 04 2027  Practice Time: 6:30 PM – 8:00 PM  Practice Days: Thursdays  Location Type: Main Gym  Sign Up as an ",
+    "url": "https://sonc.org/events-calendar/2027-basketball-contra-costa-mt-diablo-warriors-thursdays/",
+    "date": "2026-11-10",
+    "city": "Danville",
+    "org": "Special Olympics NorCal",
+    "lat": 37.8225892,
+    "lng": -122.0008254,
+    "id": 21
+  },
+  {
+    "title": "2027 Basketball Santa Clara Washington United",
+    "location": "Washington United Youth Center, 921 S 1st St B, San Jose, CA, 95110, United States",
+    "description": "Team Play Only  Coach Name: Doug Lucken  Practice Start Date: January 09 2027 Practice End Date: March 06 2027  Practice Time: 9:30 AM – 11:00 AM  Practice Days: Saturdays  Location Type: Large Gym  S",
+    "url": "https://sonc.org/events-calendar/2027-basketball-santa-clara-washington-united/",
+    "date": "2026-11-10",
+    "city": "San Jose",
+    "org": "Special Olympics NorCal",
+    "lat": 37.3361663,
+    "lng": -121.890591,
+    "id": 22
+  },
+  {
+    "title": "2027 Basketball Stanislaus",
+    "location": "Our Lady of Fatima Church, 505 West Granger Avenue, Modesto, CA, 95350, United States",
+    "description": "Coach Name: Sherry Gaddam  Practice Start Date: January 09 2027 Practice End Date: February 27 2027  Practice Time: 11:00 AM – 1:00 PM  Practice Days: Saturdays  Location Type: Main Gym  Sign Up as an",
+    "url": "https://sonc.org/events-calendar/2027-basketball-stanislaus/",
+    "date": "2026-11-10",
+    "city": "Modesto",
+    "org": "Special Olympics NorCal",
+    "lat": 37.6393419,
+    "lng": -120.9968892,
+    "id": 23
+  },
+  {
+    "title": "2027 Basketball Mariposa Miners",
+    "location": "New Life Church, 5089 Cole Road, Mariposa, CA, 95338, United States",
+    "description": "Coach Name: John David Wise  Practice Start Date: January 16 2027 Practice End Date: February 27 2027  Practice Time: 4:00 PM – 6:00 PM  Practice Days: Saturdays  Location Type: Main Gym  Sign Up as a",
+    "url": "https://sonc.org/events-calendar/2027-basketball-mariposa-miners/",
+    "date": "2026-11-10",
+    "city": "Mariposa",
+    "org": "Special Olympics NorCal",
+    "lat": 37.570148,
+    "lng": -119.9036592,
+    "id": 24
+  },
+  {
+    "title": "2027 Basketball Nevada Motherlode",
+    "location": "Sierra Grace Fellowship, 1260 Wesley Lane, Auburn, CA, 95603, United States",
+    "description": "Coach Name: Michael Chatterton  Practice Start Date: January 12 2027 Practice End Date: March 17 2027  Practice Time: 5:00 PM – 6:00 PM  Practice Days: Tuesdays, Wednesdays  Location Type: Main Gym  S",
+    "url": "https://sonc.org/events-calendar/2027-basketball-nevada-motherlode/",
+    "date": "2026-11-10",
+    "city": "Auburn",
+    "org": "Special Olympics NorCal",
+    "lat": 38.8945939,
+    "lng": -121.0739897,
+    "id": 25
+  },
+  {
+    "title": "2027 Basketball San Mateo Half Moon Bay",
+    "location": "Seacrest School, 901 South Arnold Way, Half Moon Bay, CA, 94019, United States",
+    "description": "Coach Name: Barbara Gainza  Practice Start Date: January 16 2027 Practice End Date: March 06 2027  Practice Time: 10:00 AM – 12:00 PM  Practice Days: Saturdays  Location Type: Large Gym  Sign Up as an",
+    "url": "https://sonc.org/events-calendar/2027-basketball-san-mateo-2/",
+    "date": "2026-11-10",
+    "city": "Half Moon Bay",
+    "org": "Special Olympics NorCal",
+    "lat": 37.4635519,
+    "lng": -122.428586,
+    "id": 26
+  },
+  {
+    "title": "2027 Basketball Sonoma",
+    "location": "Montgomery High School, 1250 Hahman Drive, Santa Rosa, CA, 95405, United States",
+    "description": "Coach Name: Colleen Rouleau  Practice Start Date: January 10 2027 Practice End Date: March 13 2027  Practice Time: 10:00 AM – 11:30 AM  Practice Days: Sundays  Location Type: Large Gym  Sign Up as an ",
+    "url": "https://sonc.org/events-calendar/2027-basketball-sonoma/",
+    "date": "2026-11-10",
+    "city": "Santa Rosa",
+    "org": "Special Olympics NorCal",
+    "lat": 38.4404925,
+    "lng": -122.7141049,
+    "id": 27
+  },
+  {
+    "title": "2027 Basketball Contra Costa Mt. Diablo Warriors (Tuesdays)",
+    "location": "Community Presbyterian Church, 222 West El Pintado, Danville, CA, 94526, United States",
+    "description": "Please note that this team is for 18+ athletes, and if you are under 18, please sign up for the Thursday practice.  Coach Name: Michael Casotti  Practice Start Date: January 12 2027 Practice End Date:",
+    "url": "https://sonc.org/events-calendar/2027-basketball-contra-costa-mt-diablo-warriors-tuesdays-2/",
+    "date": "2026-11-10",
+    "city": "Danville",
+    "org": "Special Olympics NorCal",
+    "lat": 37.8225892,
+    "lng": -122.0008254,
+    "id": 28
   },
   {
     "title": "Life on Wheels",
@@ -31,7 +333,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 3
+    "id": 29
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -43,31 +345,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 4
-  },
-  {
-    "title": "2026 Pleasant Hill Office & Event Assistance",
-    "location": "Special Olympics Northern California – Pleasant Hill Office, 3480 Buskirk Avenue, Suite 340, Pleasant Hill, CA, 94523, United States",
-    "description": "Help support Special Olympics Northern California behind the scenes at the Pleasant Hill Office!   Volunteers assist with event preparation, organizing supplies and inventory, assembling packets, mail",
-    "url": "https://sonc.org/events-calendar/2026-pleasant-hill-office-event-assistance/",
-    "date": "2026-11-12",
-    "city": "Pleasant Hill",
-    "org": "Special Olympics NorCal",
-    "lat": 37.9479786,
-    "lng": -122.0607963,
-    "id": 5
-  },
-  {
-    "title": "Garden Club",
-    "location": "Common Roots Farm, 301 Golf Club Dr, Santa Cruz, CA 95060, USA",
-    "description": "Come out and enjoy helping start the raised garden beds back up.  All kinds of tasks to do - wheel chair accessible and shade is available.",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-12",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 6
+    "id": 30
   },
   {
     "title": "Low Stem Swim Time",
@@ -79,43 +357,19 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 7
+    "id": 31
   },
   {
-    "title": "2026 Tri-Valley Secondary Soccer Tournament",
-    "location": "Emerald High School, 3600 Central Parkway, Dublin, CA, 94568, United States",
-    "description": "",
-    "url": "https://sonc.org/events-calendar/2026-tri-valley-secondary-soccer-tournament/",
-    "date": "2026-11-13",
-    "city": "Dublin",
-    "org": "Special Olympics NorCal",
-    "lat": 37.7021521,
-    "lng": -121.9357918,
-    "id": 8
-  },
-  {
-    "title": "2026 Jefferson Union High School District Unified Soccer",
-    "location": "Ocean High School, 401 Paloma Avenue, Pacifica, CA, 94044, United States",
-    "description": "",
-    "url": "https://sonc.org/events-calendar/2026-jefferson-union-high-school-district-unified-soccer/",
-    "date": "2026-11-13",
-    "city": "Pacifica",
-    "org": "Special Olympics NorCal",
-    "lat": 37.5980374,
-    "lng": -122.4995234,
-    "id": 9
-  },
-  {
-    "title": "2026 Contra Costa Soccer Tournament & Skills",
-    "location": "Heritage High School, 101 American Avenue, Brentwood, CA, 94513, United States",
-    "description": "Ages: Elementary-Transition",
-    "url": "https://sonc.org/events-calendar/2026-contra-costa-soccer-tournament-skills/",
-    "date": "2026-11-13",
-    "city": "Brentwood",
-    "org": "Special Olympics NorCal",
-    "lat": 37.9317766,
-    "lng": -121.696026,
-    "id": 10
+    "title": "Garden Club",
+    "location": "Common Roots Farm, 301 Golf Club Dr, Santa Cruz, CA 95060, USA",
+    "description": "Come out and enjoy helping start the raised garden beds back up.  All kinds of tasks to do - wheel chair accessible and shade is available.",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-12",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 32
   },
   {
     "title": "MB Aquarium",
@@ -127,7 +381,7 @@
     "org": "Shared Adventures",
     "lat": 36.2231079,
     "lng": -121.387742,
-    "id": 11
+    "id": 33
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -139,59 +393,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 12
-  },
-  {
-    "title": "John Madigan Memorial Tournament",
-    "date": "2026-11-14",
-    "city": "",
-    "sports": [
-      "wheelchair basketball"
-    ],
-    "description": "Memorial tournament honoring John Madigan.",
-    "free": false,
-    "recurring": false,
-    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
-    "org": "BORP",
-    "id": 13
-  },
-  {
-    "title": "2026 Fall Games at UC Davis",
-    "location": "UC Davis, Russell Field, Davis, CA, 95616, United States",
-    "description": "Support our amazing athletes at the 2026 Fall Games Championship!      Athletes from across Northern California will be competing in Soccer for a chance to win Gold!    Your time and energy will help ",
-    "url": "https://sonc.org/events-calendar/2026-fall-games-at-uc-davis/",
-    "date": "2026-11-14",
-    "city": "Davis",
-    "org": "Special Olympics NorCal",
-    "lat": 38.5435526,
-    "lng": -121.739005,
-    "id": 14
-  },
-  {
-    "title": "2026 Fall Games",
-    "location": "UC Davis, Quad Parking Structure, Davis, CA, 95616, United States",
-    "description": "The 2026 Fall Games is a championship-level event for Special Olympics NorCal and will feature more than 250 athletes will be competing in our yearly soccer championship with their teams or participat",
-    "url": "https://sonc.org/events-calendar/fall-games/",
-    "date": "2026-11-14",
-    "city": "Davis",
-    "org": "Special Olympics NorCal",
-    "lat": 38.5435526,
-    "lng": -121.739005,
-    "id": 15
-  },
-  {
-    "title": "John Madigan Memorial Tournament",
-    "date": "2026-11-15",
-    "city": "",
-    "sports": [
-      "wheelchair basketball"
-    ],
-    "description": "Memorial tournament honoring John Madigan.",
-    "free": false,
-    "recurring": false,
-    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
-    "org": "BORP",
-    "id": 16
+    "id": 34
   },
   {
     "title": "Whale Watch Boat Ride",
@@ -203,7 +405,7 @@
     "org": "Shared Adventures",
     "lat": 36.8035938,
     "lng": -121.7862749,
-    "id": 17
+    "id": 35
   },
   {
     "title": "Nov/Dec Art Class",
@@ -215,7 +417,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 18
+    "id": 36
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -227,7 +429,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 19
+    "id": 37
   },
   {
     "title": "Bingo - in Person!",
@@ -239,7 +441,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 20
+    "id": 38
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -251,7 +453,19 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 21
+    "id": 39
+  },
+  {
+    "title": "Low Stem Swim Time",
+    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
+    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-19",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 40
   },
   {
     "title": "Garden Club",
@@ -263,41 +477,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 22
-  },
-  {
-    "title": "Low Stem Swim Time",
-    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
-    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-19",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 23
-  },
-  {
-    "title": "2026 Franklin-McKinley Unified Jog-a-Thon",
-    "location": "Captain Jason M. Dahl Elementary School, CA, United States",
-    "description": "",
-    "url": "https://sonc.org/events-calendar/2026-franklin-mckinley-unified-jog-a-thon/",
-    "date": "2026-11-20",
-    "city": "",
-    "org": "Special Olympics NorCal",
-    "id": 24
-  },
-  {
-    "title": "Adaptive Fitness -SCruz",
-    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
-    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-20",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 25
+    "id": 41
   },
   {
     "title": "CYT - A Christmas Carol",
@@ -309,19 +489,19 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 26
+    "id": 42
   },
   {
-    "title": "2026 Miller's Ace Hardware Badges with Buckets Sacramento",
-    "location": "Miller’s Ace Hardware, 8077 Madison Ave, Citrus Heights, CA, 95610, United States",
-    "description": "Join 2026 Millers Ace Harward Badges with Buckets as members of local Law Enforcement agencies raise funds for Special Olympics Northern California.     They’ll be showing their support by collecting ",
-    "url": "https://sonc.org/events-calendar/badges-with-buckets-millers-ace-hardware/",
-    "date": "2026-11-21",
-    "city": "Citrus Heights",
-    "org": "Special Olympics NorCal",
-    "lat": 38.7071247,
-    "lng": -121.2810611,
-    "id": 27
+    "title": "Adaptive Fitness -SCruz",
+    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
+    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-20",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 43
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -333,19 +513,23 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 28
+    "id": 44
   },
   {
-    "title": "2026 Santa Clara Bowling Regional",
-    "location": "San Jose State University – Student Union, 211 South 9th Street, San Jose, CA, 95192, United States",
-    "description": "Support Our Amazing Athletes at the 2026 Santa Clara Bowling Regional    Athletes from Santa Clara County will be competing in bowling for a chance to win gold!    Your time and energy will help creat",
-    "url": "https://sonc.org/events-calendar/2026-santa-clara-bowling-regional/",
+    "title": "Wheelchair Rugby Practice",
     "date": "2026-11-22",
-    "city": "San Jose",
-    "org": "Special Olympics NorCal",
-    "lat": 37.3361663,
-    "lng": -121.890591,
-    "id": 29
+    "city": "Berkeley",
+    "sports": [
+      "wheelchair rugby"
+    ],
+    "description": "Weekly wheelchair rugby practice session.",
+    "free": null,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 45
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -357,7 +541,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 30
+    "id": 46
   },
   {
     "title": "Nov/Dec Art Class",
@@ -369,7 +553,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 31
+    "id": 47
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -381,7 +565,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 32
+    "id": 48
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -393,7 +577,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 33
+    "id": 49
   },
   {
     "title": "Be Grateful Reminder Day",
@@ -405,7 +589,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 34
+    "id": 50
   },
   {
     "title": "Nov/Dec Art Class",
@@ -417,7 +601,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 35
+    "id": 51
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -429,7 +613,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 36
+    "id": 52
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -441,7 +625,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 37
+    "id": 53
   },
   {
     "title": "Low Stem Swim Time",
@@ -453,7 +637,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 38
+    "id": 54
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -465,7 +649,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 39
+    "id": 55
   },
   {
     "title": "CYT - Charlie Brown's Christmas",
@@ -477,7 +661,7 @@
     "org": "Shared Adventures",
     "lat": 37.0510595,
     "lng": -122.014684,
-    "id": 40
+    "id": 56
   },
   {
     "title": "29th Annual BORP Goalball Invitational Tournament",
@@ -493,7 +677,7 @@
     "org": "BORP",
     "lat": 37.8708393,
     "lng": -122.272863,
-    "id": 41
+    "id": 57
   },
   {
     "title": "29th Annual BORP Goalball Invitational Tournament",
@@ -509,19 +693,7 @@
     "org": "BORP",
     "lat": 37.8708393,
     "lng": -122.272863,
-    "id": 42
-  },
-  {
-    "title": "Nov/Dec Art Class",
-    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
-    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-06",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 43
+    "id": 58
   },
   {
     "title": "Holiday Party",
@@ -533,7 +705,31 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 44
+    "id": 59
+  },
+  {
+    "title": "Nov/Dec Art Class",
+    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
+    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-06",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 60
+  },
+  {
+    "title": "Sit-Fit - online with Nathan",
+    "location": "online",
+    "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-07",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 61
   },
   {
     "title": "Life on Wheels",
@@ -545,7 +741,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 45
+    "id": 62
   },
   {
     "title": "Low Stem Swim Time",
@@ -557,7 +753,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 46
+    "id": 63
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -569,7 +765,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 47
+    "id": 64
   },
   {
     "title": "Bingo - in Person!",
@@ -581,7 +777,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 48
+    "id": 65
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -593,7 +789,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 49
+    "id": 66
   },
   {
     "title": "Flynn Creek Circus",
@@ -605,7 +801,7 @@
     "org": "Shared Adventures",
     "lat": 36.9754902,
     "lng": -121.9536171,
-    "id": 50
+    "id": 67
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -617,7 +813,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 51
+    "id": 68
   },
   {
     "title": "CAF-NorCal Adaptive Swim Clinic",
@@ -631,7 +827,7 @@
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
     "org": "CAF NorCal",
-    "id": 52
+    "id": 69
   },
   {
     "title": "Life on Wheels",
@@ -643,7 +839,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 53
+    "id": 70
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -655,7 +851,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 54
+    "id": 71
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -667,7 +863,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 55
+    "id": 72
   },
   {
     "title": "Santa Cruz Warriors Game",
@@ -679,7 +875,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 56
+    "id": 73
   },
   {
     "title": "Bowling at the Boardwalk",
@@ -691,7 +887,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 57
+    "id": 74
   },
   {
     "title": "SCruz Mission Field Trip",
@@ -703,7 +899,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 58
+    "id": 75
   },
   {
     "title": "Wonderball Dance",
@@ -715,7 +911,7 @@
     "org": "Shared Adventures",
     "lat": 36.9941295,
     "lng": -121.8903368,
-    "id": 59
+    "id": 76
   },
   {
     "title": "Park Day",
@@ -727,6 +923,6 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 60
+    "id": 77
   }
 ]
