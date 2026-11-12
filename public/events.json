@@ -1,27 +1,59 @@
 [
   {
-    "title": "Adaptive Fitness - Felton!!!",
-    "location": "CrossFit SCM, 6500 CA-9, Felton, CA 95018, USA",
-    "description": "<u></u><b>Adaptive Fitness Class!!!</b><br>A full body workout adapted to your needs/desires. <br>It can include: cardio, weights, balance and stretching.  <b><br></b><br><b>Who:</b> You<br><b>What:</",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-11",
-    "city": "Felton",
-    "org": "Shared Adventures",
-    "lat": 37.0513364,
-    "lng": -122.07329,
+    "title": "Cycling Center Thursday Open Hours",
+    "date": "2026-11-12",
+    "city": "Berkeley",
+    "sports": [
+      "cycling"
+    ],
+    "description": "Open hours at the cycling center.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
     "id": 1
   },
   {
-    "title": "Low Stem Swim Time",
-    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
-    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
-    "url": "https://sharedadventures.org/events/",
+    "title": "Open Gym- Adult Wheelchair Basketball: Berkeley",
     "date": "2026-11-12",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
+    "city": "Berkeley",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Open gym session for adult wheelchair basketball.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
     "id": 2
+  },
+  {
+    "title": "Adaptive Pickleball Thursdays at Ocean View!",
+    "date": "2026-11-12",
+    "city": "",
+    "sports": [
+      "pickleball"
+    ],
+    "description": "Adaptive pickleball session at Ocean View.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 3
+  },
+  {
+    "title": "2026 Pleasant Hill Office & Event Assistance",
+    "date": "2026-11-12",
+    "location": "Pleasant Hill",
+    "description": "Support the athletes behind the scenes as we gear up for the next event to showcase their abilities! Registration Closes: November 12, 2026 Location: Special Olympics Northern California &#8211; Pleas",
+    "url": "https://sonc.org/events-calendar/2026-pleasant-hill-office-event-assistance/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 4
   },
   {
     "title": "Garden Club",
@@ -33,7 +65,77 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 3
+    "id": 5
+  },
+  {
+    "title": "Low Stem Swim Time",
+    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
+    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-12",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 6
+  },
+  {
+    "title": "Rock Climbing at Berkeley Ironworks",
+    "date": "2026-11-13",
+    "city": "Berkeley",
+    "sports": [
+      "rock climbing"
+    ],
+    "description": "Rock climbing session at Berkeley Ironworks.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 7
+  },
+  {
+    "title": "2026 Tri-Valley Secondary Soccer Tournament",
+    "date": "2026-11-13",
+    "location": "Dublin",
+    "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+    "url": "https://sonc.org/events-calendar/2026-tri-valley-secondary-soccer-tournament/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 8
+  },
+  {
+    "title": "2026 Jefferson Union High School District Unified Soccer",
+    "date": "2026-11-13",
+    "location": "Pacifica",
+    "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+    "url": "https://sonc.org/events-calendar/2026-jefferson-union-high-school-district-unified-soccer/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 9
+  },
+  {
+    "title": "2026 Contra Costa Soccer Tournament & Skills",
+    "date": "2026-11-13",
+    "location": "Brentwood",
+    "description": "Ages: Elementary-Transition",
+    "url": "https://sonc.org/events-calendar/2026-contra-costa-soccer-tournament-skills/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 10
+  },
+  {
+    "title": "Adaptive Fitness -SCruz",
+    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
+    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-13",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 11
   },
   {
     "title": "MB Aquarium",
@@ -45,55 +147,113 @@
     "org": "Shared Adventures",
     "lat": 36.2231079,
     "lng": -121.387742,
-    "id": 4
+    "id": 12
   },
   {
-    "title": "Adaptive Fitness -SCruz",
-    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
-    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-11-13",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 5
-  },
-  {
-    "title": "John Madigan Celebration of Life",
+    "title": "Youth Varsity Wheelchair Basketball Practice: Santa Rosa",
     "date": "2026-11-14",
-    "city": null,
-    "sports": [],
-    "description": "Celebration of life for John Madigan.",
-    "free": null,
-    "recurring": false,
+    "city": "Santa Rosa",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Youth varsity wheelchair basketball practice.",
+    "free": false,
+    "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 6
+    "lat": 38.4404925,
+    "lng": -122.7141049,
+    "id": 13
+  },
+  {
+    "title": "Berkeley Cycling Center Saturday Open Hours",
+    "date": "2026-11-14",
+    "city": "Berkeley",
+    "sports": [
+      "cycling"
+    ],
+    "description": "Saturday open hours at Berkeley Cycling Center.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 14
+  },
+  {
+    "title": "Adaptive Pickleball Saturdays at Ocean View!",
+    "date": "2026-11-14",
+    "city": "",
+    "sports": [
+      "pickleball"
+    ],
+    "description": "Adaptive pickleball session at Ocean View.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 15
+  },
+  {
+    "title": "San Francisco Wheelchair Basketball",
+    "date": "2026-11-14",
+    "city": "San Francisco",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Wheelchair basketball session in San Francisco.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 16
   },
   {
     "title": "John Madigan Memorial Tournament",
     "date": "2026-11-14",
-    "city": null,
+    "city": "",
     "sports": [],
-    "description": "John Madigan Memorial Tournament.",
-    "free": null,
+    "description": "Memorial tournament for John Madigan.",
+    "free": false,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 7
+    "id": 17
+  },
+  {
+    "title": "2026 Fall Games at UC Davis",
+    "date": "2026-11-14",
+    "location": "Davis",
+    "description": "Support the athletes as they go for gold in soccer at the Northern California Championship! Registration Closes: November 11, 2026 Location: UC Davis Russell Field Davis, CA 95616",
+    "url": "https://sonc.org/events-calendar/2026-fall-games-at-uc-davis/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 18
+  },
+  {
+    "title": "2026 Fall Games",
+    "date": "2026-11-14",
+    "location": "Davis",
+    "description": "The 2026 Fall Games is a championship-level event for Special Olympics NorCal and will feature more than 250 athletes will be competing in our yearly soccer championship with their teams or participat",
+    "url": "https://sonc.org/events-calendar/fall-games/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 19
   },
   {
     "title": "John Madigan Memorial Tournament",
     "date": "2026-11-15",
-    "city": null,
+    "city": "",
     "sports": [],
-    "description": "John Madigan Memorial Tournament.",
-    "free": null,
+    "description": "Memorial tournament for John Madigan continues.",
+    "free": false,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 8
+    "id": 20
   },
   {
     "title": "Whale Watch Boat Ride",
@@ -105,7 +265,7 @@
     "org": "Shared Adventures",
     "lat": 36.8035938,
     "lng": -121.7862749,
-    "id": 9
+    "id": 21
   },
   {
     "title": "Nov/Dec Art Class",
@@ -117,7 +277,23 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 10
+    "id": 22
+  },
+  {
+    "title": "DIII Wheelchair Basketball Practice: Hayward",
+    "date": "2026-11-16",
+    "city": "Hayward",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Division III wheelchair basketball practice in Hayward.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.6688205,
+    "lng": -122.080796,
+    "id": 23
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -129,7 +305,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 11
+    "id": 24
   },
   {
     "title": "Bingo - in Person!",
@@ -141,19 +317,37 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 12
+    "id": 25
   },
   {
-    "title": "Spinal Cord Injury Meetup",
+    "title": "Adult Wheelchair Basketball: San Jose",
     "date": "2026-11-18",
-    "city": null,
-    "sports": [],
-    "description": "Meetup for people with spinal cord injuries.",
-    "free": null,
-    "recurring": false,
+    "city": "San Jose",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Adult wheelchair basketball session in San Jose.",
+    "free": false,
+    "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "id": 13
+    "lat": 37.3361663,
+    "lng": -121.890591,
+    "id": 26
+  },
+  {
+    "title": "Weekly Goalball Practice",
+    "date": "2026-11-18",
+    "city": "",
+    "sports": [
+      "goalball"
+    ],
+    "description": "Weekly goalball practice session.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 27
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -165,19 +359,53 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 14
+    "id": 28
   },
   {
-    "title": "Low Stem Swim Time",
-    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
-    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
-    "url": "https://sharedadventures.org/events/",
+    "title": "Cycling Center Thursday Open Hours",
     "date": "2026-11-19",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 15
+    "city": "Berkeley",
+    "sports": [
+      "cycling"
+    ],
+    "description": "Open hours at the cycling center.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 29
+  },
+  {
+    "title": "Open Gym- Adult Wheelchair Basketball: Berkeley",
+    "date": "2026-11-19",
+    "city": "Berkeley",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Open gym session for adult wheelchair basketball.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 30
+  },
+  {
+    "title": "Adaptive Pickleball Thursdays at Ocean View!",
+    "date": "2026-11-19",
+    "city": "",
+    "sports": [
+      "pickleball"
+    ],
+    "description": "Adaptive pickleball session at Ocean View.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 31
   },
   {
     "title": "Garden Club",
@@ -189,7 +417,45 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 16
+    "id": 32
+  },
+  {
+    "title": "Low Stem Swim Time",
+    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
+    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-11-19",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 33
+  },
+  {
+    "title": "Rock Climbing at Berkeley Ironworks",
+    "date": "2026-11-20",
+    "city": "Berkeley",
+    "sports": [
+      "rock climbing"
+    ],
+    "description": "Rock climbing session at Berkeley Ironworks.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 34
+  },
+  {
+    "title": "2026 Franklin-McKinley Unified Jog-a-Thon",
+    "date": "2026-11-20",
+    "location": "",
+    "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+    "url": "https://sonc.org/events-calendar/2026-franklin-mckinley-unified-jog-a-thon/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 35
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -201,7 +467,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 17
+    "id": 36
   },
   {
     "title": "CYT - A Christmas Carol",
@@ -213,7 +479,127 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 18
+    "id": 37
+  },
+  {
+    "title": "Youth Varsity Wheelchair Basketball Practice: Berkeley",
+    "date": "2026-11-21",
+    "city": "Berkeley",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Youth varsity wheelchair basketball practice in Berkeley.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 38
+  },
+  {
+    "title": "Berkeley Cycling Center Saturday Open Hours",
+    "date": "2026-11-21",
+    "city": "Berkeley",
+    "sports": [
+      "cycling"
+    ],
+    "description": "Saturday open hours at Berkeley Cycling Center.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 39
+  },
+  {
+    "title": "Youth Recreation Wheelchair Basketball Practice: Berkeley",
+    "date": "2026-11-21",
+    "city": "Berkeley",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Youth recreation wheelchair basketball practice in Berkeley.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 40
+  },
+  {
+    "title": "Adaptive Pickleball Saturdays at Ocean View!",
+    "date": "2026-11-21",
+    "city": "",
+    "sports": [
+      "pickleball"
+    ],
+    "description": "Adaptive pickleball session at Ocean View.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 41
+  },
+  {
+    "title": "Women's Wheelchair Basketball Practice: Berkeley",
+    "date": "2026-11-21",
+    "city": "Berkeley",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Women's wheelchair basketball practice in Berkeley.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 42
+  },
+  {
+    "title": "Power Soccer Practice: Berkeley",
+    "date": "2026-11-21",
+    "city": "Berkeley",
+    "sports": [
+      "power soccer"
+    ],
+    "description": "Power soccer practice in Berkeley.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 43
+  },
+  {
+    "title": "San Francisco Wheelchair Basketball",
+    "date": "2026-11-21",
+    "city": "San Francisco",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Wheelchair basketball session in San Francisco.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 44
+  },
+  {
+    "title": "2026 Miller&#8217;s Ace Hardware Badges with Buckets Sacramento",
+    "date": "2026-11-21",
+    "location": "Citrus Heights",
+    "description": "Join us as members of local Law Enforcement agencies raise funds for Special Olympics Northern California.",
+    "url": "https://sonc.org/events-calendar/badges-with-buckets-millers-ace-hardware/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 45
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -225,7 +611,31 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 19
+    "id": 46
+  },
+  {
+    "title": "Wheelchair Rugby Practice",
+    "date": "2026-11-22",
+    "city": "",
+    "sports": [
+      "wheelchair rugby"
+    ],
+    "description": "Wheelchair rugby practice session.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 47
+  },
+  {
+    "title": "2026 Santa Clara Bowling Regional",
+    "date": "2026-11-22",
+    "location": "San Jose",
+    "description": "Support athletes as they go for the gold in bowling at the 2026 Santa Clara Bowling Regional! Registration Closes: November 19, 2026 Location: San Jose State University &#8211; Student Union 211 South",
+    "url": "https://sonc.org/events-calendar/2026-santa-clara-bowling-regional/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 48
   },
   {
     "title": "Nov/Dec Art Class",
@@ -237,7 +647,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 20
+    "id": 49
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -249,7 +659,23 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 21
+    "id": 50
+  },
+  {
+    "title": "DIII Wheelchair Basketball Practice: Hayward",
+    "date": "2026-11-23",
+    "city": "Hayward",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Division III wheelchair basketball practice in Hayward.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.6688205,
+    "lng": -122.080796,
+    "id": 51
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -261,7 +687,37 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 22
+    "id": 52
+  },
+  {
+    "title": "Adult Wheelchair Basketball: San Jose",
+    "date": "2026-11-25",
+    "city": "San Jose",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Adult wheelchair basketball session in San Jose.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.3361663,
+    "lng": -121.890591,
+    "id": 53
+  },
+  {
+    "title": "Weekly Goalball Practice",
+    "date": "2026-11-25",
+    "city": "",
+    "sports": [
+      "goalball"
+    ],
+    "description": "Weekly goalball practice session.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 54
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -273,7 +729,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 23
+    "id": 55
   },
   {
     "title": "Be Grateful Reminder Day",
@@ -285,7 +741,21 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 24
+    "id": 56
+  },
+  {
+    "title": "Adaptive Pickleball Saturdays at Ocean View!",
+    "date": "2026-11-28",
+    "city": "",
+    "sports": [
+      "pickleball"
+    ],
+    "description": "Adaptive pickleball session at Ocean View.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "id": 57
   },
   {
     "title": "Nov/Dec Art Class",
@@ -297,7 +767,23 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 25
+    "id": 58
+  },
+  {
+    "title": "DIII Wheelchair Basketball Practice: Hayward",
+    "date": "2026-11-30",
+    "city": "Hayward",
+    "sports": [
+      "wheelchair basketball"
+    ],
+    "description": "Division III wheelchair basketball practice in Hayward.",
+    "free": false,
+    "recurring": true,
+    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
+    "org": "BORP",
+    "lat": 37.6688205,
+    "lng": -122.080796,
+    "id": 59
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -309,39 +795,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 26
-  },
-  {
-    "title": "Tai Chi and Internal Chinese Martial Arts Practice. VIRTUAL Class",
-    "date": "2026-12-01",
-    "city": "Virtual",
-    "sports": [
-      "Martial Arts"
-    ],
-    "description": "Virtual tai chi and internal Chinese martial arts practice session.",
-    "free": null,
-    "recurring": true,
-    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
-    "org": "BORP",
-    "lat": 37.2418572,
-    "lng": -121.7874949,
-    "id": 27
-  },
-  {
-    "title": "Staying Driven with Steph: An Adaptive Functional Fitness Class-Virtual",
-    "date": "2026-12-01",
-    "city": "Virtual",
-    "sports": [
-      "Fitness"
-    ],
-    "description": "Virtual adaptive functional fitness class led by Steph.",
-    "free": null,
-    "recurring": true,
-    "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
-    "org": "BORP",
-    "lat": 37.2418572,
-    "lng": -121.7874949,
-    "id": 28
+    "id": 60
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -353,7 +807,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 29
+    "id": 61
   },
   {
     "title": "Low Stem Swim Time",
@@ -365,7 +819,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 30
+    "id": 62
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -377,7 +831,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 31
+    "id": 63
   },
   {
     "title": "CYT - Charlie Brown's Christmas",
@@ -389,47 +843,59 @@
     "org": "Shared Adventures",
     "lat": 37.0510595,
     "lng": -122.014684,
-    "id": 32
+    "id": 64
   },
   {
     "title": "29th Annual BORP Goalball Invitational Tournament",
     "date": "2026-12-05",
-    "city": null,
+    "city": "Berkeley",
     "sports": [
-      "Goalball"
+      "goalball"
     ],
     "description": "Annual goalball invitational tournament hosted by BORP.",
-    "free": null,
+    "free": false,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
     "org": "BORP",
-    "id": 33
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 65
   },
   {
     "title": "29th Annual BORP Goalball Invitational Tournament",
     "date": "2026-12-06",
-    "city": null,
+    "city": "Berkeley",
     "sports": [
-      "Goalball"
+      "goalball"
     ],
     "description": "Annual goalball invitational tournament hosted by BORP.",
-    "free": null,
+    "free": false,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
     "org": "BORP",
-    "id": 34
+    "lat": 37.8708393,
+    "lng": -122.272863,
+    "id": 66
   },
   {
-    "title": "Nov/Dec Art Class",
-    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
-    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
-    "url": "https://sharedadventures.org/events/",
+    "title": "2026 Tahoe Polar Plunge",
     "date": "2026-12-06",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 35
+    "location": "",
+    "description": "Be part of the excitement at the Tahoe Polar Plunge and help make a difference for Special Olympics Northern California! Volunteers are the heart of this event, helping create a fun and welcoming expe",
+    "url": "https://sonc.org/events-calendar/2026-tahoe-polar-plunge/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 67
+  },
+  {
+    "title": "2026 Lake Tahoe Polar Plunge",
+    "date": "2026-12-06",
+    "location": "South Lake Tahoe",
+    "description": "Join our epic fundraising tradition at the Lake Tahoe Polar Plunge! Hop, skip or dip into Lake Tahoe for a great cause.",
+    "url": "https://p2p.onecause.com/tahoe",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 68
   },
   {
     "title": "Holiday Party",
@@ -441,7 +907,19 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 36
+    "id": 69
+  },
+  {
+    "title": "Nov/Dec Art Class",
+    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
+    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-06",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 70
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -453,7 +931,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 37
+    "id": 71
   },
   {
     "title": "Life on Wheels",
@@ -465,7 +943,29 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 38
+    "id": 72
+  },
+  {
+    "title": "Adaptive Fitness - Felton!!!",
+    "location": "CrossFit SCM, 6500 CA-9, Felton, CA 95018, USA",
+    "description": "<u></u><b>Adaptive Fitness Class!!!</b><br>A full body workout adapted to your needs/desires. <br>It can include: cardio, weights, balance and stretching.  <b><br></b><br><b>Who:</b> You<br><b>What:</",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-09",
+    "city": "Felton",
+    "org": "Shared Adventures",
+    "lat": 37.0513364,
+    "lng": -122.07329,
+    "id": 73
+  },
+  {
+    "title": "2026 West Contra Costa Elementary Soccer Tournament",
+    "date": "2026-12-10",
+    "location": "",
+    "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+    "url": "https://sonc.org/events-calendar/2026-west-contra-costa-elementary-soccer-tournament/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 74
   },
   {
     "title": "Low Stem Swim Time",
@@ -477,7 +977,17 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 39
+    "id": 75
+  },
+  {
+    "title": "2026 West Contra Costa Secondary Soccer Tournament",
+    "date": "2026-12-11",
+    "location": "",
+    "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+    "url": "https://sonc.org/events-calendar/2026-west-contra-costa-secondary-soccer-tournament/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 76
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -489,7 +999,43 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 40
+    "id": 77
+  },
+  {
+    "title": "2026 Pleasanton Floor Hockey Regional Competition",
+    "date": "2026-12-12",
+    "location": "Pleasanton",
+    "description": "This Pleasanton Floor Hockey Regional Competition is the culmination of the 8-week Floor Hockey season for Special Olympics Northern California athletes competing in many different Counties!",
+    "url": "https://sonc.org/events-calendar/pleasanton-floor-hockey-regional-competition/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 78
+  },
+  {
+    "title": "2026 Pleasanton Floor Hockey Regional",
+    "date": "2026-12-12",
+    "location": "Pleasanton",
+    "description": "Support athletes as they go for the gold!! Registration Closes: December 11, 2026 Location: Alameda County Fairgrounds 4501 Pleasanton Avenue Pleasanton, CA 94566",
+    "url": "https://sonc.org/events-calendar/2026-pleasanton-floor-hockey-regional/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 79
+  },
+  {
+    "title": "Board Meeting",
+    "date": "2026-12-13",
+    "city": "San Francisco",
+    "sports": [
+      "sailing"
+    ],
+    "description": "BAADS Board of Directors meeting.",
+    "free": true,
+    "recurring": false,
+    "url": "https://www.baads.org",
+    "org": "BAADS",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
+    "id": 80
   },
   {
     "title": "Bingo - in Person!",
@@ -501,7 +1047,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 41
+    "id": 81
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -513,7 +1059,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 42
+    "id": 82
   },
   {
     "title": "Flynn Creek Circus",
@@ -525,7 +1071,7 @@
     "org": "Shared Adventures",
     "lat": 36.9754902,
     "lng": -121.9536171,
-    "id": 43
+    "id": 83
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -537,7 +1083,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 44
+    "id": 84
   },
   {
     "title": "CAF-NorCal Adaptive Swim Clinic",
@@ -546,12 +1092,12 @@
     "sports": [
       "swimming"
     ],
-    "description": "An adaptive swim clinic hosted by CAF-NorCal.",
+    "description": "Adaptive swim clinic hosted by CAF-NorCal.",
     "free": false,
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
     "org": "CAF NorCal",
-    "id": 45
+    "id": 85
   },
   {
     "title": "Life on Wheels",
@@ -563,7 +1109,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 46
+    "id": 86
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -575,7 +1121,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 47
+    "id": 87
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -587,7 +1133,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 48
+    "id": 88
   },
   {
     "title": "Santa Cruz Warriors Game",
@@ -599,7 +1145,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 49
+    "id": 89
   },
   {
     "title": "Bowling at the Boardwalk",
@@ -611,7 +1157,27 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 50
+    "id": 90
+  },
+  {
+    "title": "2026 Contra Costa Basketball Tournament & Skills",
+    "date": "2027-01-29",
+    "location": "Oakley",
+    "description": "Ages: Elementary &#038; Middle School",
+    "url": "https://sonc.org/events-calendar/2026-contra-costa-basketball-tournament-skills/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 91
+  },
+  {
+    "title": "Spring Sport Registration Period",
+    "date": "2027-02-01",
+    "location": "",
+    "description": "Learn how to join available bocce, swimming, tennis and track &#038; field teams and activities.",
+    "url": "https://sonc.org/our-programs/sports/athlete-sport-registration/#registration-periods",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 92
   },
   {
     "title": "Life on Wheels",
@@ -623,7 +1189,197 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 51
+    "id": 93
+  },
+  {
+    "title": "2027 San Mateo County Polar Plunge",
+    "date": "2027-02-20",
+    "location": "San Mateo",
+    "description": "Join the fun at the San Mateo County Polar Plunge! Dip into San Francisco Bay for a great cause.",
+    "url": "https://p2p.onecause.com/sanmateoplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 94
+  },
+  {
+    "title": "2027 Trinity County Polar Plunge",
+    "date": "2027-02-20",
+    "location": "Douglas City",
+    "description": "Join the 2027 Trinity County Polar Plunge and make a splash for area athletes.",
+    "url": "https://p2p.onecause.com/trinityplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 95
+  },
+  {
+    "title": "2027 Stanislaus County Polar Plunge",
+    "date": "2027-02-21",
+    "location": "Patterson",
+    "description": "Jump in for athletes at the 2027 Stanislaus County Polar Plunge at the Patterson Aquatic Center.",
+    "url": "https://p2p.onecause.com/stanislausplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 96
+  },
+  {
+    "title": "2026 Contra Costa Basketball Tournament & Skills",
+    "date": "2027-02-26",
+    "location": "",
+    "description": "Ages: Elementary &#038; Middle School",
+    "url": "https://sonc.org/events-calendar/2026-contra-costa-basketball-tournament-skills-2/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 97
+  },
+  {
+    "title": "2027 Lake County Polar Plunge",
+    "date": "2027-02-27",
+    "location": "Kelseyville",
+    "description": "Make a splash for inclusion in Lake County at the 2027 Polar Plunge.",
+    "url": "https://p2p.onecause.com/lakecountyplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 98
+  },
+  {
+    "title": "2027 Shasta County Polar Plunge",
+    "date": "2027-02-27",
+    "location": "Whiskeytown",
+    "description": "Support local Special Olympics athletes at the Shasta County Polar Plunge at Oak Bottom Marina in Whiskeytown.",
+    "url": "https://p2p.onecause.com/shastacountyplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 99
+  },
+  {
+    "title": "2027 Santa Cruz Polar Plunge",
+    "date": "2027-02-27",
+    "location": "Santa Cruz",
+    "description": "Splash into the Pacific Ocean by the famous Beach Boardwalk at the 2027 Santa Cruz Polar Plunge benefitting Special Olympics NorCal athletes.",
+    "url": "https://p2p.onecause.com/santacruzplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 100
+  },
+  {
+    "title": "2027 Tuolumne County Polar Plunge",
+    "date": "2027-02-27",
+    "location": "Jamestown",
+    "description": "Splash in for Special Olympics NorCal athletes at the 2027 Tuolumne County Polar Plunge at Don Pedro Lake.",
+    "url": "https://p2p.onecause.com/tuolumneplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 101
+  },
+  {
+    "title": "2027 Ukiah Polar Plunge",
+    "date": "2027-02-28",
+    "location": "",
+    "description": "The Ukiah Polar Plunge is back! Join us for a chilly dip into chilly waters as we make a splash for cash for Special Olympics NorCal!",
+    "url": "https://p2p.onecause.com/ukiahplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 102
+  },
+  {
+    "title": "2026 Contra Costa/BVAL- Ultimate Field House Unified Basketball Tournament",
+    "date": "2027-03-03",
+    "location": "",
+    "description": "High School Tournament",
+    "url": "https://sonc.org/events-calendar/2026-contra-costa-bval-ultimate-field-house-unified-basketball-tournament/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 103
+  },
+  {
+    "title": "2027 Fresno Basketball Regional Competition",
+    "date": "2027-03-06",
+    "location": "Clovis",
+    "description": "Registration Closes: March 06, 2027 Location: Clovis East High School 2940 Leonard Avenue Clovis, CA 93619",
+    "url": "https://sonc.org/events-calendar/2027-fresno-basketball-regional-competition/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 104
+  },
+  {
+    "title": "2027 Greater Sacramento Area Polar Plunge",
+    "date": "2027-03-06",
+    "location": "Granite Bay",
+    "description": "Jump into Granite Bay at the Sacramento Polar Plunge! Kick off your day with a scenic 5K run or 1-mile walk, then cool down by taking the plunge.",
+    "url": "https://p2p.onecause.com/greatersacplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 105
+  },
+  {
+    "title": "2027 Fort Bragg Polar Plunge",
+    "date": "2027-03-06",
+    "location": "Fort Bragg",
+    "description": "Splash in for athletes at the 2027 Fort Bragg Polar Plunge! Do something special and make an impact for inclusion.",
+    "url": "https://p2p.onecause.com/fortbraggplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 106
+  },
+  {
+    "title": "2027 Siskiyou County Polar Plunge",
+    "date": "2027-03-06",
+    "location": "Weed",
+    "description": "Sign up to plunge in Siskiyou County. Make a splash and an impact for Special Olympics NorCal athletes.",
+    "url": "https://p2p.onecause.com/siskiyouplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 107
+  },
+  {
+    "title": "2026 Contra Costa Basketball Tournament & Skills",
+    "date": "2027-03-11",
+    "location": "",
+    "description": "High School &#038; Transition Tournament",
+    "url": "https://sonc.org/events-calendar/2026-contra-costa-basketball-tournament-skills-3/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 108
+  },
+  {
+    "title": "2027 Bay Area Polar Plunge",
+    "date": "2027-03-20",
+    "location": "Alameda",
+    "description": "Splash into San Francisco Bay in Alameda at the Bay Area Polar Plunge. Start with an optional 5K along the water before jumping in to support athletes.",
+    "url": "https://p2p.onecause.com/bayareaplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 109
+  },
+  {
+    "title": "2027 Fresno Polar Plunge",
+    "date": "2027-03-20",
+    "location": "Friant",
+    "description": "Support Central Valley Special Olympics athletes at the 2027 Fresno Polar Plunge. Jump into Millerton Lake, have a blast, make an impact.",
+    "url": "https://p2p.onecause.com/fresnopolarplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 110
+  },
+  {
+    "title": "2027 Sonoma County Polar Plunge",
+    "date": "2027-03-20",
+    "location": "",
+    "description": "Dip into the Pacific Ocean at Doran Beach in Bodega at the Sonoma County Polar Plunge. Have a blast while raising funds for athletes.",
+    "url": "https://p2p.onecause.com/sonomaplunge",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 111
+  },
+  {
+    "title": "2026 West Contra Costa Young Athletes Event",
+    "date": "2027-03-25",
+    "location": "",
+    "description": "Date: @ Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live Details Date: Time:",
+    "url": "https://sonc.org/events-calendar/2026-west-contra-costa-young-athletes-event/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 112
   },
   {
     "title": "SCruz Mission Field Trip",
@@ -635,7 +1391,17 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 52
+    "id": 113
+  },
+  {
+    "title": "2026 Contra Costa Track Meet",
+    "date": "2027-04-23",
+    "location": "",
+    "description": "All ages",
+    "url": "https://sonc.org/events-calendar/2026-contra-costa-track-meet/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 114
   },
   {
     "title": "Wonderball Dance",
@@ -647,7 +1413,17 @@
     "org": "Shared Adventures",
     "lat": 36.9941295,
     "lng": -121.8903368,
-    "id": 53
+    "id": 115
+  },
+  {
+    "title": "2026 Monterey SELPA Unified Track and Field",
+    "date": "2027-05-07",
+    "location": "",
+    "description": "",
+    "url": "https://sonc.org/events-calendar/2026-monterey-selpa-unified-track-and-field/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 116
   },
   {
     "title": "Park Day",
@@ -659,6 +1435,46 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 54
+    "id": 117
+  },
+  {
+    "title": "2026 Contra Costa Track Meet",
+    "date": "2027-05-18",
+    "location": "Brentwood",
+    "description": "All ages",
+    "url": "https://sonc.org/events-calendar/2026-contra-costa-track-meet-2/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 118
+  },
+  {
+    "title": "2026 West Contra Costa Transition Field Day",
+    "date": "2027-05-20",
+    "location": "",
+    "description": "Vista Hills Education Center",
+    "url": "https://sonc.org/events-calendar/2026-west-contra-costa-transition-field-day/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 119
+  },
+  {
+    "title": "2026 Contra Costa Field Day at California High School",
+    "date": "2027-05-21",
+    "location": "",
+    "description": "All ages",
+    "url": "https://sonc.org/events-calendar/2026-contra-costa-field-day-at-california-high-school/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 120
+  },
+  {
+    "title": "2026 West Contra Costa Young Athlete Event",
+    "date": "2027-06-03",
+    "location": "",
+    "description": "Riverside Elementary School 1300 Amador St, San Pablo, CA 94806",
+    "url": "https://sonc.org/events-calendar/2026-west-contra-costa-young-athlete-event/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 121
   }
 ]
