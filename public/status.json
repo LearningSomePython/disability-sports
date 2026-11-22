@@ -1,62 +1,62 @@
 {
-  "updated": "2026-11-21",
-  "total": 86,
+  "updated": "2026-11-22",
+  "total": 85,
   "sources": {
     "BORP": {
       "count": 16,
       "method": "browser+ai",
       "stale": false,
       "error": "",
-      "checked": "2026-11-21",
-      "lastFresh": "2026-11-21"
+      "checked": "2026-11-22",
+      "lastFresh": "2026-11-22"
     },
     "CAF NorCal": {
       "count": 1,
       "method": "browser+ai",
       "stale": false,
       "error": "",
-      "checked": "2026-11-21",
-      "lastFresh": "2026-11-21"
+      "checked": "2026-11-22",
+      "lastFresh": "2026-11-22"
     },
     "Special Olympics NorCal": {
-      "count": 25,
+      "count": 24,
       "method": "feed",
       "stale": false,
       "error": "",
-      "checked": "2026-11-21",
-      "lastFresh": "2026-11-21"
+      "checked": "2026-11-22",
+      "lastFresh": "2026-11-22"
     },
     "BAADS": {
       "count": 1,
       "method": "browser+ai",
       "stale": false,
       "error": "",
-      "checked": "2026-11-21",
-      "lastFresh": "2026-11-21"
+      "checked": "2026-11-22",
+      "lastFresh": "2026-11-22"
     },
     "Achilles SF Bay Area": {
       "count": 0,
       "method": "none",
       "stale": false,
       "error": "",
-      "checked": "2026-11-21",
-      "lastFresh": "2026-11-21"
+      "checked": "2026-11-22",
+      "lastFresh": "2026-11-22"
     },
     "Shared Adventures": {
       "count": 43,
       "method": "feed",
       "stale": false,
       "error": "",
-      "checked": "2026-11-21",
-      "lastFresh": "2026-11-21"
+      "checked": "2026-11-22",
+      "lastFresh": "2026-11-22"
     },
     "Move United": {
       "count": 0,
       "method": "none",
       "stale": false,
       "error": "",
-      "checked": "2026-11-21",
-      "lastFresh": "2026-11-21"
+      "checked": "2026-11-22",
+      "lastFresh": "2026-11-22"
     }
   }
 }
