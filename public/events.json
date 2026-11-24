@@ -4,7 +4,7 @@
     "date": "2026-11-24",
     "city": "Virtual",
     "sports": [
-      "martial arts"
+      "tai chi"
     ],
     "description": "Virtual tai chi and internal Chinese martial arts practice session.",
     "free": null,
@@ -52,7 +52,7 @@
     "sports": [
       "basketball"
     ],
-    "description": "Open gym session for adaptive sports.",
+    "description": "Open gym session for adaptive sports activities.",
     "free": null,
     "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -124,7 +124,7 @@
     "sports": [
       "pickleball"
     ],
-    "description": "Adaptive pickleball session at Ocean View on Saturdays.",
+    "description": "Adaptive pickleball session at Ocean View.",
     "free": null,
     "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -152,7 +152,7 @@
     "sports": [
       "fitness"
     ],
-    "description": "Virtual sit fit exercise class.",
+    "description": "Virtual seated fitness class.",
     "free": null,
     "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
@@ -214,18 +214,6 @@
     "id": 15
   },
   {
-    "title": "Adaptive Fitness -SCruz",
-    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
-    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-04",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 16
-  },
-  {
     "title": "CYT - Charlie Brown's Christmas",
     "location": "The Landing, a Performing Arts Center, 251B Kings Village Rd, Scotts Valley, CA 95066, USA",
     "description": "<em>The classic animated television special A Charlie Brown Christmas comes to life in this faithful stage adaptation in which Charlie Brown, Snoopy and the rest of the Peanuts gang discover the true ",
@@ -235,6 +223,18 @@
     "org": "Shared Adventures",
     "lat": 37.0510595,
     "lng": -122.014684,
+    "id": 16
+  },
+  {
+    "title": "Adaptive Fitness -SCruz",
+    "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
+    "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-04",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
     "id": 17
   },
   {
@@ -270,6 +270,20 @@
     "id": 19
   },
   {
+    "title": "CAF-NorCal Holiday Party",
+    "date": "2026-12-06",
+    "city": "",
+    "sports": [
+      "adaptive sports"
+    ],
+    "description": "CAF-NorCal Holiday Party event.",
+    "free": false,
+    "recurring": false,
+    "url": "https://www.challengedathletes.org/region/norcal/",
+    "org": "CAF NorCal",
+    "id": 20
+  },
+  {
     "title": "2026 Tahoe Polar Plunge",
     "date": "2026-12-06",
     "location": "",
@@ -277,7 +291,7 @@
     "url": "https://sonc.org/events-calendar/2026-tahoe-polar-plunge/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 20
+    "id": 21
   },
   {
     "title": "2026 Lake Tahoe Polar Plunge",
@@ -287,18 +301,6 @@
     "url": "https://p2p.onecause.com/tahoe",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 21
-  },
-  {
-    "title": "Holiday Party",
-    "location": "115 Morrissey Blvd, Santa Cruz, CA 95062, USA",
-    "description": "Come Enjoy some Holiday Cheer.  Crafts, snacks, Bingo, Santa and more.  Cash donation appreciated",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-06",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
     "id": 22
   },
   {
@@ -314,6 +316,18 @@
     "id": 23
   },
   {
+    "title": "Holiday Party",
+    "location": "115 Morrissey Blvd, Santa Cruz, CA 95062, USA",
+    "description": "Come Enjoy some Holiday Cheer.  Crafts, snacks, Bingo, Santa and more.  Cash donation appreciated",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-06",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 24
+  },
+  {
     "title": "Sit-Fit - online with Nathan",
     "location": "online",
     "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
@@ -323,7 +337,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 24
+    "id": 25
   },
   {
     "title": "Life on Wheels",
@@ -335,7 +349,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 25
+    "id": 26
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -347,7 +361,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 26
+    "id": 27
   },
   {
     "title": "Low Stem Swim Time",
@@ -359,7 +373,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 27
+    "id": 28
   },
   {
     "title": "2026 Pleasanton Floor Hockey Regional",
@@ -369,7 +383,7 @@
     "url": "https://sonc.org/events-calendar/2026-pleasanton-floor-hockey-regional/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 28
+    "id": 29
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -381,7 +395,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 29
+    "id": 30
   },
   {
     "title": "2026 Pleasanton Floor Hockey Regional Competition",
@@ -391,7 +405,7 @@
     "url": "https://sonc.org/events-calendar/pleasanton-floor-hockey-regional-competition/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 30
+    "id": 31
   },
   {
     "title": "2026 Oakdale Polar Plunge",
@@ -401,7 +415,7 @@
     "url": "https://p2p.onecause.com/oakdaleplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 31
+    "id": 32
   },
   {
     "title": "Board Meeting",
@@ -410,14 +424,14 @@
     "sports": [
       "sailing"
     ],
-    "description": "BAADS Board of Directors meeting.",
+    "description": "BAADS Board of Directors meeting at South Beach Harbor.",
     "free": true,
     "recurring": false,
     "url": "https://www.baads.org",
     "org": "BAADS",
     "lat": 37.7879363,
     "lng": -122.4075201,
-    "id": 32
+    "id": 33
   },
   {
     "title": "Nov/Dec Art Class",
@@ -429,7 +443,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 33
+    "id": 34
   },
   {
     "title": "Sit-Fit - online with Nathan",
@@ -441,7 +455,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 34
+    "id": 35
   },
   {
     "title": "Bingo - in Person!",
@@ -453,7 +467,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 35
+    "id": 36
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -465,18 +479,6 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 36
-  },
-  {
-    "title": "Nutcracker - Dress Rehersal",
-    "location": "Crocker Theater, 6500 Lower Perimeter Road, Aptos, CA 95003, USA",
-    "description": "Enjoy a dress rehearsal of the 2nd act <br>this is a small showing to mostly our group. <br>Great for those who need a bit more flexibility <br><br><a href=\"https://www.eventbrite.com/e/2004721997460?",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-17",
-    "city": "Aptos",
-    "org": "Shared Adventures",
-    "lat": 36.9941295,
-    "lng": -121.8903368,
     "id": 37
   },
   {
@@ -492,6 +494,18 @@
     "id": 38
   },
   {
+    "title": "Nutcracker - Dress Rehersal",
+    "location": "Crocker Theater, 6500 Lower Perimeter Road, Aptos, CA 95003, USA",
+    "description": "Enjoy a dress rehearsal of the 2nd act <br>this is a small showing to mostly our group. <br>Great for those who need a bit more flexibility <br><br><a href=\"https://www.eventbrite.com/e/2004721997460?",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-17",
+    "city": "Aptos",
+    "org": "Shared Adventures",
+    "lat": 36.9941295,
+    "lng": -121.8903368,
+    "id": 39
+  },
+  {
     "title": "Adaptive Fitness -SCruz",
     "location": "100 Pioneer St suite c2, Santa Cruz, CA 95060, USA",
     "description": "A time to get add strength, balance, cardio skills and improve your health.<br>Certified instructors will be there to guide you.<br>It's a feel good and healthy time.<br><br>Please sign up so we can a",
@@ -501,7 +515,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 39
+    "id": 40
   },
   {
     "title": "3v3 Wheelchair Basketball Tournament",
@@ -517,7 +531,7 @@
     "org": "BORP",
     "lat": 37.8708393,
     "lng": -122.272863,
-    "id": 40
+    "id": 41
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -529,7 +543,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 41
+    "id": 42
   },
   {
     "title": "Flynn Creek Circus",
@@ -541,18 +555,6 @@
     "org": "Shared Adventures",
     "lat": 36.9754902,
     "lng": -121.9536171,
-    "id": 42
-  },
-  {
-    "title": "Nov/Dec Art Class",
-    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
-    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-20",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
     "id": 43
   },
   {
@@ -568,6 +570,18 @@
     "id": 44
   },
   {
+    "title": "Nov/Dec Art Class",
+    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
+    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-20",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
+    "id": 45
+  },
+  {
     "title": "Sit-Fit - online with Nathan",
     "location": "online",
     "description": "Nathan Perkins, a certified inclusive fitness instructor and former Paralympic athlete, leads this 30 minute class that is a combination of stretches, strength and cardio exercises all done in a seate",
@@ -577,7 +591,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 45
+    "id": 46
   },
   {
     "title": "Low Stem Swim Time",
@@ -589,7 +603,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 46
+    "id": 47
   },
   {
     "title": "Adaptive Fitness - Felton!!!",
@@ -601,7 +615,7 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 47
+    "id": 48
   },
   {
     "title": "Adaptive Fitness -SCruz",
@@ -613,7 +627,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 48
+    "id": 49
   },
   {
     "title": "CAF-NorCal Adaptive Swim Clinic",
@@ -627,7 +641,19 @@
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
     "org": "CAF NorCal",
-    "id": 49
+    "id": 50
+  },
+  {
+    "title": "\"Not Medically Necessary\" Film Screening",
+    "date": "2027-01-09",
+    "city": "",
+    "sports": [],
+    "description": "Film screening of \"Not Medically Necessary\".",
+    "free": false,
+    "recurring": false,
+    "url": "https://www.challengedathletes.org/region/norcal/",
+    "org": "CAF NorCal",
+    "id": 51
   },
   {
     "title": "Life on Wheels",
@@ -639,7 +665,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 50
+    "id": 52
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -651,7 +677,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 51
+    "id": 53
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -663,7 +689,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 52
+    "id": 54
   },
   {
     "title": "Santa Cruz Warriors Game",
@@ -675,7 +701,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 53
+    "id": 55
   },
   {
     "title": "Bowling at the Boardwalk",
@@ -687,7 +713,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 54
+    "id": 56
   },
   {
     "title": "2027 Alamo Young Athletes",
@@ -697,7 +723,7 @@
     "url": "https://sonc.org/events-calendar/2027-alamo-young-athletes/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 55
+    "id": 57
   },
   {
     "title": "Spring Sport Registration Period",
@@ -707,7 +733,7 @@
     "url": "https://sonc.org/our-programs/sports/athlete-sport-registration/#registration-periods",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 56
+    "id": 58
   },
   {
     "title": "Life on Wheels",
@@ -719,7 +745,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 57
+    "id": 59
   },
   {
     "title": "Bowling at the Boardwalk",
@@ -731,7 +757,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 58
+    "id": 60
   },
   {
     "title": "2027 San Mateo County Polar Plunge",
@@ -741,7 +767,7 @@
     "url": "https://p2p.onecause.com/sanmateoplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 59
+    "id": 61
   },
   {
     "title": "2027 Trinity County Polar Plunge",
@@ -751,7 +777,7 @@
     "url": "https://p2p.onecause.com/trinityplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 60
+    "id": 62
   },
   {
     "title": "Archery at DeLaVeaga",
@@ -763,7 +789,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 61
+    "id": 63
   },
   {
     "title": "2027 Stanislaus County Polar Plunge",
@@ -773,7 +799,7 @@
     "url": "https://p2p.onecause.com/stanislausplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 62
+    "id": 64
   },
   {
     "title": "Indoor Rock Climbing at P.E.",
@@ -785,7 +811,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 63
+    "id": 65
   },
   {
     "title": "2027 Lake County Polar Plunge",
@@ -795,7 +821,7 @@
     "url": "https://p2p.onecause.com/lakecountyplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 64
+    "id": 66
   },
   {
     "title": "2027 Shasta County Polar Plunge",
@@ -805,7 +831,7 @@
     "url": "https://p2p.onecause.com/shastacountyplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 65
+    "id": 67
   },
   {
     "title": "2027 Santa Cruz Polar Plunge",
@@ -815,7 +841,7 @@
     "url": "https://p2p.onecause.com/santacruzplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 66
+    "id": 68
   },
   {
     "title": "2027 Tuolumne County Polar Plunge",
@@ -825,7 +851,7 @@
     "url": "https://p2p.onecause.com/tuolumneplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 67
+    "id": 69
   },
   {
     "title": "2027 Ukiah Polar Plunge",
@@ -835,7 +861,7 @@
     "url": "https://p2p.onecause.com/ukiahplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 68
+    "id": 70
   },
   {
     "title": "2027 Fresno Basketball Regional Competition",
@@ -845,7 +871,7 @@
     "url": "https://sonc.org/events-calendar/2027-fresno-basketball-regional-competition/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 69
+    "id": 71
   },
   {
     "title": "2027 Greater Sacramento Area Polar Plunge",
@@ -855,7 +881,7 @@
     "url": "https://p2p.onecause.com/greatersacplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 70
+    "id": 72
   },
   {
     "title": "2027 Fort Bragg Polar Plunge",
@@ -865,7 +891,7 @@
     "url": "https://p2p.onecause.com/fortbraggplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 71
+    "id": 73
   },
   {
     "title": "2027 Siskiyou County Polar Plunge",
@@ -875,7 +901,7 @@
     "url": "https://p2p.onecause.com/siskiyouplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 72
+    "id": 74
   },
   {
     "title": "2027 Bay Area Polar Plunge",
@@ -885,7 +911,7 @@
     "url": "https://p2p.onecause.com/bayareaplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 73
+    "id": 75
   },
   {
     "title": "2027 Fresno Polar Plunge",
@@ -895,7 +921,7 @@
     "url": "https://p2p.onecause.com/fresnopolarplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 74
+    "id": 76
   },
   {
     "title": "2027 Sonoma County Polar Plunge",
@@ -905,7 +931,7 @@
     "url": "https://p2p.onecause.com/sonomaplunge",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 75
+    "id": 77
   },
   {
     "title": "SCruz Mission Field Trip",
@@ -917,7 +943,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 76
+    "id": 78
   },
   {
     "title": "Wonderball Dance",
@@ -929,7 +955,17 @@
     "org": "Shared Adventures",
     "lat": 36.9941295,
     "lng": -121.8903368,
-    "id": 77
+    "id": 79
+  },
+  {
+    "title": "2027 Bocce Bash",
+    "date": "2027-05-06",
+    "location": "Los Gatos",
+    "description": "Join Bay Area sports stars, business leaders, and elected officials in the spirit of inclusion at the 2027 Bocce Bash! Play in a fun, competitive bocce tournament alongside Special Olympics athletes, ",
+    "url": "https://sonc.org/events-calendar/bocce-bash/",
+    "city": "",
+    "org": "Special Olympics NorCal",
+    "id": 80
   },
   {
     "title": "2027 Monterey SELPA Unified Track and Field",
@@ -939,7 +975,7 @@
     "url": "https://sonc.org/events-calendar/2026-monterey-selpa-unified-track-and-field/",
     "city": "",
     "org": "Special Olympics NorCal",
-    "id": 78
+    "id": 81
   },
   {
     "title": "Park Day",
@@ -951,7 +987,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 79
+    "id": 82
   },
   {
     "title": "DOB",
@@ -963,7 +999,7 @@
     "org": "Shared Adventures",
     "lat": 37.050096,
     "lng": -121.99059,
-    "id": 80
+    "id": 83
   },
   {
     "title": "stRoll at Henry Cowell Redwoods",
@@ -975,6 +1011,6 @@
     "org": "Shared Adventures",
     "lat": 37.0513364,
     "lng": -122.07329,
-    "id": 81
+    "id": 84
   }
 ]
