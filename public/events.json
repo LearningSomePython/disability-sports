@@ -2,7 +2,7 @@
   {
     "title": "Adaptive Pickleball Saturdays at Ocean View!",
     "date": "2026-11-28",
-    "city": null,
+    "city": "San Francisco",
     "sports": [
       "pickleball"
     ],
@@ -11,6 +11,8 @@
     "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
+    "lat": 37.7879363,
+    "lng": -122.4075201,
     "id": 1
   },
   {
@@ -28,17 +30,15 @@
   {
     "title": "Sit Fit. VIRTUAL Class",
     "date": "2026-11-30",
-    "city": "Virtual",
+    "city": null,
     "sports": [
       "fitness"
     ],
-    "description": "Virtual seated fitness class.",
+    "description": "Virtual sit fit class.",
     "free": null,
     "recurring": true,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=10",
     "org": "BORP",
-    "lat": 37.2418572,
-    "lng": -121.7874949,
     "id": 3
   },
   {
@@ -120,29 +120,33 @@
   {
     "title": "29th Annual BORP Goalball Invitational Tournament",
     "date": "2026-12-05",
-    "city": null,
+    "city": "Berkeley",
     "sports": [
       "goalball"
     ],
     "description": "Annual goalball invitational tournament hosted by BORP.",
-    "free": null,
+    "free": false,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
     "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
     "id": 10
   },
   {
     "title": "29th Annual BORP Goalball Invitational Tournament",
     "date": "2026-12-06",
-    "city": null,
+    "city": "Berkeley",
     "sports": [
       "goalball"
     ],
     "description": "Annual goalball invitational tournament hosted by BORP.",
-    "free": null,
+    "free": false,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
     "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
     "id": 11
   },
   {
@@ -152,7 +156,7 @@
     "sports": [
       "Adaptive Sports"
     ],
-    "description": "CAF-NorCal holiday party event.",
+    "description": "CAF-NorCal holiday party and adaptive sports event.",
     "free": null,
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
@@ -336,13 +340,15 @@
   {
     "title": "BORP 50 Years of Power, Play, and Progress: Free Community Screening",
     "date": "2026-12-15",
-    "city": null,
+    "city": "Berkeley",
     "sports": [],
     "description": "Free community screening celebrating BORP's 50th anniversary.",
     "free": true,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
     "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
     "id": 28
   },
   {
@@ -370,18 +376,6 @@
     "id": 30
   },
   {
-    "title": "Low Stem Swim Time",
-    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
-    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-17",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 31
-  },
-  {
     "title": "Nutcracker - Dress Rehersal",
     "location": "Crocker Theater, 6500 Lower Perimeter Road, Aptos, CA 95003, USA",
     "description": "Enjoy a dress rehearsal of the 2nd act <br>this is a small showing to mostly our group. <br>Great for those who need a bit more flexibility <br><br><a href=\"https://www.eventbrite.com/e/2004721997460?",
@@ -391,6 +385,18 @@
     "org": "Shared Adventures",
     "lat": 36.9941295,
     "lng": -121.8903368,
+    "id": 31
+  },
+  {
+    "title": "Low Stem Swim Time",
+    "location": "Simpkins Family Swim Center, 979 17th Ave, Santa Cruz, CA 95062, USA",
+    "description": "When you check in at the desk, just let them know you are with Shared Adventures and the fee will be covered by us.  Please report to the desk any behaviors that are over stimulating to you.",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-17",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
     "id": 32
   },
   {
@@ -408,28 +414,18 @@
   {
     "title": "3v3 Wheelchair Basketball Tournament",
     "date": "2026-12-19",
-    "city": null,
+    "city": "Berkeley",
     "sports": [
       "wheelchair basketball"
     ],
     "description": "Three-on-three wheelchair basketball tournament.",
-    "free": null,
+    "free": false,
     "recurring": false,
     "url": "https://borp.app.neoncrm.com/np/clients/borp/publicaccess/eventCalendarBig.jsp?year=2026&month=11",
     "org": "BORP",
+    "lat": 37.8708393,
+    "lng": -122.272863,
     "id": 34
-  },
-  {
-    "title": "Archery at DeLaVeaga",
-    "location": "DeLaveaga County Park Archery Range, 141 Brookwood Dr, Santa Cruz, CA 95065, USA",
-    "description": "<u></u>The 3rd Saturday of the Month -Santa Cruz Archers will host us at De LaVeaga.<br>They will teach, instruct, and help you.  All abilities welcome<br><br><a href=\"https://www.eventbrite.com/e/arc",
-    "url": "https://sharedadventures.org/events/",
-    "date": "2026-12-19",
-    "city": "Santa Cruz",
-    "org": "Shared Adventures",
-    "lat": 37.050096,
-    "lng": -121.99059,
-    "id": 35
   },
   {
     "title": "Flynn Creek Circus",
@@ -441,12 +437,24 @@
     "org": "Shared Adventures",
     "lat": 36.9754902,
     "lng": -121.9536171,
+    "id": 35
+  },
+  {
+    "title": "Archery at DeLaVeaga",
+    "location": "DeLaveaga County Park Archery Range, 141 Brookwood Dr, Santa Cruz, CA 95065, USA",
+    "description": "<u></u>The 3rd Saturday of the Month -Santa Cruz Archers will host us at De LaVeaga.<br>They will teach, instruct, and help you.  All abilities welcome<br><br><a href=\"https://www.eventbrite.com/e/arc",
+    "url": "https://sharedadventures.org/events/",
+    "date": "2026-12-19",
+    "city": "Santa Cruz",
+    "org": "Shared Adventures",
+    "lat": 37.050096,
+    "lng": -121.99059,
     "id": 36
   },
   {
-    "title": "Nov/Dec Art Class",
-    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
-    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
+    "title": "Indoor Rock Climbing at P.E.",
+    "location": "Pacific Edge Climbing Gym, 104 Bronson St #12, Santa Cruz, CA 95062, USA",
+    "description": "Come try out climbing.<br>We&#39\\;ll have a certified belayer for you.<br>Beginners and Advanced routes available.<br>We have a harness chair for those with mobility challenges.<br><a href=\"https://ww",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-12-20",
     "city": "Santa Cruz",
@@ -456,9 +464,9 @@
     "id": 37
   },
   {
-    "title": "Indoor Rock Climbing at P.E.",
-    "location": "Pacific Edge Climbing Gym, 104 Bronson St #12, Santa Cruz, CA 95062, USA",
-    "description": "Come try out climbing.<br>We&#39\\;ll have a certified belayer for you.<br>Beginners and Advanced routes available.<br>We have a harness chair for those with mobility challenges.<br><a href=\"https://ww",
+    "title": "Nov/Dec Art Class",
+    "location": "115 S Morrissey Ave, Santa Cruz, CA 95062, USA",
+    "description": "<a href=\"https://www.eventbrite.com/e/art-class-and-creative-time-november-december-2026-tickets-2003417564867?aff=oddtdtcreator\"><b>Sign up for all 7 weeks! </b></a><br><br><p><strong><strong>What: <",
     "url": "https://sharedadventures.org/events/",
     "date": "2026-12-20",
     "city": "Santa Cruz",
@@ -534,7 +542,7 @@
     "date": "2027-01-09",
     "city": "",
     "sports": [],
-    "description": "Film screening event hosted by CAF-NorCal.",
+    "description": "Film screening of \"Not Medically Necessary\".",
     "free": null,
     "recurring": false,
     "url": "https://www.challengedathletes.org/region/norcal/",
